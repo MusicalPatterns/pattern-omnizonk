@@ -1,9 +1,18 @@
-import { Entity, PatternMaterial, Scale } from '@musical-patterns/compiler'
-import { Pattern, PatternId, PatternMetadata, PatternSpec } from '@musical-patterns/pattern'
+import { PatternMaterial } from '@musical-patterns/compiler'
+import { Pattern, PatternId, PatternMetadata } from '@musical-patterns/pattern'
+import { to } from '@musical-patterns/utilities'
+import {
+    OMNIZONK_MAX_EQUAL_DIVISION,
+    OMNIZONK_MIN_EQUAL_DIVISION,
+    OMNIZONK_PITCH_SCALAR,
+    OMNIZONK_WINDOW,
+} from './constants'
+import { buildEntities, buildScales } from './materials'
+import { OmnizonkPatternSpec } from './types'
 
 const material: PatternMaterial = {
-    buildEntitiesFunction: (): Entity[] => [],
-    buildScalesFunction: (): Scale[] => [],
+    buildEntitiesFunction: buildEntities,
+    buildScalesFunction: buildScales,
 }
 
 const metadata: PatternMetadata = {
@@ -12,7 +21,12 @@ const metadata: PatternMetadata = {
     musicalIdeaIllustrated: 'Farey sequence as a tone cluster',
 }
 
-const spec: PatternSpec = {
+const spec: OmnizonkPatternSpec = {
+    maxEqualDivision: OMNIZONK_MAX_EQUAL_DIVISION,
+    minEqualDivision: OMNIZONK_MIN_EQUAL_DIVISION,
+    patternPitchOffset: to.Offset(0),
+    patternPitchScalar: OMNIZONK_PITCH_SCALAR,
+    window: OMNIZONK_WINDOW,
 }
 
 const pattern: Pattern = {
