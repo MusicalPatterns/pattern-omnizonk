@@ -50,16 +50,4 @@ describe('notes', () => {
                 .toBeGreaterThanOrEqual(10000)
         })
     })
-
-    describe('sustain', () => {
-        let sustainSpec: NotePropertySpec
-        beforeEach(() => {
-            sustainSpec = noteSpec.sustainSpec || {}
-        })
-
-        it('has a really really long sustain, because this pattern is essentially just holding a single tone cluster forever', () => {
-            expect(sustainSpec.scalar)
-                .toBeGreaterThan(10000)
-        })
-    })
 })

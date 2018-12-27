@@ -15,9 +15,6 @@ const buildNoteSpec: (ratio: Ratio, minEqualDivision: Denominator) => NoteSpec =
                 index: to.Index(from.FractionalPart(step) - 1),
                 scaleIndex: to.Index(from.FractionalPart(equalDivision) - from.FractionalPart(minEqualDivision)),
             },
-            sustainSpec: {
-                scalar: OMNIZONK_FOREVER,
-            },
         })
 
 export {
