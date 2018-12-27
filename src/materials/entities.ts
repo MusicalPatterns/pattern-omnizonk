@@ -1,4 +1,4 @@
-import { Entity } from '@musical-patterns/compiler'
+import { Entity, TimbreNameEnum } from '@musical-patterns/compiler'
 import { Denominator, from, INITIAL, numbers, to } from '@musical-patterns/utilities'
 import { buildEqualDivisions } from '../custom'
 import { OmnizonkPatternSpec } from '../types'
