@@ -1,5 +1,6 @@
 import { PatternMaterial } from '@musical-patterns/compiler'
-import { Pattern, PatternId, PatternMetadata } from '@musical-patterns/pattern'
+import { PatternMetadata } from '@musical-patterns/pattern'
+import { Pattern, PatternId } from '@musical-patterns/registry'
 import { to } from '@musical-patterns/utilities'
 import {
     OMNIZONK_MAX_EQUAL_DIVISION,

@@ -1,0 +1,1 @@
+export { buildEqualDivisions } from './equalDivisions';
