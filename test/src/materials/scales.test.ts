@@ -44,15 +44,15 @@ describe('scales', () => {
         const scalars: Maybe<Scalar[]> = scales[ 0 ].scalars
         if (scalars) {
             const windowAsBase: Base = to.Base(from.Scalar(OCTAVE))
-            expect(testIsCloseTo(scalars[0], to.Scalar(from.Base(apply.Power(windowAsBase, to.Power(0 / 5))))))
+            expect(testIsCloseTo(scalars[ 0 ], to.Scalar(from.Base(apply.Power(windowAsBase, to.Power(0 / 5))))))
                 .toBeTruthy()
-            expect(testIsCloseTo(scalars[1], to.Scalar(from.Base(apply.Power(windowAsBase, to.Power(1 / 5))))))
+            expect(testIsCloseTo(scalars[ 1 ], to.Scalar(from.Base(apply.Power(windowAsBase, to.Power(1 / 5))))))
                 .toBeTruthy()
-            expect(testIsCloseTo(scalars[2], to.Scalar(from.Base(apply.Power(windowAsBase, to.Power(2 / 5))))))
+            expect(testIsCloseTo(scalars[ 2 ], to.Scalar(from.Base(apply.Power(windowAsBase, to.Power(2 / 5))))))
                 .toBeTruthy()
-            expect(testIsCloseTo(scalars[3], to.Scalar(from.Base(apply.Power(windowAsBase, to.Power(3 / 5))))))
+            expect(testIsCloseTo(scalars[ 3 ], to.Scalar(from.Base(apply.Power(windowAsBase, to.Power(3 / 5))))))
                 .toBeTruthy()
-            expect(testIsCloseTo(scalars[4], to.Scalar(from.Base(apply.Power(windowAsBase, to.Power(4 / 5))))))
+            expect(testIsCloseTo(scalars[ 4 ], to.Scalar(from.Base(apply.Power(windowAsBase, to.Power(4 / 5))))))
                 .toBeTruthy()
         }
         else {
