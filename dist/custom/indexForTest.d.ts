@@ -1,1 +1,0 @@
-export { buildEqualDivisions } from './equalDivisions';
