@@ -9,6 +9,7 @@ import {
     OMNIZONK_WINDOW,
 } from './constants'
 import { buildEntities, buildScales } from './materials'
+import { post } from './metadata'
 import { OmnizonkPatternSpec } from './types'
 
 const material: PatternMaterial = {
@@ -17,7 +18,7 @@ const material: PatternMaterial = {
 }
 
 const metadata: PatternMetadata = {
-    description: 'every equal division of the octave at once',
+    description: post,
     formattedName: 'Omnizonk',
     musicalIdeaIllustrated: 'Farey sequence as a tone cluster',
 }
