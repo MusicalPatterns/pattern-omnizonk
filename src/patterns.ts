@@ -20,7 +20,9 @@ const material: PatternMaterial = {
 const metadata: PatternMetadata = {
     description: post,
     formattedName: 'Omnizonk',
+    mostRecentPublish: process.env.PUBLISH_DATE,
     musicalIdeaIllustrated: 'Farey sequence as a tone cluster',
+    originalPublish: '2016-09-10T07:00:00.000Z',
 }
 
 const spec: OmnizonkPatternSpec = {
