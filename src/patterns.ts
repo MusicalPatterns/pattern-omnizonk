@@ -3,7 +3,8 @@ import { PatternMetadata } from '@musical-patterns/pattern'
 import { buildPatterns, Pattern, PatternId, Patterns } from '@musical-patterns/registry'
 import { buildEntities, buildScales } from './materials'
 import { post } from './metadata'
-import { initialSpec, specAttributes } from './specs'
+import { specData } from './specs'
+import { OmnizonkPatternSpec } from './types'
 
 const material: PatternMaterial = {
     buildEntitiesFunction: buildEntities,
@@ -18,12 +19,11 @@ const metadata: PatternMetadata = {
     originalPublish: '2016-09-10T07:00:00.000Z',
 }
 
-const pattern: Pattern = {
-    initialSpec,
+const pattern: Pattern<OmnizonkPatternSpec> = {
     material,
     metadata,
     patternId: PatternId.OMNIZONK,
-    specAttributes,
+    specData,
 }
 
 const patterns: Patterns = buildPatterns({

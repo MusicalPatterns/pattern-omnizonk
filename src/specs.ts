@@ -1,4 +1,10 @@
-import { PatternSpecPropertyType, StandardPatternSpecProperties } from '@musical-patterns/pattern'
+import {
+    PatternSpecData,
+    PatternSpecPropertyType,
+    PatternSpecValidationFunction,
+    PatternSpecValidationResults, standardPatternSpecAttributes,
+    StandardPatternSpecProperties,
+} from '@musical-patterns/pattern'
 import { to } from '@musical-patterns/utilities'
 import {
     OMNIZONK_MAX_EQUAL_DIVISION,
@@ -8,7 +14,7 @@ import {
 } from './constants'
 import { OmnizonkPatternSpec, OmnizonkPatternSpecAttributes } from './types'
 
-const initialSpec: OmnizonkPatternSpec = {
+const initial: OmnizonkPatternSpec = {
     [ StandardPatternSpecProperties.PATTERN_PITCH_OFFSET ]: to.Offset(0),
     [ StandardPatternSpecProperties.PATTERN_PITCH_SCALAR ]: OMNIZONK_PITCH_SCALAR,
     maxEqualDivision: OMNIZONK_MAX_EQUAL_DIVISION,
@@ -16,7 +22,8 @@ const initialSpec: OmnizonkPatternSpec = {
     window: OMNIZONK_WINDOW,
 }
 
-const specAttributes: OmnizonkPatternSpecAttributes = {
+const attributes: OmnizonkPatternSpecAttributes = {
+    ...standardPatternSpecAttributes,
     maxEqualDivision: {
         constraint: {
             integer: true,
@@ -40,7 +47,24 @@ const specAttributes: OmnizonkPatternSpecAttributes = {
     },
 }
 
+const validationFunction: PatternSpecValidationFunction<OmnizonkPatternSpec> =
+    (patternSpec: OmnizonkPatternSpec): PatternSpecValidationResults<OmnizonkPatternSpec> => {
+        if (patternSpec.maxEqualDivision < patternSpec.minEqualDivision) {
+            return {
+                maxEqualDivision: 'cannot be less than the minimum equal division',
+                minEqualDivision: 'cannot be more than the maximum equal division',
+            }
+        }
+
+        return undefined
+    }
+
+const specData: PatternSpecData<OmnizonkPatternSpec> = {
+    attributes,
+    initial,
+    validationFunction,
+}
+
 export {
-    initialSpec,
-    specAttributes,
+    specData,
 }

@@ -1,13 +1,17 @@
-import { PatternSpec, PatternSpecAttributes, RangedPatternSpecPropertyAttributes } from '@musical-patterns/pattern'
+import {
+    RangedPatternSpecPropertyAttributes,
+    StandardPatternSpec,
+    StandardPatternSpecAttributes,
+} from '@musical-patterns/pattern'
 import { Denominator, Scalar } from '@musical-patterns/utilities'
 
-interface OmnizonkPatternSpec extends PatternSpec {
+interface OmnizonkPatternSpec extends StandardPatternSpec {
     maxEqualDivision: Denominator,
     minEqualDivision: Denominator,
     window: Scalar,
 }
 
-interface OmnizonkPatternSpecAttributes extends PatternSpecAttributes {
+interface OmnizonkPatternSpecAttributes extends StandardPatternSpecAttributes {
     maxEqualDivision: RangedPatternSpecPropertyAttributes,
     minEqualDivision: RangedPatternSpecPropertyAttributes,
     window: RangedPatternSpecPropertyAttributes,
