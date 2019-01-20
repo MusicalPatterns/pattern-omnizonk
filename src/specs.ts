@@ -1,8 +1,9 @@
 import {
-    PatternSpecData,
+    PatternSpecDataFor,
     PatternSpecPropertyType,
-    PatternSpecValidationFunction,
-    PatternSpecValidationResults, standardPatternSpecAttributes,
+    PatternSpecValidationFunctionFor,
+    PatternSpecValidationResultsFor,
+    standardPatternSpecAttributes,
     StandardPatternSpecProperties,
 } from '@musical-patterns/pattern'
 import { to } from '@musical-patterns/utilities'
@@ -47,8 +48,8 @@ const attributes: OmnizonkPatternSpecAttributes = {
     },
 }
 
-const validationFunction: PatternSpecValidationFunction<OmnizonkPatternSpec> =
-    (patternSpec: OmnizonkPatternSpec): PatternSpecValidationResults<OmnizonkPatternSpec> => {
+const validationFunction: PatternSpecValidationFunctionFor<OmnizonkPatternSpec> =
+    (patternSpec: OmnizonkPatternSpec): PatternSpecValidationResultsFor<OmnizonkPatternSpec> => {
         if (patternSpec.maxEqualDivision < patternSpec.minEqualDivision) {
             return {
                 maxEqualDivision: 'cannot be less than the minimum equal division',
@@ -59,7 +60,7 @@ const validationFunction: PatternSpecValidationFunction<OmnizonkPatternSpec> =
         return undefined
     }
 
-const specData: PatternSpecData<OmnizonkPatternSpec> = {
+const specData: PatternSpecDataFor<OmnizonkPatternSpec> = {
     attributes,
     initial,
     validationFunction,
