@@ -1,21 +1,21 @@
 import { Scale } from '@musical-patterns/compiler'
-import { StandardPatternSpecProperties } from '@musical-patterns/pattern'
+import { StandardSpecProperties } from '@musical-patterns/pattern'
 import { apply, Denominator, from, INITIAL, numbers, Power, Scalar, to } from '@musical-patterns/utilities'
 import { buildEqualDivisions } from '../custom'
-import { OmnizonkPatternSpec } from '../types'
+import { OmnizonkSpec } from '../types'
 
-const buildScales: (patternSpec: OmnizonkPatternSpec) => Scale[] =
-    (patternSpec: OmnizonkPatternSpec): Scale[] => {
-        const equalDivisions: Denominator[] = buildEqualDivisions(patternSpec)
+const buildScales: (spec: OmnizonkSpec) => Scale[] =
+    (spec: OmnizonkSpec): Scale[] => {
+        const equalDivisions: Denominator[] = buildEqualDivisions(spec)
 
         return equalDivisions.map((equalDivision: Denominator): Scale => ({
-            offset: patternSpec[ StandardPatternSpecProperties.PATTERN_PITCH_OFFSET ],
-            scalar: patternSpec[ StandardPatternSpecProperties.PATTERN_PITCH_SCALAR ],
+            offset: spec[ StandardSpecProperties.PATTERN_PITCH_OFFSET ],
+            scalar: spec[ StandardSpecProperties.PATTERN_PITCH_SCALAR ],
             scalars: numbers.slice(from.Index(INITIAL), from.FractionalPart(equalDivision))
                 .map((step: number): Scalar => {
                     const stepAsPower: Power = to.Power((step - 1) / from.FractionalPart(equalDivision))
 
-                    return to.Scalar(from.Base(apply.Power(patternSpec.window, stepAsPower)))
+                    return to.Scalar(from.Base(apply.Power(spec.window, stepAsPower)))
                 }),
         }))
     }

@@ -1,10 +1,10 @@
 import {
-    PatternSpecDataFor,
-    PatternSpecPropertyType,
-    PatternSpecValidationFunctionFor,
-    PatternSpecValidationResultsFor,
-    standardPatternSpecAttributes,
-    StandardPatternSpecProperties,
+    SpecDataFor,
+    SpecPropertyType,
+    SpecValidationFunctionFor,
+    SpecValidationResultsFor,
+    standardSpecAttributes,
+    StandardSpecProperties,
 } from '@musical-patterns/pattern'
 import { to } from '@musical-patterns/utilities'
 import {
@@ -13,44 +13,44 @@ import {
     OMNIZONK_PITCH_SCALAR,
     OMNIZONK_WINDOW,
 } from './constants'
-import { OmnizonkPatternSpec, OmnizonkPatternSpecAttributes } from './types'
+import { OmnizonkSpec, OmnizonkSpecAttributes } from './types'
 
-const initial: OmnizonkPatternSpec = {
-    [ StandardPatternSpecProperties.PATTERN_PITCH_OFFSET ]: to.Offset(0),
-    [ StandardPatternSpecProperties.PATTERN_PITCH_SCALAR ]: OMNIZONK_PITCH_SCALAR,
+const initial: OmnizonkSpec = {
+    [ StandardSpecProperties.PATTERN_PITCH_OFFSET ]: to.Offset(0),
+    [ StandardSpecProperties.PATTERN_PITCH_SCALAR ]: OMNIZONK_PITCH_SCALAR,
     maxEqualDivision: OMNIZONK_MAX_EQUAL_DIVISION,
     minEqualDivision: OMNIZONK_MIN_EQUAL_DIVISION,
     window: OMNIZONK_WINDOW,
 }
 
-const attributes: OmnizonkPatternSpecAttributes = {
-    ...standardPatternSpecAttributes,
+const attributes: OmnizonkSpecAttributes = {
+    ...standardSpecAttributes,
     maxEqualDivision: {
         constraint: {
             integer: true,
             min: 1,
         },
-        patternSpecPropertyType: PatternSpecPropertyType.RANGED,
+        specPropertyType: SpecPropertyType.RANGED,
     },
     minEqualDivision: {
         constraint: {
             integer: true,
             min: 1,
         },
-        patternSpecPropertyType: PatternSpecPropertyType.RANGED,
+        specPropertyType: SpecPropertyType.RANGED,
     },
     window: {
         constraint: {
             excludeMin: true,
             min: 1,
         },
-        patternSpecPropertyType: PatternSpecPropertyType.RANGED,
+        specPropertyType: SpecPropertyType.RANGED,
     },
 }
 
-const validationFunction: PatternSpecValidationFunctionFor<OmnizonkPatternSpec> =
-    (patternSpec: OmnizonkPatternSpec): PatternSpecValidationResultsFor<OmnizonkPatternSpec> => {
-        if (patternSpec.maxEqualDivision < patternSpec.minEqualDivision) {
+const validationFunction: SpecValidationFunctionFor<OmnizonkSpec> =
+    (spec: OmnizonkSpec): SpecValidationResultsFor<OmnizonkSpec> => {
+        if (spec.maxEqualDivision < spec.minEqualDivision) {
             return {
                 maxEqualDivision: 'cannot be less than the minimum equal division',
                 minEqualDivision: 'cannot be more than the maximum equal division',
@@ -60,7 +60,7 @@ const validationFunction: PatternSpecValidationFunctionFor<OmnizonkPatternSpec> 
         return undefined
     }
 
-const specData: PatternSpecDataFor<OmnizonkPatternSpec> = {
+const specData: SpecDataFor<OmnizonkSpec> = {
     attributes,
     initial,
     validationFunction,

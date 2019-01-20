@@ -9,7 +9,7 @@ export {
     buildEqualDivisions,
 } from './custom/indexForTest'
 export {
-    OmnizonkPatternSpec,
+    OmnizonkSpec,
 } from './types'
 export { pattern } from './patterns'
 

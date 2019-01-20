@@ -1,8 +1,8 @@
 import { apply, Denominator, from, INCLUSIVE, numbers, to } from '@musical-patterns/utilities'
-import { OmnizonkPatternSpec } from '../types'
+import { OmnizonkSpec } from '../types'
 
-const buildEqualDivisions: (patternSpec: OmnizonkPatternSpec) => Denominator[] =
-    ({ maxEqualDivision, minEqualDivision }: OmnizonkPatternSpec): Denominator[] =>
+const buildEqualDivisions: (spec: OmnizonkSpec) => Denominator[] =
+    ({ maxEqualDivision, minEqualDivision }: OmnizonkSpec): Denominator[] =>
         numbers
             .map((n: number): number => n - 1)
             .slice(
