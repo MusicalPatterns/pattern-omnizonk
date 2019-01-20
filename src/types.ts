@@ -3,12 +3,12 @@ import {
     StandardPatternSpec,
     StandardPatternSpecAttributes,
 } from '@musical-patterns/pattern'
-import { Denominator, Scalar } from '@musical-patterns/utilities'
+import { Base, Denominator } from '@musical-patterns/utilities'
 
 interface OmnizonkPatternSpec extends StandardPatternSpec {
     maxEqualDivision: Denominator,
     minEqualDivision: Denominator,
-    window: Scalar,
+    window: Base,
 }
 
 interface OmnizonkPatternSpecAttributes extends StandardPatternSpecAttributes {
