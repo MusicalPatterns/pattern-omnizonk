@@ -8,16 +8,16 @@ import {
 } from '@musical-patterns/pattern'
 import { to } from '@musical-patterns/utilities'
 import {
+    OMNIZONK_BASE_FREQUENCY,
     OMNIZONK_MAX_EQUAL_DIVISION,
     OMNIZONK_MIN_EQUAL_DIVISION,
-    OMNIZONK_PITCH_SCALAR,
     OMNIZONK_WINDOW,
 } from './constants'
 import { OmnizonkSpec, OmnizonkSpecAttributes } from './types'
 
 const initial: OmnizonkSpec = {
-    [ StandardSpecProperties.PATTERN_PITCH_OFFSET ]: to.Offset(0),
-    [ StandardSpecProperties.PATTERN_PITCH_SCALAR ]: OMNIZONK_PITCH_SCALAR,
+    [ StandardSpecProperties.FREQUENCY_OFFSET ]: to.Offset(0),
+    [ StandardSpecProperties.BASE_FREQUENCY ]: OMNIZONK_BASE_FREQUENCY,
     maxEqualDivision: OMNIZONK_MAX_EQUAL_DIVISION,
     minEqualDivision: OMNIZONK_MIN_EQUAL_DIVISION,
     window: OMNIZONK_WINDOW,
