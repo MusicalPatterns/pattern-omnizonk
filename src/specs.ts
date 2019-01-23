@@ -6,7 +6,7 @@ import {
     standardSpecAttributes,
     StandardSpecProperties,
 } from '@musical-patterns/pattern'
-import { to } from '@musical-patterns/utilities'
+import { to, Units } from '@musical-patterns/utilities'
 import {
     OMNIZONK_BASE_FREQUENCY,
     OMNIZONK_MAX_EQUAL_DIVISION,
@@ -31,6 +31,7 @@ const attributes: OmnizonkSpecAttributes = {
             min: 1,
         },
         specPropertyType: SpecPropertyType.RANGED,
+        units: Units.EQUAL_DIVISION,
     },
     minEqualDivision: {
         constraint: {
@@ -38,12 +39,14 @@ const attributes: OmnizonkSpecAttributes = {
             min: 1,
         },
         specPropertyType: SpecPropertyType.RANGED,
+        units: Units.EQUAL_DIVISION,
     },
     window: {
         constraint: {
             excludeMin: true,
             min: 1,
         },
+        description: 'harmonic interval to divide equally',
         specPropertyType: SpecPropertyType.RANGED,
     },
 }
