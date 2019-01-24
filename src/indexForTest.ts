@@ -4,7 +4,7 @@ export {
     buildEntities,
     buildScales,
     buildNoteSpec,
-} from './materials/indexForTest'
+} from './material/indexForTest'
 export {
     buildEqualDivisions,
 } from './custom/indexForTest'
