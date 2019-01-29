@@ -1,6 +1,6 @@
 {
   "name": "@musical-patterns/pattern-omnizonk",
-  "version": "1.0.62",
+  "version": "1.0.63",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "license": "MIT",
@@ -9,13 +9,13 @@
     "url": "https://github.com/MusicalPatterns/pattern-omnizonk.git"
   },
   "dependencies": {
-    "@musical-patterns/compiler": "^1.0.79",
-    "@musical-patterns/pattern": "^1.0.132",
-    "@musical-patterns/utilities": "^1.0.176"
+    "@musical-patterns/compiler": "^1.0.82",
+    "@musical-patterns/pattern": "^1.0.135",
+    "@musical-patterns/utilities": "^1.0.188"
   },
   "devDependencies": {
-    "@musical-patterns/cli": "^1.0.353",
-    "@musical-patterns/playroom": "^1.0.200",
-    "@musical-patterns/snapshot": "^1.0.39"
+    "@musical-patterns/cli": "^1.0.386",
+    "@musical-patterns/playroom": "^1.0.201",
+    "@musical-patterns/snapshot": "^1.0.43"
   }
 }
