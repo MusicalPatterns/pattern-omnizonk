@@ -8,19 +8,19 @@ import {
 } from '@musical-patterns/pattern'
 import { to, Units } from '@musical-patterns/utilities'
 import {
-    OMNIZONK_BASE_FREQUENCY,
-    OMNIZONK_MAX_EQUAL_DIVISION,
-    OMNIZONK_MIN_EQUAL_DIVISION,
-    OMNIZONK_WINDOW,
+    OMNIZONK_INITIAL_BASE_FREQUENCY,
+    OMNIZONK_INITIAL_MAX_EQUAL_DIVISION,
+    OMNIZONK_INITIAL_MIN_EQUAL_DIVISION,
+    OMNIZONK_INITIAL_WINDOW,
 } from './constants'
 import { OmnizonkSpec, OmnizonkSpecAttributes } from './types'
 
 const initial: OmnizonkSpec = {
     [ StandardSpecProperties.FREQUENCY_OFFSET ]: to.Offset(0),
-    [ StandardSpecProperties.BASE_FREQUENCY ]: OMNIZONK_BASE_FREQUENCY,
-    maxEqualDivision: OMNIZONK_MAX_EQUAL_DIVISION,
-    minEqualDivision: OMNIZONK_MIN_EQUAL_DIVISION,
-    window: OMNIZONK_WINDOW,
+    [ StandardSpecProperties.BASE_FREQUENCY ]: OMNIZONK_INITIAL_BASE_FREQUENCY,
+    maxEqualDivision: OMNIZONK_INITIAL_MAX_EQUAL_DIVISION,
+    minEqualDivision: OMNIZONK_INITIAL_MIN_EQUAL_DIVISION,
+    window: OMNIZONK_INITIAL_WINDOW,
 }
 
 const attributes: OmnizonkSpecAttributes = {
