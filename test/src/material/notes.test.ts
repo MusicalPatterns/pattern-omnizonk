@@ -21,9 +21,9 @@ describe('notes', () => {
                 .toBe(to.Index(2))
         })
 
-        it('index is based on the step', () => {
+        it('index is the step', () => {
             expect(pitchSpec.index)
-                .toBe(to.Index(3))
+                .toBe(to.Index(4))
         })
     })
 

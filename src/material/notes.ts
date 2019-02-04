@@ -12,7 +12,7 @@ const buildNoteSpec: (ratio: Ratio, minEqualDivision: Denominator) => NoteSpec =
                 scalar: OMNIZONK_GAIN,
             },
             pitchSpec: {
-                index: to.Index(from.FractionalPart(step) - 1),
+                index: to.Index(from.FractionalPart(step)),
                 scaleIndex: to.Index(from.FractionalPart(equalDivision) - from.FractionalPart(minEqualDivision)),
             },
         })
