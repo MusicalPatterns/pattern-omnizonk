@@ -1,13 +1,14 @@
 import { NotePropertySpec, NoteSpec } from '@musical-patterns/compiler'
-import { Denominator, Ratio, to } from '@musical-patterns/utilities'
+import { Count, Denominator, Ratio, to } from '@musical-patterns/utilities'
 import { buildNoteSpec } from '../../../src/indexForTest'
 
 describe('notes', () => {
     let noteSpec: NoteSpec
     const ratio: Ratio = [ to.Numerator(4), to.Denominator(7) ]
     const minEqualDivision: Denominator = to.Denominator(5)
+    const entityCount: Count = to.Count(18)
     beforeEach(() => {
-        noteSpec = buildNoteSpec(ratio, minEqualDivision)
+        noteSpec = buildNoteSpec(ratio, minEqualDivision, entityCount)
     })
 
     describe('pitch', () => {
@@ -33,9 +34,9 @@ describe('notes', () => {
             gainSpec = noteSpec.gainSpec || {}
         })
 
-        it('has a really really quiet gain, because there are potentially hundreds of voices', () => {
+        it('has a really really quiet gain, because there are potentially hundreds of voices, and its quieter the more of them there are', () => {
             expect(gainSpec.scalar)
-                .toBeLessThanOrEqual(1 / 10000)
+                .toBeLessThanOrEqual((1 / 100) / 18)
         })
     })
 

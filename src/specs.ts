@@ -6,8 +6,9 @@ import {
     standardSpecAttributes,
     StandardSpecProperties,
 } from '@musical-patterns/pattern'
-import { to, Units } from '@musical-patterns/utilities'
+import { from, to, Units } from '@musical-patterns/utilities'
 import {
+    MAXIMUM_MAX_EQUAL_DIVISION_BEFORE_OMNIZONK_CRASHES,
     OMNIZONK_INITIAL_BASE_FREQUENCY,
     OMNIZONK_INITIAL_MAX_EQUAL_DIVISION,
     OMNIZONK_INITIAL_MIN_EQUAL_DIVISION,
@@ -28,6 +29,7 @@ const attributes: OmnizonkSpecAttributes = {
     maxEqualDivision: {
         constraint: {
             integer: true,
+            max: from.FractionalPart(MAXIMUM_MAX_EQUAL_DIVISION_BEFORE_OMNIZONK_CRASHES),
             min: 1,
         },
         description: 'the maximum count of equally-sized pitch intervals the window will be divided into',
