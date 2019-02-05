@@ -1,4 +1,4 @@
-// tslint:disable:no-reaching-imports
+// tslint:disable no-reaching-imports
 
 export {
     buildEntities,
@@ -14,7 +14,7 @@ export {
 } from './types'
 export { pattern } from './patterns'
 
-// tslint:disable-next-line:no-default-import
+// tslint:disable-next-line no-default-import
 import * as snapshot from './snapshot.json'
 
 export { snapshot }
