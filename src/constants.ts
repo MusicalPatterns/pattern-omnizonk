@@ -1,12 +1,22 @@
 // tslint:disable no-magic-numbers
 
-import { Base, Denominator, Frequency, OCTAVE, to } from '@musical-patterns/utilities'
+import {
+    Base,
+    Denominator,
+    Frequency,
+    OCTAVE,
+    SCIENTIFIC_PITCHES,
+    ScientificPitchNoteName,
+    ScientificPitchOctaveNumber,
+    to,
+} from '@musical-patterns/utilities'
 
 const OMNIZONK_INITIAL_MAX_EQUAL_DIVISION: Denominator = to.Denominator(24)
 const OMNIZONK_INITIAL_MIN_EQUAL_DIVISION: Denominator = to.Denominator(1)
 const OMNIZONK_INITIAL_WINDOW: Base = OCTAVE
 
-const OMNIZONK_INITIAL_BASE_FREQUENCY: Frequency = to.Frequency(440)
+const OMNIZONK_INITIAL_BASE_FREQUENCY: Frequency =
+    SCIENTIFIC_PITCHES[ ScientificPitchNoteName.A ][ ScientificPitchOctaveNumber._4 ]
 
 const MAXIMUM_MAX_EQUAL_DIVISION_BEFORE_OMNIZONK_CRASHES: Denominator = to.Denominator(67)
 
