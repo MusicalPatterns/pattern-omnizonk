@@ -6,6 +6,7 @@ import {
     from,
     INITIAL,
     Power,
+    reciprocal,
     Scalar,
     to,
     zeroAndPositiveIntegers,
@@ -22,7 +23,10 @@ const buildScales: (spec: OmnizonkSpec) => Scale[] =
             scalar: to.Scalar(from.Frequency(spec[ StandardSpecProperties.BASE_FREQUENCY ] || to.Frequency(1))),
             scalars: zeroAndPositiveIntegers.slice(from.Index(INITIAL), from.FractionalPart(equalDivision))
                 .map((step: number): Scalar => {
-                    const stepAsPower: Power = to.Power(step / from.FractionalPart(equalDivision))
+                    const stepAsPower: Power = to.Power(apply.Scalar(
+                        step,
+                        to.Scalar(reciprocal(from.FractionalPart(equalDivision))),
+                    ))
 
                     return to.Scalar(from.Base(apply.Power(spec.window, stepAsPower)))
                 }),
