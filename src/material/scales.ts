@@ -19,9 +19,8 @@ const buildScales: (spec: OmnizonkSpec) => Scale[] =
         const equalDivisions: Denominator[] = buildEqualDivisions(spec)
 
         return equalDivisions.map((equalDivision: Denominator): Scale => ({
-            offset: spec[ StandardSpecProperties.FREQUENCY_OFFSET ],
             scalar: to.Scalar(from.Frequency(spec[ StandardSpecProperties.BASE_FREQUENCY ] || to.Frequency(1))),
-            scalars: zeroAndPositiveIntegers.slice(from.Index(INITIAL), from.FractionalPart(equalDivision))
+            scalars: zeroAndPositiveIntegers.slice(from.Ordinal(INITIAL), from.FractionalPart(equalDivision))
                 .map((step: number): Scalar => {
                     const stepAsPower: Power = to.Power(apply.Scalar(
                         step,
@@ -30,6 +29,7 @@ const buildScales: (spec: OmnizonkSpec) => Scale[] =
 
                     return to.Scalar(from.Base(apply.Power(spec.window, stepAsPower)))
                 }),
+            translation: spec[ StandardSpecProperties.FREQUENCY_TRANSLATION ],
         }))
     }
 

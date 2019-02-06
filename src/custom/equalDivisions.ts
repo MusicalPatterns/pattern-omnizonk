@@ -5,7 +5,7 @@ const buildEqualDivisions: (spec: OmnizonkSpec) => Denominator[] =
     ({ maxEqualDivision, minEqualDivision }: OmnizonkSpec): Denominator[] =>
         zeroAndPositiveIntegers.slice(
             from.FractionalPart(minEqualDivision),
-            apply.Offset(from.FractionalPart(maxEqualDivision), INCLUSIVE),
+            apply.Translation(from.FractionalPart(maxEqualDivision), INCLUSIVE),
         )
             .map(to.Denominator)
 

@@ -1,12 +1,12 @@
 import { NotePropertySpec, NoteSpec } from '@musical-patterns/compiler'
-import { Count, Denominator, Ratio, to } from '@musical-patterns/utilities'
+import { Cardinal, Denominator, Ratio, to } from '@musical-patterns/utilities'
 import { buildNoteSpec } from '../../../src/indexForTest'
 
 describe('notes', () => {
     let noteSpec: NoteSpec
     const ratio: Ratio = [ to.Numerator(4), to.Denominator(7) ]
     const minEqualDivision: Denominator = to.Denominator(5)
-    const entityCount: Count = to.Count(18)
+    const entityCount: Cardinal = to.Cardinal(18)
     beforeEach(() => {
         noteSpec = buildNoteSpec(ratio, minEqualDivision, entityCount)
     })
@@ -19,12 +19,12 @@ describe('notes', () => {
 
         it('picks the scale corresponding to its equal division', () => {
             expect(pitchSpec.scaleIndex)
-                .toBe(to.Index(2))
+                .toBe(to.Ordinal(2))
         })
 
         it('index is the step', () => {
             expect(pitchSpec.index)
-                .toBe(to.Index(4))
+                .toBe(to.Ordinal(4))
         })
     })
 

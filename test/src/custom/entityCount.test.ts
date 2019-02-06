@@ -1,4 +1,4 @@
-import { Count, OCTAVE, to } from '@musical-patterns/utilities'
+import { Cardinal, OCTAVE, to } from '@musical-patterns/utilities'
 import { calculateEntityCount, OmnizonkSpec } from '../../../src/indexForTest'
 
 describe('entity count', () => {
@@ -9,9 +9,9 @@ describe('entity count', () => {
             window: OCTAVE,
         }
 
-        const entityCount: Count = calculateEntityCount(spec)
+        const entityCount: Cardinal = calculateEntityCount(spec)
 
         expect(entityCount)
-            .toBe(to.Count(5 + 6 + 7))
+            .toBe(to.Cardinal(5 + 6 + 7))
     })
 })
