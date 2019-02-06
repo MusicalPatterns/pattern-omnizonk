@@ -1,5 +1,5 @@
 import { NoteSpec } from '@musical-patterns/compiler'
-import { apply, Cardinal, Denominator, from, Ratio, reciprocal, to } from '@musical-patterns/utilities'
+import { apply, Cardinal, Denominator, difference, from, Ratio, reciprocal, to } from '@musical-patterns/utilities'
 import { OMNIZONK_FOREVER, OMNIZONK_GAIN } from './constants'
 
 const buildNoteSpec: (ratio: Ratio, minEqualDivision: Denominator, entityCount: Cardinal) => NoteSpec =
@@ -9,14 +9,11 @@ const buildNoteSpec: (ratio: Ratio, minEqualDivision: Denominator, entityCount: 
                 scalar: OMNIZONK_FOREVER,
             },
             gainSpec: {
-                scalar: to.Scalar(apply.Scalar(
-                    from.Scalar(OMNIZONK_GAIN),
-                    to.Scalar(reciprocal(from.Cardinal(entityCount))),
-                )),
+                scalar: apply.Cardinal(OMNIZONK_GAIN, reciprocal(entityCount)),
             },
             pitchSpec: {
                 index: to.Ordinal(from.FractionalPart(step)),
-                scaleIndex: to.Ordinal(from.FractionalPart(equalDivision) - from.FractionalPart(minEqualDivision)),
+                scaleIndex: to.Ordinal(from.FractionalPart(difference(equalDivision, minEqualDivision))),
             },
         })
 
