@@ -3,14 +3,14 @@ import { OmnizonkSpec } from '../types'
 
 const calculateEntityCount: (spec: OmnizonkSpec) => Cardinal =
     ({ minEqualDivision, maxEqualDivision }: OmnizonkSpec): Cardinal => {
-        const start: number = apply.Translation(from.FractionalPart(minEqualDivision), to.Translation(-1))
-        const height: number = apply.Translation(
+        const start: number = from.FractionalPart(apply.Translation(minEqualDivision, to.Translation(negative(1))))
+        const height: number = from.FractionalPart(apply.Translation(
             apply.Translation(
-                from.FractionalPart(maxEqualDivision),
+                maxEqualDivision,
                 to.Translation(from.FractionalPart(negative(minEqualDivision))),
             ),
             to.Translation(1),
-        )
+        ))
 
         return to.Cardinal(trapezoidalNumber({ height, start }))
     }

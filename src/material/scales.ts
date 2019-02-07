@@ -8,6 +8,7 @@ import {
     Power,
     reciprocal,
     Scalar,
+    slice,
     to,
     zeroAndPositiveIntegers,
 } from '@musical-patterns/utilities'
@@ -20,7 +21,7 @@ const buildScales: (spec: OmnizonkSpec) => Scale[] =
 
         return equalDivisions.map((equalDivision: Denominator): Scale => ({
             scalar: to.Scalar(from.Frequency(spec[ StandardSpecProperties.BASE_FREQUENCY ] || to.Frequency(1))),
-            scalars: zeroAndPositiveIntegers.slice(from.Ordinal(INITIAL), from.FractionalPart(equalDivision))
+            scalars: slice(zeroAndPositiveIntegers, INITIAL, to.Ordinal(from.FractionalPart(equalDivision)))
                 .map((integer: number): Scalar => {
                     const countOfEqualDivisionStepsAsPower: Power = to.Power(apply.Scalar(
                         integer,
