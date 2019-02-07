@@ -1,5 +1,5 @@
 import { Entity, NotePropertySpec, NoteSpec } from '@musical-patterns/compiler'
-import { OCTAVE, Scalar, to } from '@musical-patterns/utilities'
+import { OCTAVE, quotient, Scalar, sum, to } from '@musical-patterns/utilities'
 import { buildEntities, OmnizonkSpec } from '../../../src/indexForTest'
 
 describe('entities', () => {
@@ -13,7 +13,7 @@ describe('entities', () => {
         const entities: Entity[] = buildEntities(spec)
 
         expect(entities.length)
-            .toBe(5 + 6 + 7)
+            .toBe(sum(5, 6, 7))
     })
 
     it('if there is only a single entity, it has the max gain possible', () => {
@@ -51,7 +51,7 @@ describe('entities', () => {
             const gain: Scalar = gainSpec.scalar || to.Scalar(0)
 
             expect(gain)
-                .toBe(to.Scalar(0.01 / (5 + 6 + 7)))
+                .toBe(to.Scalar(quotient(0.01, sum(5, 6, 7))))
         })
     })
 })
