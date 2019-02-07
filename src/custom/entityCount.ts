@@ -1,4 +1,4 @@
-import { apply, Cardinal, from, negative, to, trapezoidalNumber } from '@musical-patterns/utilities'
+import { apply, Cardinal, from, INCLUSIVE, negative, to, trapezoidalNumber } from '@musical-patterns/utilities'
 import { OmnizonkSpec } from '../types'
 
 const calculateEntityCount: (spec: OmnizonkSpec) => Cardinal =
@@ -9,7 +9,7 @@ const calculateEntityCount: (spec: OmnizonkSpec) => Cardinal =
                 maxEqualDivision,
                 to.Translation(from.FractionalPart(negative(minEqualDivision))),
             ),
-            to.Translation(1),
+            INCLUSIVE,
         ))
 
         return to.Cardinal(trapezoidalNumber({ height, start }))

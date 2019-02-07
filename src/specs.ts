@@ -17,7 +17,6 @@ import {
 import { OmnizonkSpec, OmnizonkSpecAttributes } from './types'
 
 const initial: OmnizonkSpec = {
-    [ StandardSpecProperties.FREQUENCY_TRANSLATION ]: to.Translation(0),
     [ StandardSpecProperties.BASE_FREQUENCY ]: OMNIZONK_INITIAL_BASE_FREQUENCY,
     maxEqualDivision: OMNIZONK_INITIAL_MAX_EQUAL_DIVISION,
     minEqualDivision: OMNIZONK_INITIAL_MIN_EQUAL_DIVISION,
