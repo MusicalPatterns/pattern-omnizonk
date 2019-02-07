@@ -16,10 +16,10 @@ const buildEntities: (spec: OmnizonkSpec) => Entity[] =
                     INITIAL,
                     to.Ordinal(from.FractionalPart(equalDivision)),
                 )
-                    .map((step: number) => ({
+                    .map((equalDivisionStep: number) => ({
                         noteSpecs: [
                             buildNoteSpec(
-                                [ to.Numerator(step), equalDivision ],
+                                [ to.Numerator(equalDivisionStep), equalDivision ],
                                 spec.minEqualDivision,
                                 entityCount,
                             ),

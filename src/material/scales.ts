@@ -23,12 +23,15 @@ const buildScales: (spec: OmnizonkSpec) => Scale[] =
             scalar: to.Scalar(from.Frequency(spec[ StandardSpecProperties.BASE_FREQUENCY ] || to.Frequency(1))),
             scalars: slice(zeroAndPositiveIntegers, INITIAL, to.Ordinal(from.FractionalPart(equalDivision)))
                 .map((integer: number): Scalar => {
-                    const countOfEqualDivisionStepsAsPower: Power = to.Power(apply.Scalar(
+                    const ratioOfEqualDivisionStepsToEqualDivisionAsPower: Power = to.Power(apply.Scalar(
                         integer,
                         to.Scalar(from.FractionalPart(reciprocal(equalDivision))),
                     ))
 
-                    return to.Scalar(from.Base(apply.Power(spec.window, countOfEqualDivisionStepsAsPower)))
+                    return to.Scalar(from.Base(apply.Power(
+                        spec.window,
+                        ratioOfEqualDivisionStepsToEqualDivisionAsPower,
+                    )))
                 }),
             translation: spec[ StandardSpecProperties.FREQUENCY_TRANSLATION ],
         }))

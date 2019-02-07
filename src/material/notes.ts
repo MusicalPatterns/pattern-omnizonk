@@ -3,7 +3,11 @@ import { apply, Cardinal, Denominator, difference, from, Ratio, reciprocal, to }
 import { OMNIZONK_FOREVER, OMNIZONK_GAIN } from './constants'
 
 const buildNoteSpec: (ratio: Ratio, minEqualDivision: Denominator, entityCount: Cardinal) => NoteSpec =
-    ([ step, equalDivision ]: Ratio, minEqualDivision: Denominator, entityCount: Cardinal): NoteSpec =>
+    (
+        [ equalDivisionStep, equalDivision ]: Ratio,
+        minEqualDivision: Denominator,
+        entityCount: Cardinal,
+    ): NoteSpec =>
         ({
             durationSpec: {
                 scalar: OMNIZONK_FOREVER,
@@ -12,7 +16,7 @@ const buildNoteSpec: (ratio: Ratio, minEqualDivision: Denominator, entityCount: 
                 scalar: apply.Cardinal(OMNIZONK_GAIN, reciprocal(entityCount)),
             },
             pitchSpec: {
-                index: to.Ordinal(from.FractionalPart(step)),
+                index: to.Ordinal(from.FractionalPart(equalDivisionStep)),
                 scaleIndex: to.Ordinal(from.FractionalPart(difference(equalDivision, minEqualDivision))),
             },
         })
