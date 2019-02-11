@@ -14,7 +14,7 @@ const buildEntities: (spec: OmnizonkSpec) => Entity[] =
                 const entitiesForEqualDivision: Entity[] = slice(
                     zeroAndPositiveIntegers,
                     INITIAL,
-                    to.Ordinal(from.FractionalPart(equalDivision)),
+                    to.Ordinal(from.Denominator(equalDivision)),
                 )
                     .map((equalDivisionStep: number) => ({
                         noteSpecs: [

@@ -28,7 +28,7 @@ const attributes: OmnizonkSpecAttributes = {
     maxEqualDivision: {
         constraint: {
             integer: true,
-            max: from.FractionalPart(MAXIMUM_MAX_EQUAL_DIVISION_BEFORE_OMNIZONK_CRASHES),
+            max: from.Denominator(MAXIMUM_MAX_EQUAL_DIVISION_BEFORE_OMNIZONK_CRASHES),
             min: 1,
         },
         description: 'the maximum count of equally-sized pitch intervals the window will be divided into',

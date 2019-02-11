@@ -5,6 +5,7 @@ import {
     Denominator,
     from,
     INITIAL,
+    Integer,
     Power,
     reciprocal,
     Scalar,
@@ -21,11 +22,11 @@ const buildScales: (spec: OmnizonkSpec) => Scale[] =
 
         return equalDivisions.map((equalDivision: Denominator): Scale => ({
             scalar: to.Scalar(from.Hz(spec[ StandardSpecProperties.BASE_FREQUENCY ] || to.Hz(1))),
-            scalars: slice(zeroAndPositiveIntegers, INITIAL, to.Ordinal(from.FractionalPart(equalDivision)))
-                .map((integer: number): Scalar => {
+            scalars: slice(zeroAndPositiveIntegers, INITIAL, to.Ordinal(from.Denominator(equalDivision)))
+                .map((integer: Integer): Scalar => {
                     const ratioOfEqualDivisionStepsToEqualDivisionAsPower: Power = to.Power(apply.Scalar(
                         integer,
-                        to.Scalar(from.FractionalPart(reciprocal(equalDivision))),
+                        to.Scalar(from.Denominator(reciprocal(equalDivision))),
                     ))
 
                     return to.Scalar(from.Base(apply.Power(

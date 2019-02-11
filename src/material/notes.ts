@@ -16,8 +16,8 @@ const buildNoteSpec: (ratio: Ratio, minEqualDivision: Denominator, entityCount: 
                 scalar: apply.Cardinal(OMNIZONK_GAIN, reciprocal(entityCount)),
             },
             pitchSpec: {
-                index: to.Ordinal(from.FractionalPart(equalDivisionStep)),
-                scaleIndex: to.Ordinal(from.FractionalPart(difference(equalDivision, minEqualDivision))),
+                index: to.Ordinal(from.Numerator(equalDivisionStep)),
+                scaleIndex: to.Ordinal(from.Denominator(difference(equalDivision, minEqualDivision))),
             },
         })
 
