@@ -1,21 +1,20 @@
-import { apply, Cardinal, from, INCLUSIVE, negative, to, trapezoidalNumber } from '@musical-patterns/utilities'
-import { OmnizonkSpec } from '../types'
+import { Entity, NoteSpec } from '@musical-patterns/compiler'
+import { apply, reciprocal, to } from '@musical-patterns/utilities'
+import { OMNIZONK_GAIN } from './constants'
 
-const calculateEntityCount: (spec: OmnizonkSpec) => Cardinal =
-    ({ minEqualDivision, maxEqualDivision }: OmnizonkSpec): Cardinal => {
-        const start: number = from.Denominator(apply.Translation(minEqualDivision, to.Translation(negative(1))))
-        const rawNegativeMinEqualDivision: number = from.Denominator(negative(minEqualDivision))
-        const height: number = from.Denominator(apply.Translation(
-            apply.Translation(
-                maxEqualDivision,
-                to.Translation(rawNegativeMinEqualDivision),
-            ),
-            INCLUSIVE,
-        ))
-
-        return to.Cardinal(trapezoidalNumber({ height, start }))
+const applyGainPerEntitiesCount: (entities: Entity[]) => void =
+    (entities: Entity[]): void => {
+        entities.forEach((entity: Entity) => {
+            if (entity.noteSpecs) {
+                entity.noteSpecs.forEach((noteSpec: NoteSpec) => {
+                    noteSpec.gainSpec = {
+                        scalar: apply.Scalar(OMNIZONK_GAIN, to.Scalar(reciprocal(entities.length))),
+                    }
+                })
+            }
+        })
     }
 
 export {
-    calculateEntityCount,
+    applyGainPerEntitiesCount,
 }

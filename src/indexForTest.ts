@@ -7,7 +7,7 @@ export {
 } from './material/indexForTest'
 export {
     buildEqualDivisions,
-    calculateEntityCount,
+    applyGainPerEntitiesCount,
 } from './custom/indexForTest'
 export {
     OmnizonkSpec,

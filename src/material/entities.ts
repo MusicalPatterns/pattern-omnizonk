@@ -1,15 +1,14 @@
 import { Entity } from '@musical-patterns/compiler'
-import { Cardinal, Denominator, from, INITIAL, slice, to, zeroAndPositiveIntegers } from '@musical-patterns/utilities'
-import { buildEqualDivisions, calculateEntityCount } from '../custom'
+import { Denominator, from, INITIAL, slice, to, zeroAndPositiveIntegers } from '@musical-patterns/utilities'
+import { applyGainPerEntitiesCount, buildEqualDivisions } from '../custom'
 import { OmnizonkSpec } from '../types'
 import { buildNoteSpec } from './notes'
 
 const buildEntities: (spec: OmnizonkSpec) => Entity[] =
     (spec: OmnizonkSpec): Entity[] => {
         const equalDivisions: Denominator[] = buildEqualDivisions(spec)
-        const entityCount: Cardinal = calculateEntityCount(spec)
 
-        return equalDivisions.reduce(
+        const entities: Entity[] = equalDivisions.reduce(
             (accumulatingEntities: Entity[], equalDivision: Denominator): Entity[] => {
                 const entitiesForEqualDivision: Entity[] = slice(
                     zeroAndPositiveIntegers,
@@ -21,7 +20,6 @@ const buildEntities: (spec: OmnizonkSpec) => Entity[] =
                             buildNoteSpec(
                                 [ to.Numerator(equalDivisionStep), equalDivision ],
                                 spec.minEqualDivision,
-                                entityCount,
                             ),
                         ],
                     }))
@@ -30,6 +28,10 @@ const buildEntities: (spec: OmnizonkSpec) => Entity[] =
             },
             [],
         )
+
+        applyGainPerEntitiesCount(entities)
+
+        return entities
     }
 
 export {

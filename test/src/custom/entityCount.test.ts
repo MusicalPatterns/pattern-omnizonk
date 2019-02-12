@@ -1,17 +1,20 @@
-import { Cardinal, OCTAVE, sum, to } from '@musical-patterns/utilities'
-import { calculateEntityCount, OmnizonkSpec } from '../../../src/indexForTest'
+import { Entity } from '@musical-patterns/compiler'
+import { applyGainPerEntitiesCount } from '../../../src/indexForTest'
 
 describe('entity count', () => {
-    it('the total count of entities is an inclusive trapezoidal number, summing the equal divisions between the min and the max', () => {
-        const spec: OmnizonkSpec = {
-            maxEqualDivision: to.Denominator(7),
-            minEqualDivision: to.Denominator(5),
-            window: OCTAVE,
-        }
+    it('applies a really really quiet gain, because there are potentially hundreds of voices, and its quieter the more of them there are\'', () => {
+        const entities: Entity[] = [
+            { noteSpecs: [ {} ] },
+            { noteSpecs: [ {} ] },
+            { noteSpecs: [ {} ] },
+        ]
 
-        const entityCount: Cardinal = calculateEntityCount(spec)
+        applyGainPerEntitiesCount(entities)
 
-        expect(entityCount)
-            .toBe(to.Cardinal(sum(5, 6, 7)))
+        entities.forEach((entity: Entity) => {
+            // tslint:disable-next-line no-non-null-assertion
+            expect(entity.noteSpecs![0].gainSpec!.scalar)
+                .toBeLessThanOrEqual((1 / 100) / 3)
+        })
     })
 })

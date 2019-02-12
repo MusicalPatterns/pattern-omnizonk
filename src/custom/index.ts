@@ -1,2 +1,2 @@
 export { buildEqualDivisions } from './equalDivisions'
-export { calculateEntityCount } from './entityCount'
+export { applyGainPerEntitiesCount } from './entityCount'
