@@ -5,6 +5,7 @@ import {
     Denominator,
     Hz,
     OCTAVE,
+    Scalar,
     SCIENTIFIC_PITCHES,
     ScientificPitchNoteName,
     ScientificPitchOctaveNumber,
@@ -15,8 +16,8 @@ const OMNIZONK_INITIAL_MAX_EQUAL_DIVISION: Denominator = to.Denominator(24)
 const OMNIZONK_INITIAL_MIN_EQUAL_DIVISION: Denominator = to.Denominator(1)
 const OMNIZONK_INITIAL_WINDOW: Base = OCTAVE
 
-const OMNIZONK_INITIAL_BASE_FREQUENCY: Hz =
-    SCIENTIFIC_PITCHES[ ScientificPitchNoteName.A ][ ScientificPitchOctaveNumber._4 ]
+const OMNIZONK_INITIAL_BASE_FREQUENCY: Scalar<Hz> =
+    to.Scalar(SCIENTIFIC_PITCHES[ ScientificPitchNoteName.A ][ ScientificPitchOctaveNumber._4 ])
 
 const MAXIMUM_MAX_EQUAL_DIVISION_BEFORE_OMNIZONK_CRASHES: Denominator = to.Denominator(67)
 

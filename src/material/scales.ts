@@ -5,12 +5,13 @@ import {
     Denominator,
     from,
     INITIAL,
-    Integer,
+    NO_TRANSLATION,
+    Numerator,
     Power,
-    reciprocal,
     Scalar,
     slice,
     to,
+    Translation,
     zeroAndPositiveIntegers,
 } from '@musical-patterns/utilities'
 import { buildEqualDivisions } from '../custom'
@@ -20,22 +21,29 @@ const buildScales: (spec: OmnizonkSpec) => Scale[] =
     (spec: OmnizonkSpec): Scale[] => {
         const equalDivisions: Denominator[] = buildEqualDivisions(spec)
 
-        return equalDivisions.map((equalDivision: Denominator): Scale => ({
-            scalar: to.Scalar(from.Hz(spec[ StandardSpecProperties.BASE_FREQUENCY ] || to.Hz(1))),
-            scalars: slice(zeroAndPositiveIntegers, INITIAL, to.Ordinal(from.Denominator(equalDivision)))
-                .map((integer: Integer): Scalar => {
-                    const ratioOfEqualDivisionStepsToEqualDivisionAsPower: Power = to.Power(apply.Scalar(
-                        integer,
-                        to.Scalar(from.Denominator(reciprocal(equalDivision))),
-                    ))
+        return equalDivisions.map((equalDivision: Denominator): Scale => {
+            const scalar: Scalar = from.Hz(spec[ StandardSpecProperties.BASE_FREQUENCY ] || to.Scalar(to.Hz(1)))
+            const translation: Translation =
+                from.Hz(spec[ StandardSpecProperties.FREQUENCY_TRANSLATION ] || to.Hz(NO_TRANSLATION))
+
+            const scalars: Scalar[] = slice(
+                zeroAndPositiveIntegers,
+                INITIAL,
+                to.Ordinal(from.Denominator(equalDivision)),
+            )
+                .map(to.Numerator)
+                .map((equalDivisionStep: Numerator): Scalar => {
+                    const ratioOfEqualDivisionStepsToEqualDivisionAsPower: Power =
+                        to.Power(from.Ratio(apply.Denominator(equalDivisionStep, equalDivision)))
 
                     return to.Scalar(from.Base(apply.Power(
                         spec.window,
                         ratioOfEqualDivisionStepsToEqualDivisionAsPower,
                     )))
-                }),
-            translation: spec[ StandardSpecProperties.FREQUENCY_TRANSLATION ],
-        }))
+                })
+
+            return { scalar, scalars, translation }
+        })
     }
 
 export {
