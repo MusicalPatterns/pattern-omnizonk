@@ -1,13 +1,13 @@
 import { Entity, NotePropertySpec, NoteSpec } from '@musical-patterns/compiler'
-import { OCTAVE, quotient, Scalar, sum, to } from '@musical-patterns/utilities'
-import { buildEntities, OmnizonkSpec } from '../../../src/indexForTest'
+import { quotient, Scalar, sum, to } from '@musical-patterns/utilities'
+import { buildEntities, initial, OmnizonkSpec } from '../../../src/indexForTest'
 
 describe('entities', () => {
     it('the total count of entities is an inclusive trapezoidal number, summing the equal divisions between the min and the max', () => {
         const spec: OmnizonkSpec = {
+            ...initial,
             maxEqualDivision: to.Denominator(7),
             minEqualDivision: to.Denominator(5),
-            window: OCTAVE,
         }
 
         const entities: Entity[] = buildEntities(spec)
@@ -18,9 +18,9 @@ describe('entities', () => {
 
     it('if there is only a single entity, it has the max gain possible', () => {
         const spec: OmnizonkSpec = {
+            ...initial,
             maxEqualDivision: to.Denominator(1),
             minEqualDivision: to.Denominator(1),
-            window: OCTAVE,
         }
 
         const entities: Entity[] = buildEntities(spec)
@@ -37,9 +37,9 @@ describe('entities', () => {
 
     it('sets the gain of each entity proportional to the total count of entities', () => {
         const spec: OmnizonkSpec = {
+            ...initial,
             maxEqualDivision: to.Denominator(7),
             minEqualDivision: to.Denominator(5),
-            window: OCTAVE,
         }
 
         const entities: Entity[] = buildEntities(spec)

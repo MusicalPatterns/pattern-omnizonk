@@ -1,37 +1,28 @@
 import { Entity } from '@musical-patterns/compiler'
-import { Denominator, from, INITIAL, slice, to, zeroAndPositiveIntegers } from '@musical-patterns/utilities'
-import { applyGainPerEntitiesCount, buildEqualDivisions } from '../custom'
+import { Ratio } from '@musical-patterns/utilities'
+import { applyGainPerEntitiesCount, buildEqualDivisionSteps } from '../custom'
 import { OmnizonkSpec } from '../types'
 import { buildNoteSpec } from './notes'
 
+const buildEntityForEqualDivisionStep: (ratio: Ratio, spec: OmnizonkSpec) => Entity =
+    (ratio: Ratio, spec: OmnizonkSpec): Entity => ({
+        noteSpecs: [
+            buildNoteSpec(
+                ratio,
+                spec.minEqualDivision,
+            ),
+        ],
+    })
+
 const buildEntities: (spec: OmnizonkSpec) => Entity[] =
     (spec: OmnizonkSpec): Entity[] => {
-        const equalDivisions: Denominator[] = buildEqualDivisions(spec)
+        const equalDivisionSteps: Ratio[] = buildEqualDivisionSteps(spec)
 
-        const entities: Entity[] = equalDivisions.reduce(
-            (accumulatingEntities: Entity[], equalDivision: Denominator): Entity[] => {
-                const entitiesForEqualDivision: Entity[] = slice(
-                    zeroAndPositiveIntegers,
-                    INITIAL,
-                    to.Ordinal(from.Denominator(equalDivision)),
-                )
-                    .map((equalDivisionStep: number) => ({
-                        noteSpecs: [
-                            buildNoteSpec(
-                                [ to.Numerator(equalDivisionStep), equalDivision ],
-                                spec.minEqualDivision,
-                            ),
-                        ],
-                    }))
-
-                return accumulatingEntities.concat(entitiesForEqualDivision)
-            },
-            [],
+        const entities: Entity[] = equalDivisionSteps.map((ratio: Ratio): Entity =>
+            buildEntityForEqualDivisionStep(ratio, spec),
         )
 
-        applyGainPerEntitiesCount(entities)
-
-        return entities
+        return applyGainPerEntitiesCount(entities)
     }
 
 export {

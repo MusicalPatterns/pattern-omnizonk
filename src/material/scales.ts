@@ -20,12 +20,11 @@ import { OmnizonkSpec } from '../types'
 const buildScales: (spec: OmnizonkSpec) => Scale[] =
     (spec: OmnizonkSpec): Scale[] => {
         const equalDivisions: Denominator[] = buildEqualDivisions(spec)
+        const scalar: Scalar = from.Hz(spec[ StandardSpecProperties.BASE_FREQUENCY ] || to.Scalar(to.Hz(1)))
+        const translation: Translation =
+            from.Hz(spec[ StandardSpecProperties.FREQUENCY_TRANSLATION ] || to.Hz(NO_TRANSLATION))
 
         return equalDivisions.map((equalDivision: Denominator): Scale => {
-            const scalar: Scalar = from.Hz(spec[ StandardSpecProperties.BASE_FREQUENCY ] || to.Scalar(to.Hz(1)))
-            const translation: Translation =
-                from.Hz(spec[ StandardSpecProperties.FREQUENCY_TRANSLATION ] || to.Hz(NO_TRANSLATION))
-
             const scalars: Scalar[] = slice(
                 zeroAndPositiveIntegers,
                 INITIAL,

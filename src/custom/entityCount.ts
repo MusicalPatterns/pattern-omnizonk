@@ -2,9 +2,9 @@ import { Entity, NoteSpec } from '@musical-patterns/compiler'
 import { apply, reciprocal, to } from '@musical-patterns/utilities'
 import { OMNIZONK_GAIN } from './constants'
 
-const applyGainPerEntitiesCount: (entities: Entity[]) => void =
-    (entities: Entity[]): void => {
-        entities.forEach((entity: Entity) => {
+const applyGainPerEntitiesCount: (entities: Entity[]) => Entity[] =
+    (entities: Entity[]): Entity[] =>
+        entities.map((entity: Entity): Entity => {
             if (entity.noteSpecs) {
                 entity.noteSpecs.forEach((noteSpec: NoteSpec) => {
                     noteSpec.gainSpec = {
@@ -12,8 +12,9 @@ const applyGainPerEntitiesCount: (entities: Entity[]) => void =
                     }
                 })
             }
+
+            return entity
         })
-    }
 
 export {
     applyGainPerEntitiesCount,

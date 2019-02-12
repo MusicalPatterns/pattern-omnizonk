@@ -7,8 +7,12 @@ export {
 } from './material/indexForTest'
 export {
     buildEqualDivisions,
+    buildEqualDivisionSteps,
     applyGainPerEntitiesCount,
 } from './custom/indexForTest'
+export {
+    initial,
+} from './spec/indexForTest'
 export {
     OmnizonkSpec,
 } from './types'
