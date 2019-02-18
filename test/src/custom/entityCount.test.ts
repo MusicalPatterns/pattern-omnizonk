@@ -12,7 +12,6 @@ describe('entity count', () => {
         applyGainPerEntitiesCount(entities)
 
         entities.forEach((entity: Entity) => {
-            // tslint:disable-next-line no-non-null-assertion
             expect(entity.noteSpecs![0].gainSpec!.scalar)
                 .toBeLessThanOrEqual((1 / 100) / 3)
         })
