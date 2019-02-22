@@ -1,18 +1,13 @@
 import { Scale } from '@musical-patterns/compiler'
 import { StandardSpecProperties } from '@musical-patterns/pattern'
 import {
-    apply,
+    buildEqualDivisionScalars,
     Denominator,
     from,
-    INITIAL,
     NO_TRANSLATION,
-    Numerator,
-    Power,
     Scalar,
-    slice,
     to,
     Translation,
-    zeroAndPositiveIntegers,
 } from '@musical-patterns/utilities'
 import { buildEqualDivisions } from '../custom'
 import { OmnizonkSpec } from '../types'
@@ -25,21 +20,7 @@ const buildScales: (spec: OmnizonkSpec) => Scale[] =
             from.Hz(spec[ StandardSpecProperties.FREQUENCY_TRANSLATION ] || to.Hz(NO_TRANSLATION))
 
         return equalDivisions.map((equalDivision: Denominator): Scale => {
-            const scalars: Scalar[] = slice(
-                zeroAndPositiveIntegers,
-                INITIAL,
-                to.Ordinal(from.Denominator(equalDivision)),
-            )
-                .map(to.Numerator)
-                .map((equalDivisionStep: Numerator): Scalar => {
-                    const ratioOfEqualDivisionStepsToEqualDivisionAsPower: Power =
-                        to.Power(from.Ratio(apply.Denominator(equalDivisionStep, equalDivision)))
-
-                    return to.Scalar(from.Base(apply.Power(
-                        spec.window,
-                        ratioOfEqualDivisionStepsToEqualDivisionAsPower,
-                    )))
-                })
+            const scalars: Scalar[] = buildEqualDivisionScalars(equalDivision)
 
             return { scalar, scalars, translation }
         })
