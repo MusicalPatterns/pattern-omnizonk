@@ -4,12 +4,10 @@ export {
     buildEntities,
     buildScales,
     buildNoteSpec,
-} from './material/indexForTest'
-export {
     buildEqualDivisions,
     buildEqualDivisionSteps,
     applyGainPerEntitiesCount,
-} from './custom/indexForTest'
+} from './material/indexForTest'
 export {
     initial,
 } from './spec/indexForTest'

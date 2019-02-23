@@ -8,7 +8,7 @@ import {
     to,
     zeroAndPositiveIntegers,
 } from '@musical-patterns/utilities'
-import { OmnizonkSpec } from '../types'
+import { OmnizonkSpec } from '../../types'
 import { buildEqualDivisions } from './equalDivisions'
 import { filterEqualDivisionSteps } from './filterEqualDivisionSteps'
 

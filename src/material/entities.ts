@@ -1,7 +1,7 @@
 import { Entity } from '@musical-patterns/compiler'
 import { Ratio } from '@musical-patterns/utilities'
-import { applyGainPerEntitiesCount, buildEqualDivisionSteps } from '../custom'
 import { OmnizonkSpec } from '../types'
+import { applyGainPerEntitiesCount, buildEqualDivisionSteps } from './custom'
 import { buildNoteSpec } from './notes'
 
 const buildEntityForEqualDivisionStep: (ratio: Ratio, spec: OmnizonkSpec) => Entity =
