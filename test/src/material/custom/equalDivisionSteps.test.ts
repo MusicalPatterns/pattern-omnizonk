@@ -1,4 +1,4 @@
-import { Ratio, to } from '@musical-patterns/utilities'
+import { Fraction, to } from '@musical-patterns/utilities'
 import { buildEqualDivisionSteps, initial, OmnizonkSpec } from '../../../../src/indexForTest'
 
 describe('equal division steps', () => {
@@ -9,14 +9,14 @@ describe('equal division steps', () => {
             minEqualDivision: to.Denominator(3),
         }
 
-        const actual: Ratio[] = buildEqualDivisionSteps(spec)
+        const actual: Fraction[] = buildEqualDivisionSteps(spec)
         const rawExpected: Array<[ number, number ]> = [
             [ 0, 3 ], [ 1, 3 ], [ 2, 3 ],
             [ 0, 4 ], [ 1, 4 ], [ 2, 4 ], [ 3, 4 ],
             [ 0, 5 ], [ 1, 5 ], [ 2, 5 ], [ 3, 5 ], [ 4, 5 ],
             [ 0, 6 ], [ 1, 6 ], [ 2, 6 ], [ 3, 6 ], [ 4, 6 ], [ 5, 6 ],
         ]
-        const expected: Ratio[] = rawExpected.map(to.Ratio)
+        const expected: Fraction[] = rawExpected.map(to.Fraction)
 
         expect(actual)
             .toEqual(expected)
@@ -30,14 +30,14 @@ describe('equal division steps', () => {
             minEqualDivision: to.Denominator(3),
         }
 
-        const actual: Ratio[] = buildEqualDivisionSteps(spec)
+        const actual: Fraction[] = buildEqualDivisionSteps(spec)
         const rawExpected: Array<[ number, number ]> = [
             [ 1, 3 ], [ 2, 3 ],
             [ 1, 4 ], [ 2, 4 ], [ 3, 4 ],
             [ 1, 5 ], [ 2, 5 ], [ 3, 5 ], [ 4, 5 ],
             [ 1, 6 ], [ 2, 6 ], [ 3, 6 ], [ 4, 6 ], [ 5, 6 ],
         ]
-        const expected: Ratio[] = rawExpected.map(to.Ratio)
+        const expected: Fraction[] = rawExpected.map(to.Fraction)
 
         expect(actual)
             .toEqual(expected)
@@ -51,14 +51,14 @@ describe('equal division steps', () => {
             minEqualDivision: to.Denominator(3),
         }
 
-        const actual: Ratio[] = buildEqualDivisionSteps(spec)
+        const actual: Fraction[] = buildEqualDivisionSteps(spec)
         const rawExpected: Array<[ number, number ]> = [
             [ 1, 3 ], [ 2, 3 ],
             [ 1, 4 ], [ 3, 4 ],
             [ 1, 5 ], [ 2, 5 ], [ 3, 5 ], [ 4, 5 ],
             [ 1, 6 ], [ 2, 6 ], [ 4, 6 ], [ 5, 6 ],
         ]
-        const expected: Ratio[] = rawExpected.map(to.Ratio)
+        const expected: Fraction[] = rawExpected.map(to.Fraction)
 
         expect(actual)
             .toEqual(expected)
@@ -72,13 +72,13 @@ describe('equal division steps', () => {
             minEqualDivision: to.Denominator(3),
         }
 
-        const actual: Ratio[] = buildEqualDivisionSteps(spec)
+        const actual: Fraction[] = buildEqualDivisionSteps(spec)
         const rawExpected: Array<[ number, number ]> = [
             [ 1, 4 ], [ 3, 4 ],
             [ 1, 5 ], [ 2, 5 ], [ 3, 5 ], [ 4, 5 ],
             [ 1, 6 ], [ 5, 6 ],
         ]
-        const expected: Ratio[] = rawExpected.map(to.Ratio)
+        const expected: Fraction[] = rawExpected.map(to.Fraction)
 
         expect(actual)
             .toEqual(expected)

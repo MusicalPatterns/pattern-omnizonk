@@ -1,9 +1,9 @@
 import { NoteSpec } from '@musical-patterns/compiler'
-import { Denominator, difference, from, Ratio, to } from '@musical-patterns/utilities'
+import { Denominator, difference, Fraction, from, to } from '@musical-patterns/utilities'
 import { OMNIZONK_FOREVER } from './constants'
 
-const buildNoteSpec: (ratio: Ratio, minEqualDivision: Denominator) => NoteSpec =
-    ([ equalDivisionStep, equalDivision ]: Ratio, minEqualDivision: Denominator): NoteSpec => ({
+const buildNoteSpec: (fraction: Fraction, minEqualDivision: Denominator) => NoteSpec =
+    ([ equalDivisionStep, equalDivision ]: Fraction, minEqualDivision: Denominator): NoteSpec => ({
         durationSpec: {
             scalar: OMNIZONK_FOREVER,
         },

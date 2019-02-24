@@ -1,14 +1,14 @@
 import { Entity } from '@musical-patterns/compiler'
-import { Ratio } from '@musical-patterns/utilities'
+import { Fraction } from '@musical-patterns/utilities'
 import { OmnizonkSpec } from '../spec'
 import { applyGainPerEntitiesCount, buildEqualDivisionSteps } from './custom'
 import { buildNoteSpec } from './notes'
 
-const buildEntityForEqualDivisionStep: (ratio: Ratio, spec: OmnizonkSpec) => Entity =
-    (ratio: Ratio, spec: OmnizonkSpec): Entity => ({
+const buildEntityForEqualDivisionStep: (fraction: Fraction, spec: OmnizonkSpec) => Entity =
+    (fraction: Fraction, spec: OmnizonkSpec): Entity => ({
         noteSpecs: [
             buildNoteSpec(
-                ratio,
+                fraction,
                 spec.minEqualDivision,
             ),
         ],
@@ -16,10 +16,10 @@ const buildEntityForEqualDivisionStep: (ratio: Ratio, spec: OmnizonkSpec) => Ent
 
 const buildEntities: (spec: OmnizonkSpec) => Entity[] =
     (spec: OmnizonkSpec): Entity[] => {
-        const equalDivisionSteps: Ratio[] = buildEqualDivisionSteps(spec)
+        const equalDivisionSteps: Fraction[] = buildEqualDivisionSteps(spec)
 
-        const entities: Entity[] = equalDivisionSteps.map((ratio: Ratio): Entity =>
-            buildEntityForEqualDivisionStep(ratio, spec),
+        const entities: Entity[] = equalDivisionSteps.map((fraction: Fraction): Entity =>
+            buildEntityForEqualDivisionStep(fraction, spec),
         )
 
         return applyGainPerEntitiesCount(entities)

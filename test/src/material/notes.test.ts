@@ -1,13 +1,13 @@
 import { NotePropertySpec, NoteSpec } from '@musical-patterns/compiler'
-import { Denominator, Ratio, to } from '@musical-patterns/utilities'
+import { Denominator, Fraction, to } from '@musical-patterns/utilities'
 import { buildNoteSpec } from '../../../src/indexForTest'
 
 describe('notes', () => {
     let noteSpec: NoteSpec
-    const ratio: Ratio = [ to.Numerator(4), to.Denominator(7) ]
+    const fraction: Fraction = [ to.Numerator(4), to.Denominator(7) ]
     const minEqualDivision: Denominator = to.Denominator(5)
     beforeEach(() => {
-        noteSpec = buildNoteSpec(ratio, minEqualDivision)
+        noteSpec = buildNoteSpec(fraction, minEqualDivision)
     })
 
     describe('pitch', () => {

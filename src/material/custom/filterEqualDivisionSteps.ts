@@ -1,17 +1,17 @@
 import {
     Denominator,
+    Fraction,
     from,
     INITIAL,
     lowestTerms,
     positiveIntegers,
-    Ratio,
     slice,
     to,
 } from '@musical-patterns/utilities'
 import { OmnizonkSpec } from '../../spec'
 
-const filterEqualDivisionSteps: (ratio: Ratio, spec: OmnizonkSpec) => boolean =
-    (ratio: Ratio, spec: OmnizonkSpec): boolean => {
+const filterEqualDivisionSteps: (fraction: Fraction, spec: OmnizonkSpec) => boolean =
+    (fraction: Fraction, spec: OmnizonkSpec): boolean => {
         let pass: boolean = true
 
         const filteredEqualDivisions: Denominator[] =
@@ -19,7 +19,7 @@ const filterEqualDivisionSteps: (ratio: Ratio, spec: OmnizonkSpec) => boolean =
                 .map(to.Denominator)
 
         filteredEqualDivisions.forEach((filteredEqualDivision: Denominator) => {
-            if (lowestTerms(ratio)[ 1 ] === filteredEqualDivision) {
+            if (lowestTerms(fraction)[ 1 ] === filteredEqualDivision) {
                 pass = false
             }
         })

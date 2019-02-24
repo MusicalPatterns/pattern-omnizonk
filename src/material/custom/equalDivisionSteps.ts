@@ -1,9 +1,9 @@
 import {
     Denominator,
+    Fraction,
     from,
     INITIAL,
     Integer,
-    Ratio,
     slice,
     to,
     zeroAndPositiveIntegers,
@@ -12,18 +12,18 @@ import { OmnizonkSpec } from '../../spec'
 import { buildEqualDivisions } from './equalDivisions'
 import { filterEqualDivisionSteps } from './filterEqualDivisionSteps'
 
-const buildStepsForEqualDivision: (equalDivision: Denominator, spec: OmnizonkSpec) => Ratio[] =
-    (equalDivision: Denominator, spec: OmnizonkSpec): Ratio[] =>
+const buildStepsForEqualDivision: (equalDivision: Denominator, spec: OmnizonkSpec) => Fraction[] =
+    (equalDivision: Denominator, spec: OmnizonkSpec): Fraction[] =>
         slice(zeroAndPositiveIntegers, INITIAL, to.Ordinal(from.Denominator(equalDivision)))
-            .map((equalDivisionStep: Integer): Ratio => [ to.Numerator(equalDivisionStep), equalDivision ])
-            .filter((ratio: Ratio) => filterEqualDivisionSteps(ratio, spec))
+            .map((equalDivisionStep: Integer): Fraction => [ to.Numerator(equalDivisionStep), equalDivision ])
+            .filter((fraction: Fraction) => filterEqualDivisionSteps(fraction, spec))
 
-const buildEqualDivisionSteps: (spec: OmnizonkSpec) => Ratio[] =
-    (spec: OmnizonkSpec): Ratio[] => {
+const buildEqualDivisionSteps: (spec: OmnizonkSpec) => Fraction[] =
+    (spec: OmnizonkSpec): Fraction[] => {
         const equalDivisions: Denominator[] = buildEqualDivisions(spec)
 
         return equalDivisions.reduce(
-            (accumulatingEntities: Ratio[], equalDivision: Denominator): Ratio[] =>
+            (accumulatingEntities: Fraction[], equalDivision: Denominator): Fraction[] =>
                 accumulatingEntities.concat(buildStepsForEqualDivision(equalDivision, spec)),
             [],
         )
