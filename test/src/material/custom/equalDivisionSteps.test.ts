@@ -1,5 +1,5 @@
 import { Ratio, to } from '@musical-patterns/utilities'
-import { buildEqualDivisionSteps, initial, OmnizonkSpec } from '../../../src/indexForTest'
+import { buildEqualDivisionSteps, initial, OmnizonkSpec } from '../../../../src/indexForTest'
 
 describe('equal division steps', () => {
     it('creates an array of steps of equal divisions', () => {
