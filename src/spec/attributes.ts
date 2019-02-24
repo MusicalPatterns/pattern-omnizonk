@@ -1,7 +1,7 @@
 import { SpecPropertyType, standardSpecAttributes } from '@musical-patterns/pattern'
 import { from, Units } from '@musical-patterns/utilities'
-import { OmnizonkSpecAttributes } from '../types'
 import { MAXIMUM_MAX_EQUAL_DIVISION_BEFORE_OMNIZONK_CRASHES } from './constants'
+import { OmnizonkSpecAttributes } from './types'
 
 const attributes: OmnizonkSpecAttributes = {
     ...standardSpecAttributes,

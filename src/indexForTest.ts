@@ -10,10 +10,8 @@ export {
 } from './material/indexForTest'
 export {
     initial,
-} from './spec/indexForTest'
-export {
     OmnizonkSpec,
-} from './types'
+} from './spec/indexForTest'
 export { pattern } from './patterns'
 
 // tslint:disable-next-line no-default-import

@@ -1,5 +1,5 @@
 import { apply, Denominator, from, INCLUSIVE, to, zeroAndPositiveIntegers } from '@musical-patterns/utilities'
-import { OmnizonkSpec } from '../../types'
+import { OmnizonkSpec } from '../../spec'
 
 const buildEqualDivisions: (spec: OmnizonkSpec) => Denominator[] =
     ({ maxEqualDivision, minEqualDivision }: OmnizonkSpec): Denominator[] =>

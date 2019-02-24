@@ -9,7 +9,7 @@ import {
     to,
     Translation,
 } from '@musical-patterns/utilities'
-import { OmnizonkSpec } from '../types'
+import { OmnizonkSpec } from '../spec'
 import { buildEqualDivisions } from './custom'
 
 const buildScales: (spec: OmnizonkSpec) => Scale[] =

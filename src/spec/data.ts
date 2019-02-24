@@ -1,7 +1,7 @@
 import { SpecDataFor } from '@musical-patterns/pattern'
-import { OmnizonkSpec } from '../types'
 import { attributes } from './attributes'
 import { initial } from './initial'
+import { OmnizonkSpec } from './types'
 import { validationFunction } from './validation'
 
 const specData: SpecDataFor<OmnizonkSpec> = {

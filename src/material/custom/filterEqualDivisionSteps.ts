@@ -8,7 +8,7 @@ import {
     slice,
     to,
 } from '@musical-patterns/utilities'
-import { OmnizonkSpec } from '../../types'
+import { OmnizonkSpec } from '../../spec'
 
 const filterEqualDivisionSteps: (ratio: Ratio, spec: OmnizonkSpec) => boolean =
     (ratio: Ratio, spec: OmnizonkSpec): boolean => {

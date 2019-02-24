@@ -1,5 +1,5 @@
 import { SpecValidationFunctionFor, SpecValidationResultsFor } from '@musical-patterns/pattern'
-import { OmnizonkSpec } from '../types'
+import { OmnizonkSpec } from './types'
 
 const validationFunction: SpecValidationFunctionFor<OmnizonkSpec> =
     (spec: OmnizonkSpec): SpecValidationResultsFor<OmnizonkSpec> => {

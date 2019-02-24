@@ -1,5 +1,4 @@
 import { StandardSpecProperties } from '@musical-patterns/pattern'
-import { OmnizonkSpec } from '../types'
 import {
     OMNIZONK_INITIAL_BASE_FREQUENCY,
     OMNIZONK_INITIAL_MAX_EQUAL_DIVISION,
@@ -7,6 +6,7 @@ import {
     OMNIZONK_INITIAL_MIN_EQUAL_DIVISION,
     OMNIZONK_INITIAL_WINDOW,
 } from './constants'
+import { OmnizonkSpec } from './types'
 
 const initial: OmnizonkSpec = {
     [ StandardSpecProperties.BASE_FREQUENCY ]: OMNIZONK_INITIAL_BASE_FREQUENCY,
