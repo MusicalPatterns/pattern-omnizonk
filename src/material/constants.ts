@@ -1,8 +1,8 @@
 // tslint:disable no-magic-numbers
 
-import { Scalar, to } from '@musical-patterns/utilities'
+import { Scalar, Time, to } from '@musical-patterns/utilities'
 
-const OMNIZONK_FOREVER: Scalar = to.Scalar(99999999)
+const OMNIZONK_FOREVER: Scalar<Time> = to.Scalar(to.Time(99999999))
 
 export {
     OMNIZONK_FOREVER,

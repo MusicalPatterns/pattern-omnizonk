@@ -1,6 +1,6 @@
 import { Entity, NoteSpec } from '@musical-patterns/compiler'
-import { apply, reciprocal, to } from '@musical-patterns/utilities'
-import { OMNIZONK_GAIN } from './constants'
+import { apply, from, reciprocal, Scalar, to } from '@musical-patterns/utilities'
+import { OMNIZONK_BASE_GAIN } from './constants'
 
 const applyGainPerEntitiesCount: (entities: Entity[]) => Entity[] =
     (entities: Entity[]): Entity[] =>
@@ -8,7 +8,10 @@ const applyGainPerEntitiesCount: (entities: Entity[]) => Entity[] =
             if (entity.noteSpecs) {
                 entity.noteSpecs.forEach((noteSpec: NoteSpec) => {
                     noteSpec.gainSpec = {
-                        scalar: apply.Scalar(OMNIZONK_GAIN, to.Scalar(reciprocal(entities.length))),
+                        scalar: from.Amplitude(apply.Scalar(
+                            OMNIZONK_BASE_GAIN,
+                            to.Scalar(reciprocal(entities.length)),
+                        )) as Scalar,
                     }
                 })
             }
