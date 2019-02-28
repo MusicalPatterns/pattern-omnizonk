@@ -15,6 +15,7 @@ const metadata: Metadata = {
     mostRecentPublish: process.env.PUBLISH_DATE || '2016-09-10T07:00:00.000Z',
     musicalIdeaIllustrated: 'Farey sequence as a tone cluster',
     originalPublish: '2016-09-10T07:00:00.000Z',
+    version: process.env.PATTERN_VERSION || 'unknown',
 }
 
 const pattern: Pattern<OmnizonkSpec> = {
