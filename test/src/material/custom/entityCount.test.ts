@@ -12,7 +12,7 @@ describe('entity count', () => {
         applyGainPerEntitiesCount(entities)
 
         entities.forEach((entity: Entity) => {
-            expect(entity.noteSpecs![0].gainSpec!.scalar)
+            expect(entity.noteSpecs![ 0 ].gainSpec!.scalar)
                 .toBeLessThanOrEqual((1 / 100) / 3)
         })
     })
