@@ -7,6 +7,7 @@ export {
     buildEqualDivisions,
     buildEqualDivisionSteps,
     applyGainPerEntitiesCount,
+    buildContourElement,
 } from './material/indexForTest'
 export {
     initial,

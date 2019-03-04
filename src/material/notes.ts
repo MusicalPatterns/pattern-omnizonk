@@ -1,15 +1,16 @@
 import { NoteSpec } from '@musical-patterns/compiler'
-import { Denominator, difference, Fraction, from, Scalar, to } from '@musical-patterns/utilities'
+import { PitchScale } from '@musical-patterns/pattern'
+import { ContourElement, from, Scalar, to } from '@musical-patterns/utilities'
 import { OMNIZONK_FOREVER } from './constants'
 
-const buildNoteSpec: (fraction: Fraction, minEqualDivision: Denominator) => NoteSpec =
-    ([ equalDivisionStep, equalDivision ]: Fraction, minEqualDivision: Denominator): NoteSpec => ({
+const buildNoteSpec: (contourElement: ContourElement<PitchScale>) => NoteSpec =
+    ([ pitch, pitchScale ]: ContourElement<PitchScale>): NoteSpec => ({
         durationSpec: {
             scalar: from.Time(OMNIZONK_FOREVER) as Scalar,
         },
         pitchSpec: {
-            index: to.Ordinal(from.Numerator(equalDivisionStep)),
-            scaleIndex: to.Ordinal(from.Denominator(difference(equalDivision, minEqualDivision))),
+            index: to.Ordinal(pitch),
+            scaleIndex: to.Ordinal(pitchScale),
         },
     })
 

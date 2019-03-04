@@ -1,6 +1,7 @@
 import { Entity } from '@musical-patterns/compiler'
 import { Fraction } from '@musical-patterns/utilities'
 import { OmnizonkSpec } from '../spec'
+import { buildContourElement } from './contours'
 import { applyGainPerEntitiesCount, buildEqualDivisionSteps } from './custom'
 import { buildNoteSpec } from './notes'
 
@@ -8,8 +9,10 @@ const buildEntityForEqualDivisionStep: (fraction: Fraction, spec: OmnizonkSpec) 
     (fraction: Fraction, spec: OmnizonkSpec): Entity => ({
         noteSpecs: [
             buildNoteSpec(
-                fraction,
-                spec.minEqualDivision,
+                buildContourElement(
+                    fraction,
+                    spec.minEqualDivision,
+                ),
             ),
         ],
     })
