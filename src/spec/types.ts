@@ -1,7 +1,7 @@
-import { RangedSpecPropertyAttributes, SpecAttributes, StandardSpec } from '@musical-patterns/pattern'
+import { RangedSpecPropertyAttributes, Spec, SpecAttributes } from '@musical-patterns/pattern'
 import { Base, Denominator } from '@musical-patterns/utilities'
 
-interface OmnizonkSpec extends StandardSpec {
+interface OmnizonkSpec extends Spec {
     maxEqualDivision: Denominator,
     maxFilteredEqualDivision: Denominator,
     minEqualDivision: Denominator,
