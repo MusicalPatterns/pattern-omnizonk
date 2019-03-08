@@ -1,8 +1,8 @@
-import { SpecValidationFunction, SpecValidationResults } from '@musical-patterns/pattern'
+import { ValidationFunction, ValidationResults } from '@musical-patterns/pattern'
 import { OmnizonkSpec } from './types'
 
-const validationFunction: SpecValidationFunction<OmnizonkSpec> =
-    (spec: OmnizonkSpec): SpecValidationResults<OmnizonkSpec> => {
+const validationFunction: ValidationFunction<OmnizonkSpec> =
+    (spec: OmnizonkSpec): ValidationResults<OmnizonkSpec> => {
         if (spec.maxEqualDivision < spec.minEqualDivision) {
             return {
                 maxEqualDivision: 'cannot be less than the minimum equal division',
