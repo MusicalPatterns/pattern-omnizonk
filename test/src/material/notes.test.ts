@@ -1,4 +1,4 @@
-import { NotePropertySpec, NoteSpec } from '@musical-patterns/compiler'
+import { NoteAspectSpec, NoteSpec } from '@musical-patterns/compiler'
 import { Denominator, Fraction, to } from '@musical-patterns/utilities'
 import { buildContourElement, buildNoteSpec } from '../../../src/indexForTest'
 
@@ -11,7 +11,7 @@ describe('notes', () => {
     })
 
     describe('pitch', () => {
-        let pitchSpec: NotePropertySpec
+        let pitchSpec: NoteAspectSpec
         beforeEach(() => {
             pitchSpec = noteSpec.pitchSpec || {}
         })
@@ -28,7 +28,7 @@ describe('notes', () => {
     })
 
     describe('duration', () => {
-        let durationSpec: NotePropertySpec
+        let durationSpec: NoteAspectSpec
         beforeEach(() => {
             durationSpec = noteSpec.durationSpec || {}
         })

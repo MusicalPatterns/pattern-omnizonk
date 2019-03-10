@@ -27,7 +27,7 @@ describe('scales', () => {
             .toBe(7)
     })
 
-    it('every scale\'s scalars starts with the identity scalar', () => {
+    it(`every scale's scalars starts with the identity scalar`, () => {
         scales.forEach((scale: Scale): void => {
             const scalars: Maybe<Scalar[]> = scale.scalars
             if (scalars) {
@@ -40,7 +40,7 @@ describe('scales', () => {
         })
     })
 
-    it('a scale\'s scalars are the steps of the respective equal division', () => {
+    it(`a scale's scalars are the steps of the respective equal division`, () => {
         const scalars: Maybe<Scalar[]> = scales[ 0 ].scalars
         if (scalars) {
             const window: Base = OCTAVE

@@ -1,4 +1,4 @@
-import { Entity, NotePropertySpec, NoteSpec } from '@musical-patterns/compiler'
+import { Entity, NoteAspectSpec, NoteSpec } from '@musical-patterns/compiler'
 import { quotient, Scalar, sum, to } from '@musical-patterns/utilities'
 import { buildEntities, initial, OmnizonkSpec } from '../../../src/indexForTest'
 
@@ -28,7 +28,7 @@ describe('entities', () => {
         const entity: Entity = entities[ 0 ]
         const part: NoteSpec[] = entity.noteSpecs || []
         const noteSpec: NoteSpec = part[ 0 ] || {}
-        const gainSpec: NotePropertySpec = noteSpec.gainSpec || {}
+        const gainSpec: NoteAspectSpec = noteSpec.gainSpec || {}
         const gain: Scalar = gainSpec.scalar || to.Scalar(0)
 
         expect(gain)
@@ -47,7 +47,7 @@ describe('entities', () => {
         entities.forEach((entity: Entity) => {
             const part: NoteSpec[] = entity.noteSpecs || []
             const noteSpec: NoteSpec = part[ 0 ] || {}
-            const gainSpec: NotePropertySpec = noteSpec.gainSpec || {}
+            const gainSpec: NoteAspectSpec = noteSpec.gainSpec || {}
             const gain: Scalar = gainSpec.scalar || to.Scalar(0)
 
             expect(gain)

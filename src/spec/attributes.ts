@@ -1,10 +1,10 @@
-import { SpecPropertyType, standardSpecAttributes } from '@musical-patterns/pattern'
+import { PropertyType, standardAttributes } from '@musical-patterns/pattern'
 import { from, Units } from '@musical-patterns/utilities'
 import { MAXIMUM_MAX_EQUAL_DIVISION_BEFORE_OMNIZONK_CRASHES } from './constants'
-import { OmnizonkSpecAttributes } from './types'
+import { OmnizonkAttributes } from './types'
 
-const attributes: OmnizonkSpecAttributes = {
-    ...standardSpecAttributes,
+const attributes: OmnizonkAttributes = {
+    ...standardAttributes,
     maxEqualDivision: {
         constraint: {
             integer: true,
@@ -14,7 +14,7 @@ const attributes: OmnizonkSpecAttributes = {
         description: 'the maximum count of equally-sized pitch intervals the window will be divided into',
         formattedName: 'maximum equal division',
         order: 2,
-        specPropertyType: SpecPropertyType.RANGED,
+        propertyType: PropertyType.RANGED,
         units: Units.EQUAL_DIVISION,
     },
     maxFilteredEqualDivision: {
@@ -25,7 +25,7 @@ const attributes: OmnizonkSpecAttributes = {
         description: 'filter out the intervals higher equal divisions share with lower ones',
         formattedName: 'maximum filtered equal division',
         order: 4,
-        specPropertyType: SpecPropertyType.RANGED,
+        propertyType: PropertyType.RANGED,
         units: Units.EQUAL_DIVISION,
     },
     minEqualDivision: {
@@ -36,7 +36,7 @@ const attributes: OmnizonkSpecAttributes = {
         description: 'the minimum count of equally-sized pitch intervals the window will be divided into',
         formattedName: 'minimum equal division',
         order: 1,
-        specPropertyType: SpecPropertyType.RANGED,
+        propertyType: PropertyType.RANGED,
         units: Units.EQUAL_DIVISION,
     },
     window: {
@@ -46,7 +46,7 @@ const attributes: OmnizonkSpecAttributes = {
         },
         description: 'harmonic interval to divide equally',
         order: 3,
-        specPropertyType: SpecPropertyType.RANGED,
+        propertyType: PropertyType.RANGED,
     },
 }
 
