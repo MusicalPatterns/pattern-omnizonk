@@ -19,11 +19,11 @@ describe('scales', () => {
     })
 
     it('every scale has a number of scalars equal to its equal division', () => {
-        expect(scales[ 0 ].scalars && scales[ 0 ].scalars.length)
+        expect(scales[ 0 ].scalars!.length)
             .toBe(5)
-        expect(scales[ 1 ].scalars && scales[ 1 ].scalars.length)
+        expect(scales[ 1 ].scalars!.length)
             .toBe(6)
-        expect(scales[ 2 ].scalars && scales[ 2 ].scalars.length)
+        expect(scales[ 2 ].scalars!.length)
             .toBe(7)
     })
 

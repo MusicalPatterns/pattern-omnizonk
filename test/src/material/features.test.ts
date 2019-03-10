@@ -13,7 +13,7 @@ describe('features', () => {
     describe('pitch', () => {
         let pitch: NoteFeature
         beforeEach(() => {
-            pitch = note.pitch || {}
+            pitch = note.pitch!
         })
 
         it('picks the scale corresponding to its equal division', () => {
@@ -30,7 +30,7 @@ describe('features', () => {
     describe('duration', () => {
         let duration: NoteFeature
         beforeEach(() => {
-            duration = note.duration || {}
+            duration = note.duration!
         })
 
         it('has a really really long duration, because this pattern is essentially just holding a single tone cluster forever', () => {
