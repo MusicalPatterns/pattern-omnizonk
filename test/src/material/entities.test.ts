@@ -1,6 +1,6 @@
-import { Entity, NoteAspectSpec, NoteSpec } from '@musical-patterns/compiler'
-import { quotient, Scalar, sum, to } from '@musical-patterns/utilities'
-import { buildEntities, initial, OmnizonkSpec } from '../../../src/indexForTest'
+import { Entity, Note, NoteFeature } from '@musical-patterns/compiler'
+import { quotient, sum, to } from '@musical-patterns/utilities'
+import { initial, materializeEntities, OmnizonkSpec } from '../../../src/indexForTest'
 
 describe('entities', () => {
     it('the total count of entities is an inclusive trapezoidal number, summing the equal divisions between the min and the max', () => {
@@ -10,7 +10,7 @@ describe('entities', () => {
             minEqualDivision: to.Denominator(5),
         }
 
-        const entities: Entity[] = buildEntities(spec)
+        const entities: Entity[] = materializeEntities(spec)
 
         expect(entities.length)
             .toBe(sum(5, 6, 7))
@@ -23,15 +23,14 @@ describe('entities', () => {
             minEqualDivision: to.Denominator(1),
         }
 
-        const entities: Entity[] = buildEntities(spec)
+        const entities: Entity[] = materializeEntities(spec)
 
         const entity: Entity = entities[ 0 ]
-        const part: NoteSpec[] = entity.noteSpecs || []
-        const noteSpec: NoteSpec = part[ 0 ] || {}
-        const gainSpec: NoteAspectSpec = noteSpec.gainSpec || {}
-        const gain: Scalar = gainSpec.scalar || to.Scalar(0)
+        const notes: Note[] = entity.notes!
+        const note: Note = notes[ 0 ]
+        const gain: NoteFeature = note.gain!
 
-        expect(gain)
+        expect(gain.scalar)
             .toBe(to.Scalar(0.01))
     })
 
@@ -42,15 +41,14 @@ describe('entities', () => {
             minEqualDivision: to.Denominator(5),
         }
 
-        const entities: Entity[] = buildEntities(spec)
+        const entities: Entity[] = materializeEntities(spec)
 
         entities.forEach((entity: Entity) => {
-            const part: NoteSpec[] = entity.noteSpecs || []
-            const noteSpec: NoteSpec = part[ 0 ] || {}
-            const gainSpec: NoteAspectSpec = noteSpec.gainSpec || {}
-            const gain: Scalar = gainSpec.scalar || to.Scalar(0)
+            const notes: Note[] = entity.notes!
+            const note: Note = notes[ 0 ]
+            const gain: NoteFeature = note.gain!
 
-            expect(gain)
+            expect(gain.scalar)
                 .toBe(to.Scalar(quotient(0.01, sum(5, 6, 7))))
         })
     })

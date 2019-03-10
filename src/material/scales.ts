@@ -12,7 +12,7 @@ import {
 import { OmnizonkSpec } from '../spec'
 import { buildEqualDivisions } from './custom'
 
-const buildScales: (spec: OmnizonkSpec) => Scale[] =
+const materializeScales: (spec: OmnizonkSpec) => Scale[] =
     (spec: OmnizonkSpec): Scale[] => {
         const equalDivisions: Denominator[] = buildEqualDivisions(spec)
         const scalar: Scalar = from.Hz(spec[ StandardProperty.BASE_FREQUENCY ] || to.Scalar(to.Hz(1)))
@@ -27,5 +27,5 @@ const buildScales: (spec: OmnizonkSpec) => Scale[] =
     }
 
 export {
-    buildScales,
+    materializeScales,
 }

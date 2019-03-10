@@ -1,40 +1,40 @@
-import { NoteAspectSpec, NoteSpec } from '@musical-patterns/compiler'
+import { Note, NoteFeature } from '@musical-patterns/compiler'
 import { Denominator, Fraction, to } from '@musical-patterns/utilities'
-import { buildContourElement, buildNoteSpec } from '../../../src/indexForTest'
+import { buildContourElement, buildNote } from '../../../src/indexForTest'
 
-describe('notes', () => {
-    let noteSpec: NoteSpec
+describe('features', () => {
+    let note: Note
     const fraction: Fraction = [ to.Numerator(4), to.Denominator(7) ]
     const minEqualDivision: Denominator = to.Denominator(5)
     beforeEach(() => {
-        noteSpec = buildNoteSpec(buildContourElement(fraction, minEqualDivision))
+        note = buildNote(buildContourElement(fraction, minEqualDivision))
     })
 
     describe('pitch', () => {
-        let pitchSpec: NoteAspectSpec
+        let pitch: NoteFeature
         beforeEach(() => {
-            pitchSpec = noteSpec.pitchSpec || {}
+            pitch = note.pitch || {}
         })
 
         it('picks the scale corresponding to its equal division', () => {
-            expect(pitchSpec.scaleIndex)
+            expect(pitch.scaleIndex)
                 .toBe(to.Ordinal(2))
         })
 
         it('index is the step', () => {
-            expect(pitchSpec.index)
+            expect(pitch.index)
                 .toBe(to.Ordinal(4))
         })
     })
 
     describe('duration', () => {
-        let durationSpec: NoteAspectSpec
+        let duration: NoteFeature
         beforeEach(() => {
-            durationSpec = noteSpec.durationSpec || {}
+            duration = note.duration || {}
         })
 
         it('has a really really long duration, because this pattern is essentially just holding a single tone cluster forever', () => {
-            expect(durationSpec.scalar)
+            expect(duration.scalar)
                 .toBeGreaterThanOrEqual(10000)
         })
     })

@@ -1,9 +1,9 @@
 // tslint:disable no-reaching-imports
 
 export {
-    buildEntities,
-    buildScales,
-    buildNoteSpec,
+    materializeEntities,
+    materializeScales,
+    buildNote,
     buildEqualDivisions,
     buildEqualDivisionSteps,
     applyGainPerEntitiesCount,
