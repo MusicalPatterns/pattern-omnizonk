@@ -3,11 +3,11 @@
 export {
     materializeEntities,
     materializeScales,
-    buildNote,
-    buildEqualDivisions,
-    buildEqualDivisionSteps,
+    computeNote,
+    computeEqualDivisions,
+    computeEqualDivisionSteps,
     applyGainPerEntitiesCount,
-    buildContourElement,
+    computeContourElement,
 } from './material/indexForTest'
 export {
     initial,

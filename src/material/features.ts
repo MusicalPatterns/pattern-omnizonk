@@ -3,7 +3,7 @@ import { PitchScale } from '@musical-patterns/pattern'
 import { ContourElement, from, Scalar, Time, to } from '@musical-patterns/utilities'
 import { OMNIZONK_FOREVER } from './constants'
 
-const buildNote: (contourElement: ContourElement<PitchScale>) => Note =
+const computeNote: (contourElement: ContourElement<PitchScale>) => Note =
     ([ pitch, pitchScale ]: ContourElement<PitchScale>): Note => ({
         duration: {
             scalar: from.Time<Scalar, Scalar<Time>>(OMNIZONK_FOREVER),
@@ -15,5 +15,5 @@ const buildNote: (contourElement: ContourElement<PitchScale>) => Note =
     })
 
 export {
-    buildNote,
+    computeNote,
 }

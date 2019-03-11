@@ -1,3 +1,3 @@
-export { buildEqualDivisionSteps } from './equalDivisionSteps'
-export { buildEqualDivisions } from './equalDivisions'
+export { computeEqualDivisionSteps } from './equalDivisionSteps'
+export { computeEqualDivisions } from './equalDivisions'
 export { applyGainPerEntitiesCount } from './entityCount'

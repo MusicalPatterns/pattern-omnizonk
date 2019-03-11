@@ -1,5 +1,5 @@
 import { Fraction, to } from '@musical-patterns/utilities'
-import { buildEqualDivisionSteps, initial, OmnizonkSpec } from '../../../../src/indexForTest'
+import { computeEqualDivisionSteps, initial, OmnizonkSpec } from '../../../../src/indexForTest'
 
 describe('equal division steps', () => {
     it('creates an array of steps of equal divisions', () => {
@@ -9,7 +9,7 @@ describe('equal division steps', () => {
             minEqualDivision: to.Denominator(3),
         }
 
-        const actual: Fraction[] = buildEqualDivisionSteps(spec)
+        const actual: Fraction[] = computeEqualDivisionSteps(spec)
         const rawExpected: Array<[ number, number ]> = [
             [ 0, 3 ], [ 1, 3 ], [ 2, 3 ],
             [ 0, 4 ], [ 1, 4 ], [ 2, 4 ], [ 3, 4 ],
@@ -30,7 +30,7 @@ describe('equal division steps', () => {
             minEqualDivision: to.Denominator(3),
         }
 
-        const actual: Fraction[] = buildEqualDivisionSteps(spec)
+        const actual: Fraction[] = computeEqualDivisionSteps(spec)
         const rawExpected: Array<[ number, number ]> = [
             [ 1, 3 ], [ 2, 3 ],
             [ 1, 4 ], [ 2, 4 ], [ 3, 4 ],
@@ -51,7 +51,7 @@ describe('equal division steps', () => {
             minEqualDivision: to.Denominator(3),
         }
 
-        const actual: Fraction[] = buildEqualDivisionSteps(spec)
+        const actual: Fraction[] = computeEqualDivisionSteps(spec)
         const rawExpected: Array<[ number, number ]> = [
             [ 1, 3 ], [ 2, 3 ],
             [ 1, 4 ], [ 3, 4 ],
@@ -72,7 +72,7 @@ describe('equal division steps', () => {
             minEqualDivision: to.Denominator(3),
         }
 
-        const actual: Fraction[] = buildEqualDivisionSteps(spec)
+        const actual: Fraction[] = computeEqualDivisionSteps(spec)
         const rawExpected: Array<[ number, number ]> = [
             [ 1, 4 ], [ 3, 4 ],
             [ 1, 5 ], [ 2, 5 ], [ 3, 5 ], [ 4, 5 ],

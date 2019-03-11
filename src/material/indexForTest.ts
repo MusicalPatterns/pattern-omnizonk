@@ -2,10 +2,10 @@
 
 export { materializeScales } from './scales'
 export { materializeEntities } from './entities'
-export { buildNote } from './features'
-export { buildContourElement } from './contours'
+export { computeNote } from './features'
+export { computeContourElement } from './contours'
 export {
-    buildEqualDivisions,
-    buildEqualDivisionSteps,
+    computeEqualDivisions,
+    computeEqualDivisionSteps,
     applyGainPerEntitiesCount,
 } from './custom/indexForTest'
