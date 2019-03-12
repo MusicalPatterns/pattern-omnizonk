@@ -1,8 +1,8 @@
 import { Spec } from '@musical-patterns/pattern'
 import { configurations } from './configurations'
-import { initial } from './initial'
+import { initial } from './initials'
 import { OmnizonkSpecs } from './types'
-import { computeValidations } from './validation'
+import { computeValidations } from './validations'
 
 const spec: Spec<OmnizonkSpecs> = {
     computeValidations,
