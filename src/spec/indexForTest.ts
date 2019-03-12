@@ -2,5 +2,5 @@
 
 export { initial } from './initial'
 export {
-    OmnizonkSpec,
+    OmnizonkSpecs,
 } from './types'

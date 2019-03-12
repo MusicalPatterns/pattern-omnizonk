@@ -1,3 +1,3 @@
-export { data } from './data'
+export { spec } from './spec'
 
-export { OmnizonkSpec } from './types'
+export { OmnizonkSpecs } from './types'

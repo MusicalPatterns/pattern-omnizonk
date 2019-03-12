@@ -1,16 +1,16 @@
 import { Scale } from '@musical-patterns/compiler'
 import { apply, Base, from, Maybe, OCTAVE, Scalar, testIsCloseTo, to } from '@musical-patterns/utilities'
-import { initial, materializeScales, OmnizonkSpec } from '../../../src/indexForTest'
+import { initial, materializeScales, OmnizonkSpecs } from '../../../src/indexForTest'
 
 describe('scales', () => {
     let scales: Scale[]
     beforeEach(() => {
-        const spec: OmnizonkSpec = {
+        const specs: OmnizonkSpecs = {
             ...initial,
             maxEqualDivision: to.Denominator(7),
             minEqualDivision: to.Denominator(5),
         }
-        scales = materializeScales(spec)
+        scales = materializeScales(specs)
     })
 
     it('includes one scale for every edo up to the max edo', () => {

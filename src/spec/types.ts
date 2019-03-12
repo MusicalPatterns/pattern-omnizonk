@@ -1,21 +1,21 @@
-import { Attributes, RangedPropertyAttributes, Spec } from '@musical-patterns/pattern'
+import { Configurations, RangedConfiguration, Specs } from '@musical-patterns/pattern'
 import { Base, Denominator } from '@musical-patterns/utilities'
 
-interface OmnizonkSpec extends Spec {
+interface OmnizonkSpecs extends Specs {
     maxEqualDivision: Denominator,
     maxFilteredEqualDivision: Denominator,
     minEqualDivision: Denominator,
     window: Base,
 }
 
-interface OmnizonkAttributes extends Attributes<OmnizonkSpec> {
-    maxEqualDivision: RangedPropertyAttributes,
-    maxFilteredEqualDivision: RangedPropertyAttributes,
-    minEqualDivision: RangedPropertyAttributes,
-    window: RangedPropertyAttributes,
+interface OmnizonkConfigurations extends Configurations<OmnizonkSpecs> {
+    maxEqualDivision: RangedConfiguration,
+    maxFilteredEqualDivision: RangedConfiguration,
+    minEqualDivision: RangedConfiguration,
+    window: RangedConfiguration,
 }
 
 export {
-    OmnizonkSpec,
-    OmnizonkAttributes,
+    OmnizonkSpecs,
+    OmnizonkConfigurations,
 }

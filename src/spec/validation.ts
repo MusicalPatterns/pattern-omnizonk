@@ -1,16 +1,16 @@
-import { ValidationFunction, ValidationResults } from '@musical-patterns/pattern'
-import { OmnizonkSpec } from './types'
+import { ComputeValidations, Validations } from '@musical-patterns/pattern'
+import { OmnizonkSpecs } from './types'
 
-const validationFunction: ValidationFunction<OmnizonkSpec> =
-    (spec: OmnizonkSpec): ValidationResults<OmnizonkSpec> => {
-        if (spec.maxEqualDivision < spec.minEqualDivision) {
+const computeValidations: ComputeValidations<OmnizonkSpecs> =
+    (specs: OmnizonkSpecs): Validations<OmnizonkSpecs> => {
+        if (specs.maxEqualDivision < specs.minEqualDivision) {
             return {
                 maxEqualDivision: 'cannot be less than the minimum equal division',
                 minEqualDivision: 'cannot be more than the maximum equal division',
             }
         }
 
-        if (spec.maxFilteredEqualDivision >= spec.maxEqualDivision) {
+        if (specs.maxFilteredEqualDivision >= specs.maxEqualDivision) {
             return {
                 maxEqualDivision: 'does not make sense to filter out more than the max equal division',
                 maxFilteredEqualDivision: 'does not make sense to filter out more than the max equal division',
@@ -21,5 +21,5 @@ const validationFunction: ValidationFunction<OmnizonkSpec> =
     }
 
 export {
-    validationFunction,
+    computeValidations,
 }

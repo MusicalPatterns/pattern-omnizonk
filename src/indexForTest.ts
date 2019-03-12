@@ -11,7 +11,7 @@ export {
 } from './material/indexForTest'
 export {
     initial,
-    OmnizonkSpec,
+    OmnizonkSpecs,
 } from './spec/indexForTest'
 export { pattern } from './patterns'
 

@@ -1,10 +1,10 @@
-import { PropertyType, standardAttributes } from '@musical-patterns/pattern'
+import { InputType, standardConfigurations } from '@musical-patterns/pattern'
 import { from, Units } from '@musical-patterns/utilities'
 import { MAXIMUM_MAX_EQUAL_DIVISION_BEFORE_OMNIZONK_CRASHES } from './constants'
-import { OmnizonkAttributes } from './types'
+import { OmnizonkConfigurations } from './types'
 
-const attributes: OmnizonkAttributes = {
-    ...standardAttributes,
+const configurations: OmnizonkConfigurations = {
+    ...standardConfigurations,
     maxEqualDivision: {
         constraint: {
             integer: true,
@@ -13,8 +13,8 @@ const attributes: OmnizonkAttributes = {
         },
         description: 'the maximum count of equally-sized pitch intervals the window will be divided into',
         formattedName: 'maximum equal division',
+        inputType: InputType.RANGED,
         order: 2,
-        propertyType: PropertyType.RANGED,
         units: Units.EQUAL_DIVISION,
     },
     maxFilteredEqualDivision: {
@@ -24,8 +24,8 @@ const attributes: OmnizonkAttributes = {
         },
         description: 'filter out the intervals higher equal divisions share with lower ones',
         formattedName: 'maximum filtered equal division',
+        inputType: InputType.RANGED,
         order: 4,
-        propertyType: PropertyType.RANGED,
         units: Units.EQUAL_DIVISION,
     },
     minEqualDivision: {
@@ -35,8 +35,8 @@ const attributes: OmnizonkAttributes = {
         },
         description: 'the minimum count of equally-sized pitch intervals the window will be divided into',
         formattedName: 'minimum equal division',
+        inputType: InputType.RANGED,
         order: 1,
-        propertyType: PropertyType.RANGED,
         units: Units.EQUAL_DIVISION,
     },
     window: {
@@ -45,11 +45,11 @@ const attributes: OmnizonkAttributes = {
             min: 1,
         },
         description: 'harmonic interval to divide equally',
+        inputType: InputType.RANGED,
         order: 3,
-        propertyType: PropertyType.RANGED,
     },
 }
 
 export {
-    attributes,
+    configurations,
 }

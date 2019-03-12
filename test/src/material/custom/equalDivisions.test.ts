@@ -1,15 +1,15 @@
 import { to } from '@musical-patterns/utilities'
-import { computeEqualDivisions, initial, OmnizonkSpec } from '../../../../src/indexForTest'
+import { computeEqualDivisions, initial, OmnizonkSpecs } from '../../../../src/indexForTest'
 
 describe('equal divisions', () => {
     it('returns the range of equal divisions for the spec', () => {
-        const spec: OmnizonkSpec = {
+        const specs: OmnizonkSpecs = {
             ...initial,
             maxEqualDivision: to.Denominator(7),
             minEqualDivision: to.Denominator(5),
         }
 
-        expect(computeEqualDivisions(spec))
+        expect(computeEqualDivisions(specs))
             .toEqual([
                 5,
                 6,
