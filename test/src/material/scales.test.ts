@@ -1,12 +1,12 @@
 import { Scale } from '@musical-patterns/compiler'
 import { apply, Base, from, Maybe, OCTAVE, Scalar, testIsCloseTo, to } from '@musical-patterns/utilities'
-import { initial, materializeScales, OmnizonkSpecs } from '../../../src/indexForTest'
+import { initialSpecs, materializeScales, OmnizonkSpecs } from '../../../src/indexForTest'
 
 describe('scales', () => {
     let scales: Scale[]
     beforeEach(() => {
         const specs: OmnizonkSpecs = {
-            ...initial,
+            ...initialSpecs,
             maxEqualDivision: to.Denominator(7),
             minEqualDivision: to.Denominator(5),
         }

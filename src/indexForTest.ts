@@ -10,7 +10,7 @@ export {
     computeContourElement,
 } from './material/indexForTest'
 export {
-    initial,
+    initialSpecs,
     OmnizonkSpecs,
 } from './spec/indexForTest'
 export { pattern } from './patterns'

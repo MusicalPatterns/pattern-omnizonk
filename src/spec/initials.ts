@@ -8,7 +8,7 @@ import {
 } from './constants'
 import { OmnizonkSpecs } from './types'
 
-const initial: OmnizonkSpecs = {
+const initialSpecs: OmnizonkSpecs = {
     [ StandardSpec.BASE_FREQUENCY ]: OMNIZONK_INITIAL_BASE_FREQUENCY,
     maxEqualDivision: OMNIZONK_INITIAL_MAX_EQUAL_DIVISION,
     maxFilteredEqualDivision: OMNIZONK_INITIAL_MAX_FILTERED_EQUAL_DIVISION,
@@ -17,5 +17,5 @@ const initial: OmnizonkSpecs = {
 }
 
 export {
-    initial,
+    initialSpecs,
 }
