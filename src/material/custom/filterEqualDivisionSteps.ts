@@ -1,9 +1,9 @@
 import {
+    computeLowestTerms,
     Denominator,
     Fraction,
     from,
     INITIAL,
-    lowestTerms,
     positiveIntegers,
     slice,
     to,
@@ -19,7 +19,7 @@ const filterEqualDivisionSteps: (fraction: Fraction, specs: OmnizonkSpecs) => bo
                 .map(to.Denominator)
 
         filteredEqualDivisions.forEach((filteredEqualDivision: Denominator) => {
-            if (lowestTerms(fraction)[ 1 ] === filteredEqualDivision) {
+            if (computeLowestTerms(fraction)[ 1 ] === filteredEqualDivision) {
                 pass = false
             }
         })
