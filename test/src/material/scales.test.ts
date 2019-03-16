@@ -44,16 +44,11 @@ describe('scales', () => {
         const scalars: Maybe<Scalar[]> = scales[ 0 ].scalars
         if (scalars) {
             const window: Base = OCTAVE
-            expect(testIsCloseTo(scalars[ 0 ], to.Scalar(from.Base(apply.Power(window, to.Power(0 / 5))))))
-                .toBeTruthy()
-            expect(testIsCloseTo(scalars[ 1 ], to.Scalar(from.Base(apply.Power(window, to.Power(1 / 5))))))
-                .toBeTruthy()
-            expect(testIsCloseTo(scalars[ 2 ], to.Scalar(from.Base(apply.Power(window, to.Power(2 / 5))))))
-                .toBeTruthy()
-            expect(testIsCloseTo(scalars[ 3 ], to.Scalar(from.Base(apply.Power(window, to.Power(3 / 5))))))
-                .toBeTruthy()
-            expect(testIsCloseTo(scalars[ 4 ], to.Scalar(from.Base(apply.Power(window, to.Power(4 / 5))))))
-                .toBeTruthy()
+            testIsCloseTo(scalars[ 0 ], to.Scalar(from.Base(apply.Power(window, to.Power(0 / 5)))))
+            testIsCloseTo(scalars[ 1 ], to.Scalar(from.Base(apply.Power(window, to.Power(1 / 5)))))
+            testIsCloseTo(scalars[ 2 ], to.Scalar(from.Base(apply.Power(window, to.Power(2 / 5)))))
+            testIsCloseTo(scalars[ 3 ], to.Scalar(from.Base(apply.Power(window, to.Power(3 / 5)))))
+            testIsCloseTo(scalars[ 4 ], to.Scalar(from.Base(apply.Power(window, to.Power(4 / 5)))))
         }
         else {
             fail('scale is missing its scalars')
