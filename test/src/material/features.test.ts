@@ -35,7 +35,7 @@ describe('features', () => {
 
         it('has a really really long duration, because this pattern is essentially just holding a single tone cluster forever', () => {
             expect(duration.scalar)
-                .toBeGreaterThanOrEqual(10000)
+                .toBeGreaterThanOrEqual(9999)
         })
     })
 })

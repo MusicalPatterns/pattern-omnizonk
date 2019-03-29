@@ -4,11 +4,13 @@ import { initialSpecs, materializeScales, OmnizonkSpecs } from '../../../src/ind
 
 describe('scales', () => {
     let scales: Scale[]
+    const window: Base = to.Base(3)
     beforeEach(() => {
         const specs: OmnizonkSpecs = {
             ...initialSpecs,
             maxEqualDivision: to.Denominator(7),
             minEqualDivision: to.Denominator(5),
+            window,
         }
         scales = materializeScales(specs)
     })
@@ -43,7 +45,6 @@ describe('scales', () => {
     it(`a scale's scalars are the steps of the respective equal division`, () => {
         const scalars: Maybe<Scalar[]> = scales[ 0 ].scalars
         if (scalars) {
-            const window: Base = OCTAVE
             testIsCloseTo(scalars[ 0 ], to.Scalar(from.Base(apply.Power(window, to.Power(0 / 5)))))
             testIsCloseTo(scalars[ 1 ], to.Scalar(from.Base(apply.Power(window, to.Power(1 / 5)))))
             testIsCloseTo(scalars[ 2 ], to.Scalar(from.Base(apply.Power(window, to.Power(2 / 5)))))
