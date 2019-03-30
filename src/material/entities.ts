@@ -7,13 +7,17 @@ import { computeNote } from './features'
 
 const computeEntityForEqualDivisionStep: (fraction: Fraction, specs: OmnizonkSpecs) => Entity =
     (fraction: Fraction, specs: OmnizonkSpecs): Entity => ({
-        notes: [
-            computeNote(
-                computeContourElement(
-                    fraction,
-                    specs.minEqualDivision,
-                ),
-            ),
+        sections: [
+            {
+                notes: [
+                    computeNote(
+                        computeContourElement(
+                            fraction,
+                            specs.minEqualDivision,
+                        ),
+                    ),
+                ],
+            },
         ],
     })
 

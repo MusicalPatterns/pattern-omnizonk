@@ -26,7 +26,7 @@ describe('entities', () => {
         const entities: Entity[] = materializeEntities(specs)
 
         const entity: Entity = entities[ 0 ]
-        const notes: Note[] = entity.notes!
+        const notes: Note[] = entity.sections![ 0 ].notes!
         const note: Note = notes[ 0 ]
         const gain: NoteFeature = note.gain!
 
@@ -44,7 +44,7 @@ describe('entities', () => {
         const entities: Entity[] = materializeEntities(specs)
 
         entities.forEach((entity: Entity) => {
-            const notes: Note[] = entity.notes!
+            const notes: Note[] = entity.sections![ 0 ].notes!
             const note: Note = notes[ 0 ]
             const gain: NoteFeature = note.gain!
 
