@@ -1,0 +1,230 @@
+{
+  "segnoTime": 0,
+  "totalDuration": 4399560,
+  "voices": [
+    {
+      "sounds": [
+        {
+          "duration": 4399560,
+          "gain": 0.31429,
+          "frequency": 473.57911,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sustain": 4399559.9
+        }
+      ],
+      "segnoIndex": 0
+    },
+    {
+      "sounds": [
+        {
+          "duration": 4399560,
+          "gain": 0.31429,
+          "frequency": 548.62078,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sustain": 4399559.9
+        }
+      ],
+      "segnoIndex": 0
+    },
+    {
+      "sounds": [
+        {
+          "duration": 4399560,
+          "gain": 0.31429,
+          "frequency": 635.55329,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sustain": 4399559.9
+        }
+      ],
+      "segnoIndex": 0
+    },
+    {
+      "sounds": [
+        {
+          "duration": 4399560,
+          "gain": 0.31429,
+          "frequency": 852.92611,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sustain": 4399559.9
+        }
+      ],
+      "segnoIndex": 0
+    },
+    {
+      "sounds": [
+        {
+          "duration": 4399560,
+          "gain": 0.31429,
+          "frequency": 988.07777,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sustain": 4399559.9
+        }
+      ],
+      "segnoIndex": 0
+    },
+    {
+      "sounds": [
+        {
+          "duration": 4399560,
+          "gain": 0.31429,
+          "frequency": 1144.64509,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sustain": 4399559.9
+        }
+      ],
+      "segnoIndex": 0
+    },
+    {
+      "sounds": [
+        {
+          "duration": 4399560,
+          "gain": 0.31429,
+          "frequency": 471.26286,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sustain": 4399559.9
+        }
+      ],
+      "segnoIndex": 0
+    },
+    {
+      "sounds": [
+        {
+          "duration": 4399560,
+          "gain": 0.31429,
+          "frequency": 504.747,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sustain": 4399559.9
+        }
+      ],
+      "segnoIndex": 0
+    },
+    {
+      "sounds": [
+        {
+          "duration": 4399560,
+          "gain": 0.31429,
+          "frequency": 579.02167,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sustain": 4399559.9
+        }
+      ],
+      "segnoIndex": 0
+    },
+    {
+      "sounds": [
+        {
+          "duration": 4399560,
+          "gain": 0.31429,
+          "frequency": 711.42058,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sustain": 4399559.9
+        }
+      ],
+      "segnoIndex": 0
+    },
+    {
+      "sounds": [
+        {
+          "duration": 4399560,
+          "gain": 0.31429,
+          "frequency": 761.9684,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sustain": 4399559.9
+        }
+      ],
+      "segnoIndex": 0
+    },
+    {
+      "sounds": [
+        {
+          "duration": 4399560,
+          "gain": 0.31429,
+          "frequency": 936.19985,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sustain": 4399559.9
+        }
+      ],
+      "segnoIndex": 0
+    },
+    {
+      "sounds": [
+        {
+          "duration": 4399560,
+          "gain": 0.31429,
+          "frequency": 1073.96379,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sustain": 4399559.9
+        }
+      ],
+      "segnoIndex": 0
+    },
+    {
+      "sounds": [
+        {
+          "duration": 4399560,
+          "gain": 0.31429,
+          "frequency": 1150.271,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sustain": 4399559.9
+        }
+      ],
+      "segnoIndex": 0
+    }
+  ]
+}

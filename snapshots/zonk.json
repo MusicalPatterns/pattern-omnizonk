@@ -1,0 +1,198 @@
+{
+  "segnoTime": 0,
+  "totalDuration": 4399560,
+  "voices": [
+    {
+      "sounds": [
+        {
+          "duration": 4399560,
+          "gain": 0.36667,
+          "frequency": 440,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sustain": 4399559.9
+        }
+      ],
+      "segnoIndex": 0
+    },
+    {
+      "sounds": [
+        {
+          "duration": 4399560,
+          "gain": 0.36667,
+          "frequency": 466.16376,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sustain": 4399559.9
+        }
+      ],
+      "segnoIndex": 0
+    },
+    {
+      "sounds": [
+        {
+          "duration": 4399560,
+          "gain": 0.36667,
+          "frequency": 493.8833,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sustain": 4399559.9
+        }
+      ],
+      "segnoIndex": 0
+    },
+    {
+      "sounds": [
+        {
+          "duration": 4399560,
+          "gain": 0.36667,
+          "frequency": 523.25113,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sustain": 4399559.9
+        }
+      ],
+      "segnoIndex": 0
+    },
+    {
+      "sounds": [
+        {
+          "duration": 4399560,
+          "gain": 0.36667,
+          "frequency": 554.36526,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sustain": 4399559.9
+        }
+      ],
+      "segnoIndex": 0
+    },
+    {
+      "sounds": [
+        {
+          "duration": 4399560,
+          "gain": 0.36667,
+          "frequency": 587.32954,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sustain": 4399559.9
+        }
+      ],
+      "segnoIndex": 0
+    },
+    {
+      "sounds": [
+        {
+          "duration": 4399560,
+          "gain": 0.36667,
+          "frequency": 622.25397,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sustain": 4399559.9
+        }
+      ],
+      "segnoIndex": 0
+    },
+    {
+      "sounds": [
+        {
+          "duration": 4399560,
+          "gain": 0.36667,
+          "frequency": 659.25511,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sustain": 4399559.9
+        }
+      ],
+      "segnoIndex": 0
+    },
+    {
+      "sounds": [
+        {
+          "duration": 4399560,
+          "gain": 0.36667,
+          "frequency": 698.45646,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sustain": 4399559.9
+        }
+      ],
+      "segnoIndex": 0
+    },
+    {
+      "sounds": [
+        {
+          "duration": 4399560,
+          "gain": 0.36667,
+          "frequency": 739.98885,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sustain": 4399559.9
+        }
+      ],
+      "segnoIndex": 0
+    },
+    {
+      "sounds": [
+        {
+          "duration": 4399560,
+          "gain": 0.36667,
+          "frequency": 783.99087,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sustain": 4399559.9
+        }
+      ],
+      "segnoIndex": 0
+    },
+    {
+      "sounds": [
+        {
+          "duration": 4399560,
+          "gain": 0.36667,
+          "frequency": 830.6094,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "sustain": 4399559.9
+        }
+      ],
+      "segnoIndex": 0
+    }
+  ]
+}
