@@ -17,7 +17,7 @@ const materializeScales: (specs: OmnizonkSpecs) => Scale[] =
         const equalDivisions: Denominator[] = computeEqualDivisions(specs)
         const scalar: Scalar = from.Hz(specs[ StandardSpec.BASE_FREQUENCY ] || to.Scalar(to.Hz(1)))
         const translation: Translation =
-            from.Hz(specs[ StandardSpec.FREQUENCY_TRANSLATION ] || to.Hz(NO_TRANSLATION))
+            from.Hz(specs[ StandardSpec.BASE_FREQUENCY_TRANSLATION ] || to.Hz(NO_TRANSLATION))
 
         return equalDivisions.map((equalDivision: Denominator): Scale => {
             const scalars: Scalar[] = computeEqualDivisionScalars(equalDivision, specs.window)
