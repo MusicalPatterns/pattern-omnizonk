@@ -3,6 +3,7 @@
   "totalDuration": 1329867,
   "voices": [
     {
+      "delay": 0,
       "sounds": [
         {
           "duration": 1329867,
@@ -16,9 +17,14 @@
           "sustain": 1329866.9
         }
       ],
+      "sourceRequest": {
+        "sourceType": "OSCILLATOR",
+        "timbreName": "SINE"
+      },
       "segnoIndex": 0
     },
     {
+      "delay": 0,
       "sounds": [
         {
           "duration": 1329867,
@@ -32,9 +38,14 @@
           "sustain": 1329866.9
         }
       ],
+      "sourceRequest": {
+        "sourceType": "OSCILLATOR",
+        "timbreName": "SINE"
+      },
       "segnoIndex": 0
     },
     {
+      "delay": 0,
       "sounds": [
         {
           "duration": 1329867,
@@ -48,9 +59,14 @@
           "sustain": 1329866.9
         }
       ],
+      "sourceRequest": {
+        "sourceType": "OSCILLATOR",
+        "timbreName": "SINE"
+      },
       "segnoIndex": 0
     },
     {
+      "delay": 0,
       "sounds": [
         {
           "duration": 1329867,
@@ -64,9 +80,14 @@
           "sustain": 1329866.9
         }
       ],
+      "sourceRequest": {
+        "sourceType": "OSCILLATOR",
+        "timbreName": "SINE"
+      },
       "segnoIndex": 0
     },
     {
+      "delay": 0,
       "sounds": [
         {
           "duration": 1329867,
@@ -80,9 +101,14 @@
           "sustain": 1329866.9
         }
       ],
+      "sourceRequest": {
+        "sourceType": "OSCILLATOR",
+        "timbreName": "SINE"
+      },
       "segnoIndex": 0
     },
     {
+      "delay": 0,
       "sounds": [
         {
           "duration": 1329867,
@@ -96,9 +122,14 @@
           "sustain": 1329866.9
         }
       ],
+      "sourceRequest": {
+        "sourceType": "OSCILLATOR",
+        "timbreName": "SINE"
+      },
       "segnoIndex": 0
     },
     {
+      "delay": 0,
       "sounds": [
         {
           "duration": 1329867,
@@ -112,9 +143,14 @@
           "sustain": 1329866.9
         }
       ],
+      "sourceRequest": {
+        "sourceType": "OSCILLATOR",
+        "timbreName": "SINE"
+      },
       "segnoIndex": 0
     },
     {
+      "delay": 0,
       "sounds": [
         {
           "duration": 1329867,
@@ -128,9 +164,14 @@
           "sustain": 1329866.9
         }
       ],
+      "sourceRequest": {
+        "sourceType": "OSCILLATOR",
+        "timbreName": "SINE"
+      },
       "segnoIndex": 0
     },
     {
+      "delay": 0,
       "sounds": [
         {
           "duration": 1329867,
@@ -144,6 +185,10 @@
           "sustain": 1329866.9
         }
       ],
+      "sourceRequest": {
+        "sourceType": "OSCILLATOR",
+        "timbreName": "SINE"
+      },
       "segnoIndex": 0
     }
   ]
