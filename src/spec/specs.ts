@@ -10,6 +10,7 @@ const spec: Spec<OmnizonkSpecs> = {
     configurations,
     initialSpecs,
     presets,
+    restartOnModify: true,
 }
 
 export {
