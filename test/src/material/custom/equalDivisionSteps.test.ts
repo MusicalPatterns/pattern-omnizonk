@@ -16,7 +16,10 @@ describe('equal division steps', () => {
             [ 0, 5 ], [ 1, 5 ], [ 2, 5 ], [ 3, 5 ], [ 4, 5 ],
             [ 0, 6 ], [ 1, 6 ], [ 2, 6 ], [ 3, 6 ], [ 4, 6 ], [ 5, 6 ],
         ]
-        const expected: Fraction[] = rawExpected.map(to.Fraction)
+        const expected: Fraction[] = rawExpected.map(
+            ([ numerator, denominator ]: [ number, number ]) =>
+                to.Fraction([ to.Numerator(numerator), to.Denominator(denominator) ]),
+        )
 
         expect(actual)
             .toEqual(expected)
@@ -37,7 +40,10 @@ describe('equal division steps', () => {
             [ 1, 5 ], [ 2, 5 ], [ 3, 5 ], [ 4, 5 ],
             [ 1, 6 ], [ 2, 6 ], [ 3, 6 ], [ 4, 6 ], [ 5, 6 ],
         ]
-        const expected: Fraction[] = rawExpected.map(to.Fraction)
+        const expected: Fraction[] = rawExpected.map(
+            ([ numerator, denominator ]: [ number, number ]) =>
+                to.Fraction([ to.Numerator(numerator), to.Denominator(denominator) ]),
+        )
 
         expect(actual)
             .toEqual(expected)
@@ -58,7 +64,10 @@ describe('equal division steps', () => {
             [ 1, 5 ], [ 2, 5 ], [ 3, 5 ], [ 4, 5 ],
             [ 1, 6 ], [ 2, 6 ], [ 4, 6 ], [ 5, 6 ],
         ]
-        const expected: Fraction[] = rawExpected.map(to.Fraction)
+        const expected: Fraction[] = rawExpected.map(
+            ([ numerator, denominator ]: [ number, number ]) =>
+                to.Fraction([ to.Numerator(numerator), to.Denominator(denominator) ]),
+        )
 
         expect(actual)
             .toEqual(expected)
@@ -78,7 +87,10 @@ describe('equal division steps', () => {
             [ 1, 5 ], [ 2, 5 ], [ 3, 5 ], [ 4, 5 ],
             [ 1, 6 ], [ 5, 6 ],
         ]
-        const expected: Fraction[] = rawExpected.map(to.Fraction)
+        const expected: Fraction[] = rawExpected.map(
+            ([ numerator, denominator ]: [ number, number ]) =>
+                to.Fraction([ to.Numerator(numerator), to.Denominator(denominator) ]),
+        )
 
         expect(actual)
             .toEqual(expected)
