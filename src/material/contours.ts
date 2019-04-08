@@ -1,4 +1,4 @@
-import { PitchScale } from '@musical-patterns/pattern'
+import { PitchScale } from '@musical-patterns/material'
 import { ContourElement, Denominator, difference, Fraction, from, to } from '@musical-patterns/utilities'
 
 const computeContourElement: (fraction: Fraction, minEqualDivision: Denominator) => ContourElement<PitchScale> =

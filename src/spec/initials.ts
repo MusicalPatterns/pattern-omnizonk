@@ -1,4 +1,4 @@
-import { StandardSpec } from '@musical-patterns/pattern'
+import { StandardSpec } from '@musical-patterns/spec'
 import {
     OMNIZONK_INITIAL_BASE_FREQUENCY,
     OMNIZONK_INITIAL_MAX_EQUAL_DIVISION,

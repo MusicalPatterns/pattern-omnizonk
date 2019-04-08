@@ -1,4 +1,4 @@
-import { InputType, standardConfigurations } from '@musical-patterns/pattern'
+import { InputType, standardConfigurations } from '@musical-patterns/spec'
 import { from, Units } from '@musical-patterns/utilities'
 import { MAXIMUM_MAX_EQUAL_DIVISION_BEFORE_OMNIZONK_CRASHES } from './constants'
 import { OmnizonkConfigurations } from './types'

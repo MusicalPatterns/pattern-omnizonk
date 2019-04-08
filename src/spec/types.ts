@@ -1,4 +1,4 @@
-import { Configurations, RangedConfiguration, StandardSpecs } from '@musical-patterns/pattern'
+import { Configurations, RangedConfiguration, StandardSpecs } from '@musical-patterns/spec'
 import { Base, Denominator } from '@musical-patterns/utilities'
 
 interface OmnizonkSpecs extends StandardSpecs {

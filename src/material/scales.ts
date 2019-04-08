@@ -1,5 +1,5 @@
 import { Scale } from '@musical-patterns/material'
-import { StandardSpec } from '@musical-patterns/pattern'
+import { StandardSpec } from '@musical-patterns/spec'
 import {
     computeEqualDivisionScalars,
     Denominator,
