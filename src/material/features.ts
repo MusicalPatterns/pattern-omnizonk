@@ -1,4 +1,4 @@
-import { Note } from '@musical-patterns/compiler'
+import { Note } from '@musical-patterns/material'
 import { PitchScale } from '@musical-patterns/pattern'
 import { ContourElement, from, Scalar, Time, to } from '@musical-patterns/utilities'
 import { OMNIZONK_FOREVER } from './constants'

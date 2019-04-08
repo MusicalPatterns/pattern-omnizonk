@@ -1,4 +1,4 @@
-import { Entity, Note, NoteFeature } from '@musical-patterns/compiler'
+import { Entity, Note, NoteFeature } from '@musical-patterns/material'
 import { quotient, sum, to } from '@musical-patterns/utilities'
 import { initialSpecs, materializeEntities, OmnizonkSpecs } from '../../../src/indexForTest'
 

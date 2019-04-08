@@ -1,4 +1,4 @@
-import { Entity } from '@musical-patterns/compiler'
+import { Entity } from '@musical-patterns/material'
 import { Fraction } from '@musical-patterns/utilities'
 import { OmnizonkSpecs } from '../spec'
 import { computeContourElement } from './contours'

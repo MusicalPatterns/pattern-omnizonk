@@ -1,4 +1,4 @@
-import { Entity, Note, Section } from '@musical-patterns/compiler'
+import { Entity, Note, Section } from '@musical-patterns/material'
 import { Amplitude, apply, from, isUndefined, reciprocal, Scalar, to } from '@musical-patterns/utilities'
 import { OMNIZONK_BASE_GAIN } from './constants'
 

@@ -1,4 +1,4 @@
-import { Scale } from '@musical-patterns/compiler'
+import { Scale } from '@musical-patterns/material'
 import { apply, Base, from, Maybe, OCTAVE, Scalar, testIsCloseTo, to } from '@musical-patterns/utilities'
 import { initialSpecs, materializeScales, OmnizonkSpecs } from '../../../src/indexForTest'
 

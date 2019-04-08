@@ -1,4 +1,4 @@
-import { Entity } from '@musical-patterns/compiler'
+import { Entity } from '@musical-patterns/material'
 import { testIsLessThanOrEqualTo, to } from '@musical-patterns/utilities'
 import { applyGainPerEntitiesCount } from '../../../../src/indexForTest'
 

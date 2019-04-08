@@ -1,4 +1,4 @@
-import { Scale } from '@musical-patterns/compiler'
+import { Scale } from '@musical-patterns/material'
 import { StandardSpec } from '@musical-patterns/pattern'
 import {
     computeEqualDivisionScalars,

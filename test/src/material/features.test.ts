@@ -1,4 +1,4 @@
-import { Note, NoteFeature } from '@musical-patterns/compiler'
+import { Note, NoteFeature } from '@musical-patterns/material'
 import { Denominator, Fraction, testIsGreaterThanOrEqualTo, to } from '@musical-patterns/utilities'
 import { computeContourElement, computeNote } from '../../../src/indexForTest'
 
