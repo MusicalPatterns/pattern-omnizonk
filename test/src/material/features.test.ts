@@ -1,5 +1,5 @@
 import { Note, NoteFeature } from '@musical-patterns/material'
-import { Denominator, Fraction, testIsGreaterThanOrEqualTo, to } from '@musical-patterns/utilities'
+import { Denominator, Fraction, to } from '@musical-patterns/utilities'
 import { computeContourElement, computeNote } from '../../../src/indexForTest'
 
 describe('features', () => {
@@ -34,7 +34,8 @@ describe('features', () => {
         })
 
         it('has a really really long duration, because this pattern is essentially just holding a single tone cluster forever', () => {
-            testIsGreaterThanOrEqualTo(duration.scalar!, to.Scalar(9999))
+            expect(duration.scalar!)
+                .toBeGreaterThanOrEqualTyped(to.Scalar(9999))
         })
     })
 })

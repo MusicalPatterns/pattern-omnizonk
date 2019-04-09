@@ -1,5 +1,5 @@
 import { Entity } from '@musical-patterns/material'
-import { testIsLessThanOrEqualTo, to } from '@musical-patterns/utilities'
+import { to } from '@musical-patterns/utilities'
 import { applyGainPerEntitiesCount } from '../../../../src/indexForTest'
 
 describe('entity count', () => {
@@ -13,7 +13,8 @@ describe('entity count', () => {
         applyGainPerEntitiesCount(entities)
 
         entities.forEach((entity: Entity) => {
-            testIsLessThanOrEqualTo(entity.sections![0].notes![ 0 ].gain!.scalar!, to.Scalar((1 / 100) / 3))
+            expect(entity.sections![0].notes![ 0 ].gain!.scalar!)
+                .toBeLessThanOrEqualTyped(to.Scalar((1 / 100) / 3))
         })
     })
 })

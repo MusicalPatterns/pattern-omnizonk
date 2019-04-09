@@ -1,5 +1,5 @@
 import { Scale } from '@musical-patterns/material'
-import { apply, Base, from, Maybe, OCTAVE, Scalar, testIsCloseTo, to } from '@musical-patterns/utilities'
+import { apply, Base, from, Maybe, Scalar, to } from '@musical-patterns/utilities'
 import { initialSpecs, materializeScales, OmnizonkSpecs } from '../../../src/indexForTest'
 
 describe('scales', () => {
@@ -45,11 +45,16 @@ describe('scales', () => {
     it(`a scale's scalars are the steps of the respective equal division`, () => {
         const scalars: Maybe<Scalar[]> = scales[ 0 ].scalars
         if (scalars) {
-            testIsCloseTo(scalars[ 0 ], to.Scalar(from.Base(apply.Power(window, to.Power(0 / 5)))))
-            testIsCloseTo(scalars[ 1 ], to.Scalar(from.Base(apply.Power(window, to.Power(1 / 5)))))
-            testIsCloseTo(scalars[ 2 ], to.Scalar(from.Base(apply.Power(window, to.Power(2 / 5)))))
-            testIsCloseTo(scalars[ 3 ], to.Scalar(from.Base(apply.Power(window, to.Power(3 / 5)))))
-            testIsCloseTo(scalars[ 4 ], to.Scalar(from.Base(apply.Power(window, to.Power(4 / 5)))))
+            expect(scalars[ 0 ])
+                .toBeCloseToTyped(to.Scalar(from.Base(apply.Power(window, to.Power(0 / 5)))))
+            expect(scalars[ 1 ])
+                .toBeCloseToTyped(to.Scalar(from.Base(apply.Power(window, to.Power(1 / 5)))))
+            expect(scalars[ 2 ])
+                .toBeCloseToTyped(to.Scalar(from.Base(apply.Power(window, to.Power(2 / 5)))))
+            expect(scalars[ 3 ])
+                .toBeCloseToTyped(to.Scalar(from.Base(apply.Power(window, to.Power(3 / 5)))))
+            expect(scalars[ 4 ])
+                .toBeCloseToTyped(to.Scalar(from.Base(apply.Power(window, to.Power(4 / 5)))))
         }
         else {
             fail('scale is missing its scalars')
