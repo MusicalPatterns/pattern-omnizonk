@@ -1,11 +1,11 @@
 import { Configurations, RangedConfiguration, StandardSpecs } from '@musical-patterns/spec'
-import { Base, Denominator } from '@musical-patterns/utilities'
+import { Base, Denominator, Frequency } from '@musical-patterns/utilities'
 
 interface OmnizonkSpecs extends StandardSpecs {
     maxEqualDivision: Denominator,
     maxFilteredEqualDivision: Denominator,
     minEqualDivision: Denominator,
-    window: Base,
+    window: Base<Frequency>,
 }
 
 interface OmnizonkConfigurations extends Configurations<OmnizonkSpecs> {

@@ -3,8 +3,8 @@ import { ContourElement, Denominator, difference, Fraction, from, to } from '@mu
 
 const computeContourElement: (fraction: Fraction, minEqualDivision: Denominator) => ContourElement<PitchScale> =
     ([ equalDivisionStep, equalDivision ]: Fraction, minEqualDivision: Denominator): ContourElement<PitchScale> => {
-        const pitch: number = to.Ordinal(from.Numerator(equalDivisionStep))
-        const scale: number = to.Ordinal(from.Denominator(difference(equalDivision, minEqualDivision)))
+        const pitch: number = from.Numerator(equalDivisionStep)
+        const scale: number = from.Denominator(difference(equalDivision, minEqualDivision))
 
         return to.ContourElement<PitchScale>([ pitch, scale ])
     }

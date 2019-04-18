@@ -10,10 +10,10 @@ const applyGainPerEntitiesCount: (entities: Entity[]) => Entity[] =
                     if (!isUndefined(section.notes)) {
                         section.notes.forEach((note: Note) => {
                             note.gain = {
-                                scalar: from.Amplitude<Scalar, Scalar<Amplitude>>(apply.Scalar(
+                                scalar: apply.Scalar(
                                     OMNIZONK_BASE_GAIN,
-                                    to.Scalar(reciprocal(entities.length)),
-                                )),
+                                    to.Scalar<Scalar<Scalar>>(reciprocal(entities.length)),
+                                ),
                             }
                         })
                     }
