@@ -13,7 +13,7 @@ describe('entity count', () => {
         applyGainPerEntitiesCount(entities)
 
         entities.forEach((entity: Entity) => {
-            expect(entity.sections![0].notes![ 0 ].gain!.scalar!)
+            expect(entity.sections![ 0 ].notes![ 0 ].gain!.scalar!)
                 .toBeLessThanOrEqualTyped(to.Scalar((1 / 100) / 3))
         })
     })

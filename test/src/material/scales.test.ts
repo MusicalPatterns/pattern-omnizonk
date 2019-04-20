@@ -1,10 +1,10 @@
 import { Scale } from '@musical-patterns/material'
-import { apply, Base, Frequency, from, Maybe, Scalar, to } from '@musical-patterns/utilities'
+import { apply, Frequency, from, Logarithm, Maybe, Scalar, to } from '@musical-patterns/utilities'
 import { initialSpecs, materializeScales, OmnizonkSpecs } from '../../../src/indexForTest'
 
 describe('scales', () => {
     let scales: Scale[]
-    const window: Base<Frequency> = to.Base<Frequency>(3)
+    const window: Logarithm<Frequency> = to.Logarithm<Frequency>(3)
     beforeEach(() => {
         const specs: OmnizonkSpecs = {
             ...initialSpecs,
@@ -46,15 +46,15 @@ describe('scales', () => {
         const scalars: Maybe<Scalar[]> = scales[ 0 ].scalars
         if (scalars) {
             expect(scalars[ 0 ])
-                .toBeCloseToTyped(to.Scalar(from.Base<Frequency>(apply.Power(window, to.Power<Base<Frequency>>(0 / 5)))))
+                .toBeCloseToTyped(to.Scalar(from.Logarithm<Frequency>(apply.Exponent(window, to.Exponent<Logarithm<Frequency>>(0 / 5)))))
             expect(scalars[ 1 ])
-                .toBeCloseToTyped(to.Scalar(from.Base<Frequency>(apply.Power(window, to.Power<Base<Frequency>>(1 / 5)))))
+                .toBeCloseToTyped(to.Scalar(from.Logarithm<Frequency>(apply.Exponent(window, to.Exponent<Logarithm<Frequency>>(1 / 5)))))
             expect(scalars[ 2 ])
-                .toBeCloseToTyped(to.Scalar(from.Base<Frequency>(apply.Power(window, to.Power<Base<Frequency>>(2 / 5)))))
+                .toBeCloseToTyped(to.Scalar(from.Logarithm<Frequency>(apply.Exponent(window, to.Exponent<Logarithm<Frequency>>(2 / 5)))))
             expect(scalars[ 3 ])
-                .toBeCloseToTyped(to.Scalar(from.Base<Frequency>(apply.Power(window, to.Power<Base<Frequency>>(3 / 5)))))
+                .toBeCloseToTyped(to.Scalar(from.Logarithm<Frequency>(apply.Exponent(window, to.Exponent<Logarithm<Frequency>>(3 / 5)))))
             expect(scalars[ 4 ])
-                .toBeCloseToTyped(to.Scalar(from.Base<Frequency>(apply.Power(window, to.Power<Base<Frequency>>(4 / 5)))))
+                .toBeCloseToTyped(to.Scalar(from.Logarithm<Frequency>(apply.Exponent(window, to.Exponent<Logarithm<Frequency>>(4 / 5)))))
         }
         else {
             fail('scale is missing its scalars')

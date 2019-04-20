@@ -14,7 +14,7 @@ import { computeEqualDivisions } from './custom'
 
 // tslint:disable-next-line no-any
 const materializeScales: (specs: OmnizonkSpecs) => Array<Scale<any>> =
-// tslint:disable-next-line no-any
+    // tslint:disable-next-line no-any
     (specs: OmnizonkSpecs): Array<Scale<any>> => {
         const equalDivisions: Denominator[] = computeEqualDivisions(specs)
         const scalar: Scalar<Hz> = specs[ StandardSpec.BASE_FREQUENCY ] || MULTIPLICATIVE_IDENTITY
