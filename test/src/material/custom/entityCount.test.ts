@@ -1,5 +1,5 @@
 import { Entity } from '@musical-patterns/material'
-import { to } from '@musical-patterns/utilities'
+import { as } from '@musical-patterns/utilities'
 import { applyGainPerEntitiesCount } from '../../../../src/indexForTest'
 
 describe('entity count', () => {
@@ -14,7 +14,7 @@ describe('entity count', () => {
 
         entities.forEach((entity: Entity) => {
             expect(entity.sections![ 0 ].notes![ 0 ].gain!.scalar!)
-                .toBeLessThanOrEqualTyped(to.Scalar((1 / 100) / 3))
+                .toBeLessThanOrEqualTyped(as.Scalar((1 / 100) / 3))
         })
     })
 })

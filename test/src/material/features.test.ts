@@ -1,11 +1,11 @@
 import { Note, NoteFeature, Scale } from '@musical-patterns/material'
-import { Denominator, Fraction, Scalar, to } from '@musical-patterns/utilities'
+import { as, Denominator, Fraction, Scalar } from '@musical-patterns/utilities'
 import { computeContourElement, computeNote } from '../../../src/indexForTest'
 
 describe('features', () => {
     let note: Note
-    const fraction: Fraction = [ to.Numerator(4), to.Denominator(7) ]
-    const minEqualDivision: Denominator = to.Denominator(5)
+    const fraction: Fraction = [ as.Numerator(4), as.Denominator(7) ]
+    const minEqualDivision: Denominator = as.Denominator(5)
     beforeEach(() => {
         note = computeNote(computeContourElement(fraction, minEqualDivision))
     })
@@ -18,12 +18,12 @@ describe('features', () => {
 
         it('picks the scale corresponding to its equal division', () => {
             expect(pitch.scaleIndex)
-                .toBe(to.Ordinal<Scale>(2))
+                .toBe(as.Ordinal<Scale>(2))
         })
 
         it('index is the step', () => {
             expect(pitch.index)
-                .toBe(to.Ordinal<Scalar>(4))
+                .toBe(as.Ordinal<Scalar>(4))
         })
     })
 
@@ -35,7 +35,7 @@ describe('features', () => {
 
         it('has a really really long duration, because this pattern is essentially just holding a single tone cluster forever', () => {
             expect(duration.scalar!)
-                .toBeGreaterThanOrEqualTyped(to.Scalar(9999))
+                .toBeGreaterThanOrEqualTyped(as.Scalar(9999))
         })
     })
 })

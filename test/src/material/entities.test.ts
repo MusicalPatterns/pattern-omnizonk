@@ -1,13 +1,13 @@
 import { Entity, Note, NoteFeature } from '@musical-patterns/material'
-import { quotient, Scalar, sum, to } from '@musical-patterns/utilities'
+import { as, quotient, Scalar, sum } from '@musical-patterns/utilities'
 import { initialSpecs, materializeEntities, OmnizonkSpecs } from '../../../src/indexForTest'
 
 describe('entities', () => {
     it('the total count of entities is an inclusive trapezoidal number, summing the equal divisions between the min and the max', () => {
         const specs: OmnizonkSpecs = {
             ...initialSpecs,
-            maxEqualDivision: to.Denominator(7),
-            minEqualDivision: to.Denominator(5),
+            maxEqualDivision: as.Denominator(7),
+            minEqualDivision: as.Denominator(5),
         }
 
         const entities: Entity[] = materializeEntities(specs)
@@ -19,8 +19,8 @@ describe('entities', () => {
     it('if there is only a single entity, it has the max gain possible', () => {
         const specs: OmnizonkSpecs = {
             ...initialSpecs,
-            maxEqualDivision: to.Denominator(1),
-            minEqualDivision: to.Denominator(1),
+            maxEqualDivision: as.Denominator(1),
+            minEqualDivision: as.Denominator(1),
         }
 
         const entities: Entity[] = materializeEntities(specs)
@@ -31,14 +31,14 @@ describe('entities', () => {
         const gain: NoteFeature = note.gain!
 
         expect(gain.scalar)
-            .toBe(to.Scalar<Scalar>(0.01))
+            .toBe(as.Scalar<Scalar>(0.01))
     })
 
     it('sets the gain of each entity proportional to the total count of entities', () => {
         const specs: OmnizonkSpecs = {
             ...initialSpecs,
-            maxEqualDivision: to.Denominator(7),
-            minEqualDivision: to.Denominator(5),
+            maxEqualDivision: as.Denominator(7),
+            minEqualDivision: as.Denominator(5),
         }
 
         const entities: Entity[] = materializeEntities(specs)
@@ -49,7 +49,7 @@ describe('entities', () => {
             const gain: NoteFeature = note.gain!
 
             expect(gain.scalar)
-                .toBe(to.Scalar<Scalar>(quotient(0.01, sum(5, 6, 7))))
+                .toBe(as.Scalar<Scalar>(quotient(0.01, sum(5, 6, 7))))
         })
     })
 })

@@ -1,12 +1,12 @@
-import { Fraction, to } from '@musical-patterns/utilities'
+import { as, Fraction } from '@musical-patterns/utilities'
 import { computeEqualDivisionSteps, initialSpecs, OmnizonkSpecs } from '../../../../src/indexForTest'
 
 describe('equal division steps', () => {
     it('creates an array of steps of equal divisions', () => {
         const specs: OmnizonkSpecs = {
             ...initialSpecs,
-            maxEqualDivision: to.Denominator(6),
-            minEqualDivision: to.Denominator(3),
+            maxEqualDivision: as.Denominator(6),
+            minEqualDivision: as.Denominator(3),
         }
 
         const actual: Fraction[] = computeEqualDivisionSteps(specs)
@@ -18,7 +18,7 @@ describe('equal division steps', () => {
         ]
         const expected: Fraction[] = rawExpected.map(
             ([ numerator, denominator ]: [ number, number ]) =>
-                to.Fraction([ to.Numerator(numerator), to.Denominator(denominator) ]),
+                as.Fraction([ as.Numerator(numerator), as.Denominator(denominator) ]),
         )
 
         expect(actual)
@@ -28,9 +28,9 @@ describe('equal division steps', () => {
     it('can filter out just the shared root (which is the same as 1/1, 2/2, 3/3, 4/4, that is why it is the multiples of 1', () => {
         const specs: OmnizonkSpecs = {
             ...initialSpecs,
-            maxEqualDivision: to.Denominator(6),
-            maxFilteredEqualDivision: to.Denominator(1),
-            minEqualDivision: to.Denominator(3),
+            maxEqualDivision: as.Denominator(6),
+            maxFilteredEqualDivision: as.Denominator(1),
+            minEqualDivision: as.Denominator(3),
         }
 
         const actual: Fraction[] = computeEqualDivisionSteps(specs)
@@ -42,7 +42,7 @@ describe('equal division steps', () => {
         ]
         const expected: Fraction[] = rawExpected.map(
             ([ numerator, denominator ]: [ number, number ]) =>
-                to.Fraction([ to.Numerator(numerator), to.Denominator(denominator) ]),
+                as.Fraction([ as.Numerator(numerator), as.Denominator(denominator) ]),
         )
 
         expect(actual)
@@ -52,9 +52,9 @@ describe('equal division steps', () => {
     it('can filter out the shared root and the tritone shared by every even equal division (also the multiples of 1/2)', () => {
         const specs: OmnizonkSpecs = {
             ...initialSpecs,
-            maxEqualDivision: to.Denominator(6),
-            maxFilteredEqualDivision: to.Denominator(2),
-            minEqualDivision: to.Denominator(3),
+            maxEqualDivision: as.Denominator(6),
+            maxFilteredEqualDivision: as.Denominator(2),
+            minEqualDivision: as.Denominator(3),
         }
 
         const actual: Fraction[] = computeEqualDivisionSteps(specs)
@@ -66,7 +66,7 @@ describe('equal division steps', () => {
         ]
         const expected: Fraction[] = rawExpected.map(
             ([ numerator, denominator ]: [ number, number ]) =>
-                to.Fraction([ to.Numerator(numerator), to.Denominator(denominator) ]),
+                as.Fraction([ as.Numerator(numerator), as.Denominator(denominator) ]),
         )
 
         expect(actual)
@@ -76,9 +76,9 @@ describe('equal division steps', () => {
     it('can filter out the shared root and the tritone shared by every even equal division and the major thirds shared by every multiple of 3 equal division (also the multiples of 1/3)', () => {
         const specs: OmnizonkSpecs = {
             ...initialSpecs,
-            maxEqualDivision: to.Denominator(6),
-            maxFilteredEqualDivision: to.Denominator(3),
-            minEqualDivision: to.Denominator(3),
+            maxEqualDivision: as.Denominator(6),
+            maxFilteredEqualDivision: as.Denominator(3),
+            minEqualDivision: as.Denominator(3),
         }
 
         const actual: Fraction[] = computeEqualDivisionSteps(specs)
@@ -89,7 +89,7 @@ describe('equal division steps', () => {
         ]
         const expected: Fraction[] = rawExpected.map(
             ([ numerator, denominator ]: [ number, number ]) =>
-                to.Fraction([ to.Numerator(numerator), to.Denominator(denominator) ]),
+                as.Fraction([ as.Numerator(numerator), as.Denominator(denominator) ]),
         )
 
         expect(actual)
