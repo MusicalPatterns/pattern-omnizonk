@@ -5,7 +5,7 @@ import {
     Denominator,
     Hz,
     MULTIPLICATIVE_IDENTITY,
-    NO_TRANSLATION,
+    NO_SHIFT,
     Scalar,
     Translation,
 } from '@musical-patterns/utilities'
@@ -18,7 +18,7 @@ const materializeScales: (specs: OmnizonkSpecs) => Array<Scale<any>> =
     (specs: OmnizonkSpecs): Array<Scale<any>> => {
         const equalDivisions: Denominator[] = computeEqualDivisions(specs)
         const scalar: Scalar<Hz> = specs[ StandardSpec.BASE_FREQUENCY ] || MULTIPLICATIVE_IDENTITY
-        const translation: Translation<Hz> = specs[ StandardSpec.BASE_FREQUENCY_TRANSLATION ] || NO_TRANSLATION
+        const translation: Translation<Hz> = specs[ StandardSpec.BASE_FREQUENCY_TRANSLATION ] || NO_SHIFT
 
         return equalDivisions.map((equalDivision: Denominator): Scale<Hz> => {
             const scalars: Array<Scalar<Hz>> = computeEqualDivisionScalars(equalDivision, specs.window)

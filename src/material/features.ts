@@ -8,8 +8,8 @@ const computeNote: (contourElement: ContourElement<PitchScale>) => Note =
             scalar: OMNIZONK_FOREVER,
         },
         pitch: {
-            index: as.Ordinal<Scalar>(pitch),
-            scaleIndex: as.Ordinal<Scale>(pitchScale),
+            index: as.Ordinal<Scalar[]>(pitch),
+            scaleIndex: as.Ordinal<Scale[]>(pitchScale),
         },
     })
 

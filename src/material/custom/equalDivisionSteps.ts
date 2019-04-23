@@ -14,7 +14,7 @@ import { filterEqualDivisionSteps } from './filterEqualDivisionSteps'
 
 const computeStepsForEqualDivision: (equalDivision: Denominator, specs: OmnizonkSpecs) => Fraction[] =
     (equalDivision: Denominator, specs: OmnizonkSpecs): Fraction[] =>
-        slice(ZERO_AND_POSITIVE_INTEGERS, INITIAL, as.Ordinal(notAs.Denominator(equalDivision)))
+        slice(ZERO_AND_POSITIVE_INTEGERS, INITIAL, as.Ordinal<Integer[]>(notAs.Denominator(equalDivision)))
             .map((equalDivisionStep: Integer): Fraction => [ as.Numerator(equalDivisionStep), equalDivision ])
             .filter((fraction: Fraction) => filterEqualDivisionSteps(fraction, specs))
 

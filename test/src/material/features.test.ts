@@ -18,12 +18,12 @@ describe('features', () => {
 
         it('picks the scale corresponding to its equal division', () => {
             expect(pitch.scaleIndex)
-                .toBe(as.Ordinal<Scale>(2))
+                .toBe(as.Ordinal<Scale[]>(2))
         })
 
         it('index is the step', () => {
             expect(pitch.index)
-                .toBe(as.Ordinal<Scalar>(4))
+                .toBe(as.Ordinal<Scalar[]>(4))
         })
     })
 
