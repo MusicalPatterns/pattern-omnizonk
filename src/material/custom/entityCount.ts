@@ -1,5 +1,5 @@
 import { Entity, Note, Section } from '@musical-patterns/material'
-import { Amplitude, as, isUndefined, reciprocal, use } from '@musical-patterns/utilities'
+import { as, Gain, isUndefined, reciprocal, use } from '@musical-patterns/utilities'
 import { OMNIZONK_GAIN_SCALAR_SCALAR } from './constants'
 
 const applyGainPerEntitiesCount: (entities: Entity[]) => Entity[] =
@@ -11,7 +11,7 @@ const applyGainPerEntitiesCount: (entities: Entity[]) => Entity[] =
                         section.notes.forEach((note: Note) => {
                             note.gain = {
                                 scalar: use.Scalar(
-                                    as.Scalar<Amplitude>(reciprocal(entities.length)),
+                                    as.Scalar<Gain>(reciprocal(entities.length)),
                                     OMNIZONK_GAIN_SCALAR_SCALAR,
                                 ),
                             }

@@ -1,5 +1,5 @@
 import { Entity, Note, NoteFeature } from '@musical-patterns/material'
-import { Amplitude, as, quotient, sum } from '@musical-patterns/utilities'
+import { as, Gain, quotient, sum } from '@musical-patterns/utilities'
 import { initialSpecs, materializeEntities, OmnizonkSpecs } from '../../../src/indexForTest'
 
 describe('entities', () => {
@@ -28,10 +28,10 @@ describe('entities', () => {
         const entity: Entity = entities[ 0 ]
         const notes: Note[] = entity.sections![ 0 ].notes!
         const note: Note = notes[ 0 ]
-        const gain: NoteFeature<Amplitude> = note.gain!
+        const gain: NoteFeature<Gain> = note.gain!
 
         expect(gain.scalar)
-            .toBe(as.Scalar<Amplitude>(0.01))
+            .toBe(as.Scalar<Gain>(0.01))
     })
 
     it('sets the gain of each entity proportional to the total count of entities', () => {
@@ -46,10 +46,10 @@ describe('entities', () => {
         entities.forEach((entity: Entity) => {
             const notes: Note[] = entity.sections![ 0 ].notes!
             const note: Note = notes[ 0 ]
-            const gain: NoteFeature<Amplitude> = note.gain!
+            const gain: NoteFeature<Gain> = note.gain!
 
             expect(gain.scalar)
-                .toBe(as.Scalar<Amplitude>(quotient(0.01, sum(5, 6, 7))))
+                .toBe(as.Scalar<Gain>(quotient(0.01, sum(5, 6, 7))))
         })
     })
 })
