@@ -1,18 +1,18 @@
 import { Preset, StandardSpec } from '@musical-patterns/spec'
 import { ObjectOf } from '@musical-patterns/utilities'
 import {
-    PEEPHOLE_BASE_FREQUENCY,
+    PEEPHOLE_BASIS_FREQUENCY,
     PEEPHOLE_PRESET_EQUAL_DIVISION,
     PEEPHOLE_WINDOW,
-    PORTAL_PRESET_BASE_FREQUENCY,
+    PORTAL_PRESET_BASIS_FREQUENCY,
     PORTAL_PRESET_MAX_EQUAL_DIVISION,
     PORTAL_PRESET_WINDOW,
     SCREEN_MAX_FILTERED_EQUAL_DIVISION,
     SCREEN_PRESET_MAX_EQUAL_DIVISION,
     SCREEN_PRESET_WINDOW,
-    WASH_PRESET_BASE_FREQUENCY,
+    WASH_PRESET_BASIS_FREQUENCY,
     WASH_PRESET_MAX_EQUAL_DIVISION,
-    WOBBLE_PRESET_BASE_FREQUENCY,
+    WOBBLE_PRESET_BASIS_FREQUENCY,
     WOBBLE_PRESET_EQUAL_DIVISION,
     WOBBLE_PRESET_WINDOW,
     ZONK_PRESET_EQUAL_DIVISION,
@@ -29,7 +29,7 @@ const presets: ObjectOf<Preset<OmnizonkSpecs>> = {
             maxEqualDivision: PEEPHOLE_PRESET_EQUAL_DIVISION,
             minEqualDivision: PEEPHOLE_PRESET_EQUAL_DIVISION,
             window: PEEPHOLE_WINDOW,
-            [ StandardSpec.BASE_FREQUENCY ]: PEEPHOLE_BASE_FREQUENCY,
+            [ StandardSpec.BASIS_FREQUENCY ]: PEEPHOLE_BASIS_FREQUENCY,
         },
     },
     portal: {
@@ -39,7 +39,7 @@ const presets: ObjectOf<Preset<OmnizonkSpecs>> = {
             ...initialSpecs,
             maxEqualDivision: PORTAL_PRESET_MAX_EQUAL_DIVISION,
             window: PORTAL_PRESET_WINDOW,
-            [ StandardSpec.BASE_FREQUENCY ]: PORTAL_PRESET_BASE_FREQUENCY,
+            [ StandardSpec.BASIS_FREQUENCY ]: PORTAL_PRESET_BASIS_FREQUENCY,
         },
     },
     screen: {
@@ -58,7 +58,7 @@ const presets: ObjectOf<Preset<OmnizonkSpecs>> = {
         specs: {
             ...initialSpecs,
             maxEqualDivision: WASH_PRESET_MAX_EQUAL_DIVISION,
-            [ StandardSpec.BASE_FREQUENCY ]: WASH_PRESET_BASE_FREQUENCY,
+            [ StandardSpec.BASIS_FREQUENCY ]: WASH_PRESET_BASIS_FREQUENCY,
         },
     },
     wobble: {
@@ -69,7 +69,7 @@ const presets: ObjectOf<Preset<OmnizonkSpecs>> = {
             maxEqualDivision: WOBBLE_PRESET_EQUAL_DIVISION,
             minEqualDivision: WOBBLE_PRESET_EQUAL_DIVISION,
             window: WOBBLE_PRESET_WINDOW,
-            [ StandardSpec.BASE_FREQUENCY ]: WOBBLE_PRESET_BASE_FREQUENCY,
+            [ StandardSpec.BASIS_FREQUENCY ]: WOBBLE_PRESET_BASIS_FREQUENCY,
         },
     },
     zonk: {

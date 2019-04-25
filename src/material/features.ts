@@ -1,5 +1,5 @@
 import { Note, PitchScale, Scale } from '@musical-patterns/material'
-import { as, ContourElement, Scalar } from '@musical-patterns/utilities'
+import { as, ContourElement, Pitch, Scalar } from '@musical-patterns/utilities'
 import { OMNIZONK_FOREVER } from './constants'
 
 const computeNote: (contourElement: ContourElement<PitchScale>) => Note =
@@ -8,8 +8,8 @@ const computeNote: (contourElement: ContourElement<PitchScale>) => Note =
             scalar: OMNIZONK_FOREVER,
         },
         pitch: {
-            index: as.Ordinal<Scalar[]>(pitch),
-            scaleIndex: as.Ordinal<Scale[]>(pitchScale),
+            index: as.Ordinal<Array<Scalar<Pitch>>>(pitch),
+            scaleIndex: as.Ordinal<Array<Scale<Pitch>>>(pitchScale),
         },
     })
 

@@ -1,5 +1,5 @@
 import { Note, NoteFeature, Scale } from '@musical-patterns/material'
-import { as, Denominator, Fraction, Scalar } from '@musical-patterns/utilities'
+import { as, Denominator, Duration, Fraction, Pitch, Scalar } from '@musical-patterns/utilities'
 import { computeContourElement, computeNote } from '../../../src/indexForTest'
 
 describe('features', () => {
@@ -11,24 +11,24 @@ describe('features', () => {
     })
 
     describe('pitch', () => {
-        let pitch: NoteFeature
+        let pitch: NoteFeature<Pitch>
         beforeEach(() => {
             pitch = note.pitch!
         })
 
         it('picks the scale corresponding to its equal division', () => {
             expect(pitch.scaleIndex)
-                .toBe(as.Ordinal<Scale[]>(2))
+                .toBe(as.Ordinal<Array<Scale<Pitch>>>(2))
         })
 
         it('index is the step', () => {
             expect(pitch.index)
-                .toBe(as.Ordinal<Scalar[]>(4))
+                .toBe(as.Ordinal<Array<Scalar<Pitch>>>(4))
         })
     })
 
     describe('duration', () => {
-        let duration: NoteFeature
+        let duration: NoteFeature<Duration>
         beforeEach(() => {
             duration = note.duration!
         })

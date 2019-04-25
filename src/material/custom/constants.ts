@@ -1,9 +1,9 @@
 // tslint:disable no-magic-numbers
 
-import { as, Scalar } from '@musical-patterns/utilities'
+import { Amplitude, as, Scalar } from '@musical-patterns/utilities'
 
-const OMNIZONK_BASE_GAIN: Scalar<Scalar> = as.Scalar<Scalar>(0.01)
+const OMNIZONK_GAIN_SCALAR_SCALAR: Scalar<Scalar<Amplitude>> = as.Scalar<Scalar<Amplitude>>(0.01)
 
 export {
-    OMNIZONK_BASE_GAIN,
+    OMNIZONK_GAIN_SCALAR_SCALAR,
 }

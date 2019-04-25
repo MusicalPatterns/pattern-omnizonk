@@ -1,11 +1,12 @@
 import { Scale } from '@musical-patterns/material'
 import { StandardSpec } from '@musical-patterns/spec'
 import {
-    computeEqualDivisionScalars,
+    as,
+    computeEqualDivisionPitchScalars,
     Denominator,
     Hz,
-    MULTIPLICATIVE_IDENTITY,
     NO_SHIFT,
+    Pitch,
     Scalar,
     Translation,
 } from '@musical-patterns/utilities'
@@ -17,13 +18,13 @@ const materializeScales: (specs: OmnizonkSpecs) => Array<Scale<any>> =
     // tslint:disable-next-line no-any
     (specs: OmnizonkSpecs): Array<Scale<any>> => {
         const equalDivisions: Denominator[] = computeEqualDivisions(specs)
-        const scalar: Scalar<Hz> = specs[ StandardSpec.BASE_FREQUENCY ] || MULTIPLICATIVE_IDENTITY
-        const translation: Translation<Hz> = specs[ StandardSpec.BASE_FREQUENCY_TRANSLATION ] || NO_SHIFT
+        const basis: Pitch = specs[ StandardSpec.BASIS_FREQUENCY ] || as.Point<Hz>(1)
+        const translation: Translation<Pitch> = specs[ StandardSpec.BASIS_FREQUENCY_TRANSLATION ] || NO_SHIFT
 
-        return equalDivisions.map((equalDivision: Denominator): Scale<Hz> => {
-            const scalars: Array<Scalar<Hz>> = computeEqualDivisionScalars(equalDivision, specs.window)
+        return equalDivisions.map((equalDivision: Denominator) => {
+            const scalars: Array<Scalar<Pitch>> = computeEqualDivisionPitchScalars(equalDivision, specs.window)
 
-            return { scalar, scalars, translation }
+            return { basis, scalars, translation }
         })
     }
 
