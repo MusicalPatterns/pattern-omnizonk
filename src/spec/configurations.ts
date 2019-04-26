@@ -1,5 +1,5 @@
 import { InputType, standardConfigurations } from '@musical-patterns/spec'
-import { notAs, Units } from '@musical-patterns/utilities'
+import { as, Units } from '@musical-patterns/utilities'
 import { MAXIMUM_MAX_EQUAL_DIVISION_BEFORE_OMNIZONK_CRASHES } from './constants'
 import { OmnizonkConfigurations } from './types'
 
@@ -8,7 +8,7 @@ const configurations: OmnizonkConfigurations = {
     maxEqualDivision: {
         constraint: {
             integer: true,
-            max: notAs.Denominator(MAXIMUM_MAX_EQUAL_DIVISION_BEFORE_OMNIZONK_CRASHES),
+            max: as.number(MAXIMUM_MAX_EQUAL_DIVISION_BEFORE_OMNIZONK_CRASHES),
             min: 1,
         },
         description: 'the maximum count of equally-sized pitch intervals the window will be divided into',
