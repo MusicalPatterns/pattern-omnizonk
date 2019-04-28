@@ -1,20 +1,11 @@
-import {
-    as,
-    Denominator,
-    Fraction,
-    INITIAL,
-    Integer,
-
-    slice,
-    ZERO_AND_POSITIVE_INTEGERS,
-} from '@musical-patterns/utilities'
+import { as, Denominator, Fraction, Integer, range } from '@musical-patterns/utilities'
 import { OmnizonkSpecs } from '../../spec'
 import { computeEqualDivisions } from './equalDivisions'
 import { filterEqualDivisionSteps } from './filterEqualDivisionSteps'
 
 const computeStepsForEqualDivision: (equalDivision: Denominator, specs: OmnizonkSpecs) => Fraction[] =
     (equalDivision: Denominator, specs: OmnizonkSpecs): Fraction[] =>
-        slice(ZERO_AND_POSITIVE_INTEGERS, INITIAL, as.Ordinal<Integer[]>(as.number(equalDivision)))
+        range(equalDivision)
             .map((equalDivisionStep: Integer): Fraction => [ as.Numerator(equalDivisionStep), equalDivision ])
             .filter((fraction: Fraction) => filterEqualDivisionSteps(fraction, specs))
 

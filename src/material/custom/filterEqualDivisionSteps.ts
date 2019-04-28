@@ -1,13 +1,4 @@
-import {
-    as,
-    computeLowestTerms,
-    Denominator,
-    Fraction,
-    INITIAL,
-
-    POSITIVE_INTEGERS,
-    slice,
-} from '@musical-patterns/utilities'
+import { as, computeLowestTerms, Denominator, Fraction, INCREMENT, ONE, range, use } from '@musical-patterns/utilities'
 import { OmnizonkSpecs } from '../../spec'
 
 const filterEqualDivisionSteps: (fraction: Fraction, specs: OmnizonkSpecs) => boolean =
@@ -15,7 +6,7 @@ const filterEqualDivisionSteps: (fraction: Fraction, specs: OmnizonkSpecs) => bo
         let pass: boolean = true
 
         const filteredEqualDivisions: Denominator[] =
-            slice(POSITIVE_INTEGERS, INITIAL, as.Ordinal(as.number(specs.maxFilteredEqualDivision)))
+            range(ONE, use.Cardinal(specs.maxFilteredEqualDivision, INCREMENT))
                 .map(as.Denominator)
 
         filteredEqualDivisions.forEach((filteredEqualDivision: Denominator) => {

@@ -1,11 +1,11 @@
-import { as, Denominator, INCREMENT,  use, ZERO_AND_POSITIVE_INTEGERS } from '@musical-patterns/utilities'
+import { as, Denominator, INCREMENT, range, use } from '@musical-patterns/utilities'
 import { OmnizonkSpecs } from '../../spec'
 
 const computeEqualDivisions: (specs: OmnizonkSpecs) => Denominator[] =
     ({ maxEqualDivision, minEqualDivision }: OmnizonkSpecs): Denominator[] =>
-        ZERO_AND_POSITIVE_INTEGERS.slice(
-            as.number(minEqualDivision),
-            use.Cardinal(as.number(maxEqualDivision), INCREMENT),
+        range(
+            minEqualDivision,
+            use.Cardinal(maxEqualDivision, INCREMENT),
         )
             .map(as.Denominator)
 
