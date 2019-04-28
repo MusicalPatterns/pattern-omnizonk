@@ -22,7 +22,7 @@ const materializeScales: (specs: OmnizonkSpecs) => Array<Scale<any>> =
         const translation: Translation<Pitch> = specs[ StandardSpec.BASIS_FREQUENCY_TRANSLATION ] || NO_SHIFT
 
         return equalDivisions.map((equalDivision: Denominator) => {
-            const scalars: Array<Scalar<Pitch>> = computeEqualDivisionPitchScalars(equalDivision, specs.window)
+            const scalars: Array<Scalar<Pitch>> = computeEqualDivisionPitchScalars(equalDivision, specs.period)
 
             return { basis, scalars, translation }
         })

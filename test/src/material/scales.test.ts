@@ -4,13 +4,13 @@ import { initialSpecs, materializeScales, OmnizonkSpecs } from '../../../src/ind
 
 describe('scales', () => {
     let scales: Scale[]
-    const window: Logarithm<Frequency> = as.Logarithm<Frequency>(3)
+    const period: Logarithm<Frequency> = as.Logarithm<Frequency>(3)
     beforeEach(() => {
         const specs: OmnizonkSpecs = {
             ...initialSpecs,
             maxEqualDivision: as.Denominator(7),
             minEqualDivision: as.Denominator(5),
-            window,
+            period,
         }
         scales = materializeScales(specs)
     })
@@ -46,15 +46,15 @@ describe('scales', () => {
         const scalars: Maybe<Scalar[]> = scales[ 0 ].scalars
         if (scalars) {
             expect(scalars[ 0 ])
-                .toBeCloseToTyped(as.Scalar(as.number(use.Exponent(window, as.Exponent<Logarithm<Frequency>>(0 / 5)))))
+                .toBeCloseToTyped(as.Scalar(as.number(use.Exponent(period, as.Exponent<Logarithm<Frequency>>(0 / 5)))))
             expect(scalars[ 1 ])
-                .toBeCloseToTyped(as.Scalar(as.number(use.Exponent(window, as.Exponent<Logarithm<Frequency>>(1 / 5)))))
+                .toBeCloseToTyped(as.Scalar(as.number(use.Exponent(period, as.Exponent<Logarithm<Frequency>>(1 / 5)))))
             expect(scalars[ 2 ])
-                .toBeCloseToTyped(as.Scalar(as.number(use.Exponent(window, as.Exponent<Logarithm<Frequency>>(2 / 5)))))
+                .toBeCloseToTyped(as.Scalar(as.number(use.Exponent(period, as.Exponent<Logarithm<Frequency>>(2 / 5)))))
             expect(scalars[ 3 ])
-                .toBeCloseToTyped(as.Scalar(as.number(use.Exponent(window, as.Exponent<Logarithm<Frequency>>(3 / 5)))))
+                .toBeCloseToTyped(as.Scalar(as.number(use.Exponent(period, as.Exponent<Logarithm<Frequency>>(3 / 5)))))
             expect(scalars[ 4 ])
-                .toBeCloseToTyped(as.Scalar(as.number(use.Exponent(window, as.Exponent<Logarithm<Frequency>>(4 / 5)))))
+                .toBeCloseToTyped(as.Scalar(as.number(use.Exponent(period, as.Exponent<Logarithm<Frequency>>(4 / 5)))))
         }
         else {
             fail('scale is missing its scalars')

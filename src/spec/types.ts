@@ -5,14 +5,14 @@ interface OmnizonkSpecs extends StandardSpecs {
     maxEqualDivision: Denominator,
     maxFilteredEqualDivision: Denominator,
     minEqualDivision: Denominator,
-    window: Logarithm<Frequency>,
+    period: Logarithm<Frequency>,
 }
 
 interface OmnizonkConfigurations extends Configurations<OmnizonkSpecs> {
     maxEqualDivision: RangedConfiguration,
     maxFilteredEqualDivision: RangedConfiguration,
     minEqualDivision: RangedConfiguration,
-    window: RangedConfiguration,
+    period: RangedConfiguration,
 }
 
 export {

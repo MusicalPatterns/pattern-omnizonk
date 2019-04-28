@@ -11,7 +11,7 @@ const configurations: OmnizonkConfigurations = {
             max: as.number(MAXIMUM_MAX_EQUAL_DIVISION_BEFORE_OMNIZONK_CRASHES),
             min: 1,
         },
-        description: 'the maximum count of equally-sized pitch intervals the window will be divided into',
+        description: 'the maximum count of equally-sized pitch intervals the period will be divided into',
         formattedName: 'maximum equal division',
         inputType: InputType.RANGED,
         order: 2,
@@ -33,13 +33,13 @@ const configurations: OmnizonkConfigurations = {
             integer: true,
             min: 1,
         },
-        description: 'the minimum count of equally-sized pitch intervals the window will be divided into',
+        description: 'the minimum count of equally-sized pitch intervals the period will be divided into',
         formattedName: 'minimum equal division',
         inputType: InputType.RANGED,
         order: 1,
         units: Units.EQUAL_DIVISION,
     },
-    window: {
+    period: {
         constraint: {
             excludeMin: true,
             min: 1,

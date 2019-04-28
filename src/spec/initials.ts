@@ -4,7 +4,7 @@ import {
     OMNIZONK_INITIAL_MAX_EQUAL_DIVISION,
     OMNIZONK_INITIAL_MAX_FILTERED_EQUAL_DIVISION,
     OMNIZONK_INITIAL_MIN_EQUAL_DIVISION,
-    OMNIZONK_INITIAL_WINDOW,
+    OMNIZONK_INITIAL_PERIOD,
 } from './constants'
 import { OmnizonkSpecs } from './types'
 
@@ -13,7 +13,7 @@ const initialSpecs: OmnizonkSpecs = {
     maxEqualDivision: OMNIZONK_INITIAL_MAX_EQUAL_DIVISION,
     maxFilteredEqualDivision: OMNIZONK_INITIAL_MAX_FILTERED_EQUAL_DIVISION,
     minEqualDivision: OMNIZONK_INITIAL_MIN_EQUAL_DIVISION,
-    window: OMNIZONK_INITIAL_WINDOW,
+    period: OMNIZONK_INITIAL_PERIOD,
 }
 
 export {
