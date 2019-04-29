@@ -1,4 +1,4 @@
-import { Entity, Note, NoteFeature } from '@musical-patterns/material'
+import { Entity, Feature, Note } from '@musical-patterns/material'
 import { as, Gain, quotient, sum } from '@musical-patterns/utilities'
 import { initialSpecs, materializeEntities, OmnizonkSpecs } from '../../../src/indexForTest'
 
@@ -28,7 +28,7 @@ describe('entities', () => {
         const entity: Entity = entities[ 0 ]
         const notes: Note[] = entity.sections![ 0 ].notes!
         const note: Note = notes[ 0 ]
-        const gain: NoteFeature<Gain> = note.gain!
+        const gain: Feature<Gain> = note.gain!
 
         expect(gain.scalar)
             .toBe(as.Scalar<Gain>(0.01))
@@ -46,7 +46,7 @@ describe('entities', () => {
         entities.forEach((entity: Entity) => {
             const notes: Note[] = entity.sections![ 0 ].notes!
             const note: Note = notes[ 0 ]
-            const gain: NoteFeature<Gain> = note.gain!
+            const gain: Feature<Gain> = note.gain!
 
             expect(gain.scalar)
                 .toBe(as.Scalar<Gain>(quotient(0.01, sum(5, 6, 7))))

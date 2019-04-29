@@ -1,4 +1,4 @@
-import { Note, NoteFeature, Scale } from '@musical-patterns/material'
+import { Feature, Note, Scale } from '@musical-patterns/material'
 import { as, Denominator, Duration, Fraction, Pitch, Scalar } from '@musical-patterns/utilities'
 import { computeContourElement, computeNote } from '../../../src/indexForTest'
 
@@ -11,7 +11,7 @@ describe('features', () => {
     })
 
     describe('pitch', () => {
-        let pitch: NoteFeature<Pitch>
+        let pitch: Feature<Pitch>
         beforeEach(() => {
             pitch = note.pitch!
         })
@@ -28,7 +28,7 @@ describe('features', () => {
     })
 
     describe('duration', () => {
-        let duration: NoteFeature<Duration>
+        let duration: Feature<Duration>
         beforeEach(() => {
             duration = note.duration!
         })

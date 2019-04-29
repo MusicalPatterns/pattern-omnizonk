@@ -4,8 +4,8 @@ import {
     as,
     Denominator,
     Frequency,
-    Hz,
     Logarithm,
+    musicalAs,
     OCTAVE,
     Pitch,
     SCIENTIFIC_PITCHES,
@@ -24,24 +24,24 @@ const OMNIZONK_INITIAL_BASIS_FREQUENCY: Pitch =
 const MAXIMUM_MAX_EQUAL_DIVISION_BEFORE_OMNIZONK_CRASHES: Denominator = as.Denominator(67)
 
 const WASH_PRESET_MAX_EQUAL_DIVISION: Denominator = as.Denominator(35)
-const WASH_PRESET_BASIS_FREQUENCY: Pitch = as.Point<Hz>(140)
+const WASH_PRESET_BASIS_FREQUENCY: Pitch = musicalAs.Pitch(140)
 
 const ZONK_PRESET_EQUAL_DIVISION: Denominator = as.Denominator(12)
 
 const PEEPHOLE_PRESET_EQUAL_DIVISION: Denominator = MAXIMUM_MAX_EQUAL_DIVISION_BEFORE_OMNIZONK_CRASHES
 const PEEPHOLE_PERIOD: Logarithm<Frequency> = as.Logarithm<Frequency>(1.01492537313)
-const PEEPHOLE_BASIS_FREQUENCY: Pitch = as.Point<Hz>(1111)
+const PEEPHOLE_BASIS_FREQUENCY: Pitch = musicalAs.Pitch(1111)
 
 const SCREEN_PRESET_MAX_EQUAL_DIVISION: Denominator = as.Denominator(15)
 const SCREEN_MAX_FILTERED_EQUAL_DIVISION: Denominator = as.Denominator(13)
 const SCREEN_PRESET_PERIOD: Logarithm<Frequency> = as.Logarithm<Frequency>(2.8)
 
-const PORTAL_PRESET_BASIS_FREQUENCY: Pitch = as.Point<Hz>(208)
+const PORTAL_PRESET_BASIS_FREQUENCY: Pitch = musicalAs.Pitch(208)
 const PORTAL_PRESET_MAX_EQUAL_DIVISION: Denominator = as.Denominator(26)
 const PORTAL_PRESET_PERIOD: Logarithm<Frequency> = as.Logarithm<Frequency>(52)
 
 const WOBBLE_PRESET_EQUAL_DIVISION: Denominator = as.Denominator(9)
-const WOBBLE_PRESET_BASIS_FREQUENCY: Pitch = as.Point<Hz>(133)
+const WOBBLE_PRESET_BASIS_FREQUENCY: Pitch = musicalAs.Pitch(133)
 const WOBBLE_PRESET_PERIOD: Logarithm<Frequency> = as.Logarithm<Frequency>(1.33)
 
 export {
