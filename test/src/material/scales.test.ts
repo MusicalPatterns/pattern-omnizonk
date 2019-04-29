@@ -1,5 +1,5 @@
 import { Scale } from '@musical-patterns/material'
-import { as, Frequency, Logarithm, Maybe,  Scalar, use } from '@musical-patterns/utilities'
+import { as, Frequency, Logarithm, Maybe, pow, Scalar, use } from '@musical-patterns/utilities'
 import { initialSpecs, materializeScales, OmnizonkSpecs } from '../../../src/indexForTest'
 
 describe('scales', () => {
@@ -46,15 +46,15 @@ describe('scales', () => {
         const scalars: Maybe<Scalar[]> = scales[ 0 ].scalars
         if (scalars) {
             expect(scalars[ 0 ])
-                .toBeCloseToTyped(as.Scalar(as.number(use.Exponent(period, as.Exponent<Logarithm<Frequency>>(0 / 5)))))
+                .toBeCloseToTyped(as.Scalar(as.number(pow(period, as.Exponent<Frequency>(0 / 5)))))
             expect(scalars[ 1 ])
-                .toBeCloseToTyped(as.Scalar(as.number(use.Exponent(period, as.Exponent<Logarithm<Frequency>>(1 / 5)))))
+                .toBeCloseToTyped(as.Scalar(as.number(pow(period, as.Exponent<Frequency>(1 / 5)))))
             expect(scalars[ 2 ])
-                .toBeCloseToTyped(as.Scalar(as.number(use.Exponent(period, as.Exponent<Logarithm<Frequency>>(2 / 5)))))
+                .toBeCloseToTyped(as.Scalar(as.number(pow(period, as.Exponent<Frequency>(2 / 5)))))
             expect(scalars[ 3 ])
-                .toBeCloseToTyped(as.Scalar(as.number(use.Exponent(period, as.Exponent<Logarithm<Frequency>>(3 / 5)))))
+                .toBeCloseToTyped(as.Scalar(as.number(pow(period, as.Exponent<Frequency>(3 / 5)))))
             expect(scalars[ 4 ])
-                .toBeCloseToTyped(as.Scalar(as.number(use.Exponent(period, as.Exponent<Logarithm<Frequency>>(4 / 5)))))
+                .toBeCloseToTyped(as.Scalar(as.number(pow(period, as.Exponent<Frequency>(4 / 5)))))
         }
         else {
             fail('scale is missing its scalars')
