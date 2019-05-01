@@ -8,8 +8,8 @@
         {
           "duration": 1329867,
           "gain": 0.14778,
-          "frequency": 133,
-          "position": [
+          "tone": 133,
+          "location": [
             0,
             0,
             0
@@ -29,8 +29,8 @@
         {
           "duration": 1329867,
           "gain": 0.14778,
-          "frequency": 137.28179,
-          "position": [
+          "tone": 137.28179,
+          "location": [
             0,
             0,
             0
@@ -50,8 +50,8 @@
         {
           "duration": 1329867,
           "gain": 0.14778,
-          "frequency": 141.70143,
-          "position": [
+          "tone": 141.70143,
+          "location": [
             0,
             0,
             0
@@ -71,8 +71,8 @@
         {
           "duration": 1329867,
           "gain": 0.14778,
-          "frequency": 146.26335,
-          "position": [
+          "tone": 146.26335,
+          "location": [
             0,
             0,
             0
@@ -92,8 +92,8 @@
         {
           "duration": 1329867,
           "gain": 0.14778,
-          "frequency": 150.97214,
-          "position": [
+          "tone": 150.97214,
+          "location": [
             0,
             0,
             0
@@ -113,8 +113,8 @@
         {
           "duration": 1329867,
           "gain": 0.14778,
-          "frequency": 155.83253,
-          "position": [
+          "tone": 155.83253,
+          "location": [
             0,
             0,
             0
@@ -134,8 +134,8 @@
         {
           "duration": 1329867,
           "gain": 0.14778,
-          "frequency": 160.84938,
-          "position": [
+          "tone": 160.84938,
+          "location": [
             0,
             0,
             0
@@ -155,8 +155,8 @@
         {
           "duration": 1329867,
           "gain": 0.14778,
-          "frequency": 166.02775,
-          "position": [
+          "tone": 166.02775,
+          "location": [
             0,
             0,
             0
@@ -176,8 +176,8 @@
         {
           "duration": 1329867,
           "gain": 0.14778,
-          "frequency": 171.37284,
-          "position": [
+          "tone": 171.37284,
+          "location": [
             0,
             0,
             0

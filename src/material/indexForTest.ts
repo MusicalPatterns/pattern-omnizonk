@@ -7,5 +7,5 @@ export { computeContourElement } from './contours'
 export {
     computeEqualDivisions,
     computeEqualDivisionSteps,
-    applyGainPerEntitiesCount,
+    applyIntensityPerEntitiesCount,
 } from './custom/indexForTest'

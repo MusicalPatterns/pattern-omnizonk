@@ -2,7 +2,7 @@ import { Entity } from '@musical-patterns/material'
 import { Fraction } from '@musical-patterns/utilities'
 import { OmnizonkSpecs } from '../spec'
 import { computeContourElement } from './contours'
-import { applyGainPerEntitiesCount, computeEqualDivisionSteps } from './custom'
+import { applyIntensityPerEntitiesCount, computeEqualDivisionSteps } from './custom'
 import { computeNote } from './features'
 
 const computeEntityForEqualDivisionStep: (fraction: Fraction, specs: OmnizonkSpecs) => Entity =
@@ -29,7 +29,7 @@ const materializeEntities: (specs: OmnizonkSpecs) => Entity[] =
             computeEntityForEqualDivisionStep(fraction, specs),
         )
 
-        return applyGainPerEntitiesCount(entities)
+        return applyIntensityPerEntitiesCount(entities)
     }
 
 export {

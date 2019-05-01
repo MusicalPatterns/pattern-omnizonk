@@ -1,5 +1,5 @@
 import { Scale } from '@musical-patterns/material'
-import { as, Frequency, Logarithm, Maybe, pow, Scalar, use } from '@musical-patterns/utilities'
+import { as, Frequency, Logarithm, Maybe, pow, Scalar } from '@musical-patterns/utilities'
 import { initialSpecs, materializeScales, OmnizonkSpecs } from '../../../src/indexForTest'
 
 describe('scales', () => {

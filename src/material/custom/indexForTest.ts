@@ -2,4 +2,4 @@
 
 export { computeEqualDivisions } from './equalDivisions'
 export { computeEqualDivisionSteps } from './equalDivisionSteps'
-export { applyGainPerEntitiesCount } from './entityCount'
+export { applyIntensityPerEntitiesCount } from './entityCount'

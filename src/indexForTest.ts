@@ -6,7 +6,7 @@ export {
     computeNote,
     computeEqualDivisions,
     computeEqualDivisionSteps,
-    applyGainPerEntitiesCount,
+    applyIntensityPerEntitiesCount,
     computeContourElement,
 } from './material/indexForTest'
 export {

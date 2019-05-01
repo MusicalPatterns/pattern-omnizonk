@@ -1,19 +1,19 @@
 import { Preset, StandardSpec } from '@musical-patterns/spec'
 import { ObjectOf } from '@musical-patterns/utilities'
 import {
-    PEEPHOLE_BASIS_FREQUENCY,
+    PEEPHOLE_HZ_PHYSICALIZATION,
     PEEPHOLE_PERIOD,
     PEEPHOLE_PRESET_EQUAL_DIVISION,
-    PORTAL_PRESET_BASIS_FREQUENCY,
+    PORTAL_PRESET_HZ_PHYSICALIZATION,
     PORTAL_PRESET_MAX_EQUAL_DIVISION,
     PORTAL_PRESET_PERIOD,
     SCREEN_MAX_FILTERED_EQUAL_DIVISION,
     SCREEN_PRESET_MAX_EQUAL_DIVISION,
     SCREEN_PRESET_PERIOD,
-    WASH_PRESET_BASIS_FREQUENCY,
+    WASH_PRESET_HZ_PHYSICALIZATION,
     WASH_PRESET_MAX_EQUAL_DIVISION,
-    WOBBLE_PRESET_BASIS_FREQUENCY,
     WOBBLE_PRESET_EQUAL_DIVISION,
+    WOBBLE_PRESET_HZ_PHYSICALIZATION,
     WOBBLE_PRESET_PERIOD,
     ZONK_PRESET_EQUAL_DIVISION,
 } from './constants'
@@ -29,7 +29,7 @@ const presets: ObjectOf<Preset<OmnizonkSpecs>> = {
             maxEqualDivision: PEEPHOLE_PRESET_EQUAL_DIVISION,
             minEqualDivision: PEEPHOLE_PRESET_EQUAL_DIVISION,
             period: PEEPHOLE_PERIOD,
-            [ StandardSpec.BASIS_FREQUENCY ]: PEEPHOLE_BASIS_FREQUENCY,
+            [ StandardSpec.HZ_PHYSICALIZATION ]: PEEPHOLE_HZ_PHYSICALIZATION,
         },
     },
     portal: {
@@ -39,7 +39,7 @@ const presets: ObjectOf<Preset<OmnizonkSpecs>> = {
             ...initialSpecs,
             maxEqualDivision: PORTAL_PRESET_MAX_EQUAL_DIVISION,
             period: PORTAL_PRESET_PERIOD,
-            [ StandardSpec.BASIS_FREQUENCY ]: PORTAL_PRESET_BASIS_FREQUENCY,
+            [ StandardSpec.HZ_PHYSICALIZATION ]: PORTAL_PRESET_HZ_PHYSICALIZATION,
         },
     },
     screen: {
@@ -58,7 +58,7 @@ const presets: ObjectOf<Preset<OmnizonkSpecs>> = {
         specs: {
             ...initialSpecs,
             maxEqualDivision: WASH_PRESET_MAX_EQUAL_DIVISION,
-            [ StandardSpec.BASIS_FREQUENCY ]: WASH_PRESET_BASIS_FREQUENCY,
+            [ StandardSpec.HZ_PHYSICALIZATION ]: WASH_PRESET_HZ_PHYSICALIZATION,
         },
     },
     wobble: {
@@ -69,7 +69,7 @@ const presets: ObjectOf<Preset<OmnizonkSpecs>> = {
             maxEqualDivision: WOBBLE_PRESET_EQUAL_DIVISION,
             minEqualDivision: WOBBLE_PRESET_EQUAL_DIVISION,
             period: WOBBLE_PRESET_PERIOD,
-            [ StandardSpec.BASIS_FREQUENCY ]: WOBBLE_PRESET_BASIS_FREQUENCY,
+            [ StandardSpec.HZ_PHYSICALIZATION ]: WOBBLE_PRESET_HZ_PHYSICALIZATION,
         },
     },
     zonk: {

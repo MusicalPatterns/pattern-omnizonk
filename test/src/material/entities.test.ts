@@ -1,5 +1,5 @@
 import { Entity, Feature, Note } from '@musical-patterns/material'
-import { as, Gain, quotient, sum } from '@musical-patterns/utilities'
+import { as, Intensity, quotient, sum } from '@musical-patterns/utilities'
 import { initialSpecs, materializeEntities, OmnizonkSpecs } from '../../../src/indexForTest'
 
 describe('entities', () => {
@@ -16,7 +16,7 @@ describe('entities', () => {
             .toBe(sum(5, 6, 7))
     })
 
-    it('if there is only a single entity, it has the max gain possible', () => {
+    it('if there is only a single entity, it has the max intensity possible', () => {
         const specs: OmnizonkSpecs = {
             ...initialSpecs,
             maxEqualDivision: as.Denominator(1),
@@ -28,13 +28,13 @@ describe('entities', () => {
         const entity: Entity = entities[ 0 ]
         const notes: Note[] = entity.sections![ 0 ].notes!
         const note: Note = notes[ 0 ]
-        const gain: Feature<Gain> = note.gain!
+        const intensity: Feature<Intensity> = note.intensity!
 
-        expect(gain.scalar)
-            .toBe(as.Scalar<Gain>(0.01))
+        expect(intensity.scalar)
+            .toBe(as.Scalar<Intensity>(0.01))
     })
 
-    it('sets the gain of each entity proportional to the total count of entities', () => {
+    it('sets the intensity of each entity proportional to the total count of entities', () => {
         const specs: OmnizonkSpecs = {
             ...initialSpecs,
             maxEqualDivision: as.Denominator(7),
@@ -46,10 +46,10 @@ describe('entities', () => {
         entities.forEach((entity: Entity) => {
             const notes: Note[] = entity.sections![ 0 ].notes!
             const note: Note = notes[ 0 ]
-            const gain: Feature<Gain> = note.gain!
+            const intensity: Feature<Intensity> = note.intensity!
 
-            expect(gain.scalar)
-                .toBe(as.Scalar<Gain>(quotient(0.01, sum(5, 6, 7))))
+            expect(intensity.scalar)
+                .toBe(as.Scalar<Intensity>(quotient(0.01, sum(5, 6, 7))))
         })
     })
 })

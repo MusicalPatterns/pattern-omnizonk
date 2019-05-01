@@ -1,5 +1,5 @@
 import { Feature, Note, Scale } from '@musical-patterns/material'
-import { as, Denominator, Duration, Fraction, Pitch, Scalar } from '@musical-patterns/utilities'
+import { as, Denominator, Fraction, Pitch, Scalar, Value } from '@musical-patterns/utilities'
 import { computeContourElement, computeNote } from '../../../src/indexForTest'
 
 describe('features', () => {
@@ -27,14 +27,14 @@ describe('features', () => {
         })
     })
 
-    describe('duration', () => {
-        let duration: Feature<Duration>
+    describe('value', () => {
+        let value: Feature<Value>
         beforeEach(() => {
-            duration = note.duration!
+            value = note.value!
         })
 
-        it('has a really really long duration, because this pattern is essentially just holding a single tone cluster forever', () => {
-            expect(duration.scalar!)
+        it('has a really really long value, because this pattern is essentially just holding a single tone cluster forever', () => {
+            expect(value.scalar!)
                 .toBeGreaterThanOrEqualTyped(as.Scalar(9999))
         })
     })

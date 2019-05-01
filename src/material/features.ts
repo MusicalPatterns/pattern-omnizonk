@@ -4,12 +4,12 @@ import { OMNIZONK_FOREVER } from './constants'
 
 const computeNote: (contourElement: ContourElement<PitchScale>) => Note =
     ([ pitch, pitchScale ]: ContourElement<PitchScale>): Note => ({
-        duration: {
-            scalar: OMNIZONK_FOREVER,
-        },
         pitch: {
             index: as.Ordinal<Array<Scalar<Pitch>>>(pitch),
             scaleIndex: as.Ordinal<Array<Scale<Pitch>>>(pitchScale),
+        },
+        value: {
+            scalar: OMNIZONK_FOREVER,
         },
     })
 

@@ -7,6 +7,7 @@ import {
     NO_SHIFT,
     Pitch,
     Scalar,
+    Tone,
     Translation,
 } from '@musical-patterns/utilities'
 import { OmnizonkSpecs } from '../spec'
@@ -17,8 +18,8 @@ const materializeScales: (specs: OmnizonkSpecs) => Array<Scale<any>> =
     // tslint:disable-next-line no-any
     (specs: OmnizonkSpecs): Array<Scale<any>> => {
         const equalDivisions: Denominator[] = computeEqualDivisions(specs)
-        const basis: Pitch = specs[ StandardSpec.BASIS_FREQUENCY ] || musicalAs.Pitch(1)
-        const translation: Translation<Pitch> = specs[ StandardSpec.BASIS_FREQUENCY_TRANSLATION ] || NO_SHIFT
+        const basis: Tone = specs[ StandardSpec.HZ_PHYSICALIZATION ] || musicalAs.Tone(1)
+        const translation: Translation<Tone> = specs[ StandardSpec.HZ_PHYSICALIZATION_TRANSLATION ] || NO_SHIFT
 
         return equalDivisions.map((equalDivision: Denominator) => {
             const scalars: Array<Scalar<Pitch>> = computeEqualDivisionPitchScalars(equalDivision, specs.period)
