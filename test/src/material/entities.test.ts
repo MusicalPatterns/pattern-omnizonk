@@ -31,7 +31,7 @@ describe('entities', () => {
         const intensity: Feature<Intensity> = note.intensity!
 
         expect(intensity.scalar)
-            .toBe(as.Scalar<Intensity>(0.01))
+            .toBe(as.Scalar<Intensity>(5))
     })
 
     it('sets the intensity of each entity proportional to the total count of entities', () => {
@@ -49,7 +49,7 @@ describe('entities', () => {
             const intensity: Feature<Intensity> = note.intensity!
 
             expect(intensity.scalar)
-                .toBe(as.Scalar<Intensity>(quotient(0.01, sum(5, 6, 7))))
+                .toBe(as.Scalar<Intensity>(quotient(5, sum(5, 6, 7))))
         })
     })
 })

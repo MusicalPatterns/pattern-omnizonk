@@ -2,7 +2,7 @@
 
 import { as, Scalar, Value } from '@musical-patterns/utilities'
 
-const OMNIZONK_FOREVER: Scalar<Value> = as.Scalar<Value>(9999)
+const OMNIZONK_FOREVER: Scalar<Value> = as.Scalar<Value>(5000000)
 
 export {
     OMNIZONK_FOREVER,
