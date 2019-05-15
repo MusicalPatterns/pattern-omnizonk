@@ -1,5 +1,5 @@
 import { Entity, Note, Section } from '@musical-patterns/material'
-import { as, Intensity, isUndefined, reciprocal, use } from '@musical-patterns/utilities'
+import { as, computeLength, Intensity, isUndefined, reciprocal, use } from '@musical-patterns/utilities'
 import { OMNIZONK_INTENSITY_SCALAR_SCALAR } from './constants'
 
 const applyIntensityPerEntitiesCount: (entities: Entity[]) => Entity[] =
@@ -11,7 +11,7 @@ const applyIntensityPerEntitiesCount: (entities: Entity[]) => Entity[] =
                         section.notes.forEach((note: Note) => {
                             note.intensity = {
                                 scalar: use.Scalar(
-                                    as.Scalar<Intensity>(reciprocal(entities.length)),
+                                    as.Scalar<Intensity>(as.number(reciprocal(computeLength(entities)))),
                                     OMNIZONK_INTENSITY_SCALAR_SCALAR,
                                 ),
                             }
