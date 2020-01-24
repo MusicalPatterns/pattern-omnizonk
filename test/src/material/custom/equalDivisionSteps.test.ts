@@ -1,4 +1,4 @@
-import { as, Fraction } from '@musical-patterns/utilities'
+import { as, asFraction, Fraction } from '@musical-patterns/utilities'
 import { computeEqualDivisionSteps, initialSpecs, OmnizonkSpecs } from '../../../../src/indexForTest'
 
 describe('equal division steps', () => {
@@ -18,7 +18,7 @@ describe('equal division steps', () => {
         ]
         const expected: Fraction[] = rawExpected.map(
             ([ numerator, denominator ]: [ number, number ]) =>
-                as.Fraction([ as.Numerator(numerator), as.Denominator(denominator) ]),
+                asFraction(numerator, denominator),
         )
 
         expect(actual)
@@ -42,7 +42,7 @@ describe('equal division steps', () => {
         ]
         const expected: Fraction[] = rawExpected.map(
             ([ numerator, denominator ]: [ number, number ]) =>
-                as.Fraction([ as.Numerator(numerator), as.Denominator(denominator) ]),
+                asFraction(numerator, denominator),
         )
 
         expect(actual)
@@ -66,7 +66,7 @@ describe('equal division steps', () => {
         ]
         const expected: Fraction[] = rawExpected.map(
             ([ numerator, denominator ]: [ number, number ]) =>
-                as.Fraction([ as.Numerator(numerator), as.Denominator(denominator) ]),
+                asFraction(numerator, denominator),
         )
 
         expect(actual)
@@ -89,7 +89,7 @@ describe('equal division steps', () => {
         ]
         const expected: Fraction[] = rawExpected.map(
             ([ numerator, denominator ]: [ number, number ]) =>
-                as.Fraction([ as.Numerator(numerator), as.Denominator(denominator) ]),
+                asFraction(numerator, denominator),
         )
 
         expect(actual)
