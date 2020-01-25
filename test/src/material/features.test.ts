@@ -1,13 +1,13 @@
 import { Feature, Note, Scale } from '@musical-patterns/material'
-import { as, Denominator, Fraction, Pitch, Scalar, Value } from '@musical-patterns/utilities'
+import { as, Denominator, Pitch, Rational, Scalar, Value } from '@musical-patterns/utilities'
 import { computeContourElement, computeNote } from '../../../src/indexForTest'
 
 describe('features', () => {
     let note: Note
-    const fraction: Fraction = [ as.Numerator(4), as.Denominator(7) ]
+    const rational: Rational = [ as.Numerator(4), as.Denominator(7) ]
     const minEqualDivision: Denominator = as.Denominator(5)
     beforeEach(() => {
-        note = computeNote(computeContourElement(fraction, minEqualDivision))
+        note = computeNote(computeContourElement(rational, minEqualDivision))
     })
 
     describe('pitch', () => {

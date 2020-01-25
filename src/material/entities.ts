@@ -1,18 +1,18 @@
 import { Entity } from '@musical-patterns/material'
-import { Fraction } from '@musical-patterns/utilities'
+import { Rational } from '@musical-patterns/utilities'
 import { OmnizonkSpecs } from '../spec'
 import { computeContourElement } from './contours'
 import { applyIntensityPerEntitiesCount, computeEqualDivisionSteps } from './custom'
 import { computeNote } from './features'
 
-const computeEntityForEqualDivisionStep: (fraction: Fraction, specs: OmnizonkSpecs) => Entity =
-    (fraction: Fraction, specs: OmnizonkSpecs): Entity => ({
+const computeEntityForEqualDivisionStep: (rational: Rational, specs: OmnizonkSpecs) => Entity =
+    (rational: Rational, specs: OmnizonkSpecs): Entity => ({
         sections: [
             {
                 notes: [
                     computeNote(
                         computeContourElement(
-                            fraction,
+                            rational,
                             specs.minEqualDivision,
                         ),
                     ),
@@ -23,10 +23,10 @@ const computeEntityForEqualDivisionStep: (fraction: Fraction, specs: OmnizonkSpe
 
 const materializeEntities: (specs: OmnizonkSpecs) => Entity[] =
     (specs: OmnizonkSpecs): Entity[] => {
-        const equalDivisionSteps: Fraction[] = computeEqualDivisionSteps(specs)
+        const equalDivisionSteps: Rational[] = computeEqualDivisionSteps(specs)
 
-        const entities: Entity[] = equalDivisionSteps.map((fraction: Fraction): Entity =>
-            computeEntityForEqualDivisionStep(fraction, specs),
+        const entities: Entity[] = equalDivisionSteps.map((rational: Rational): Entity =>
+            computeEntityForEqualDivisionStep(rational, specs),
         )
 
         return applyIntensityPerEntitiesCount(entities)

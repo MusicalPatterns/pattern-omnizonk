@@ -1,20 +1,20 @@
-import { as, Denominator, Fraction, Integer, range } from '@musical-patterns/utilities'
+import { as, Denominator, Integer, range, Rational } from '@musical-patterns/utilities'
 import { OmnizonkSpecs } from '../../spec'
 import { computeEqualDivisions } from './equalDivisions'
 import { filterEqualDivisionSteps } from './filterEqualDivisionSteps'
 
-const computeStepsForEqualDivision: (equalDivision: Denominator, specs: OmnizonkSpecs) => Fraction[] =
-    (equalDivision: Denominator, specs: OmnizonkSpecs): Fraction[] =>
+const computeStepsForEqualDivision: (equalDivision: Denominator, specs: OmnizonkSpecs) => Rational[] =
+    (equalDivision: Denominator, specs: OmnizonkSpecs): Rational[] =>
         range(equalDivision)
-            .map((equalDivisionStep: Integer): Fraction => [ as.Numerator(equalDivisionStep), equalDivision ])
-            .filter((fraction: Fraction) => filterEqualDivisionSteps(fraction, specs))
+            .map((equalDivisionStep: Integer): Rational => [ as.Numerator(equalDivisionStep), equalDivision ])
+            .filter((rational: Rational) => filterEqualDivisionSteps(rational, specs))
 
-const computeEqualDivisionSteps: (specs: OmnizonkSpecs) => Fraction[] =
-    (specs: OmnizonkSpecs): Fraction[] => {
+const computeEqualDivisionSteps: (specs: OmnizonkSpecs) => Rational[] =
+    (specs: OmnizonkSpecs): Rational[] => {
         const equalDivisions: Denominator[] = computeEqualDivisions(specs)
 
         return equalDivisions.reduce(
-            (accumulatingEntities: Fraction[], equalDivision: Denominator): Fraction[] =>
+            (accumulatingEntities: Rational[], equalDivision: Denominator): Rational[] =>
                 accumulatingEntities.concat(computeStepsForEqualDivision(equalDivision, specs)),
             [],
         )
