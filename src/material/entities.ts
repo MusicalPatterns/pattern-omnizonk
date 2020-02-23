@@ -1,5 +1,5 @@
 import { Entity } from '@musical-patterns/material'
-import { Rational } from '@musical-patterns/utilities'
+import { as, Rational } from '@musical-patterns/utilities'
 import { OmnizonkSpecs } from '../spec'
 import { computeContourElement } from './contours'
 import { applyIntensityPerEntitiesCount, computeEqualDivisionSteps } from './custom'
@@ -13,7 +13,7 @@ const computeEntityForEqualDivisionStep: (rational: Rational, specs: OmnizonkSpe
                     computeNote(
                         computeContourElement(
                             rational,
-                            specs.minEqualDivision,
+                            specs.minEqualDivision || as.Denominator(1),
                         ),
                     ),
                 ],

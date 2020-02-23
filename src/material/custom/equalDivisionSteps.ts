@@ -7,7 +7,7 @@ const computeStepsForEqualDivision: (equalDivision: Denominator, specs: Omnizonk
     (equalDivision: Denominator, specs: OmnizonkSpecs): Rational[] =>
         range(equalDivision)
             .map((equalDivisionStep: Integer): Rational => [ as.Numerator(equalDivisionStep), equalDivision ])
-            .filter((rational: Rational) => filterEqualDivisionSteps(rational, specs))
+            .filter((rational: Rational): boolean => filterEqualDivisionSteps(rational, specs))
 
 const computeEqualDivisionSteps: (specs: OmnizonkSpecs) => Rational[] =
     (specs: OmnizonkSpecs): Rational[] => {

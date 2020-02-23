@@ -1,10 +1,10 @@
 import { Configurations, RangedConfiguration, Specs } from '@musical-patterns/spec'
-import { Denominator, Frequency, Logarithm } from '@musical-patterns/utilities'
+import { Denominator, Frequency, Logarithm, Maybe } from '@musical-patterns/utilities'
 
 interface OmnizonkSpecs extends Specs {
     maxEqualDivision: Denominator,
-    maxFilteredEqualDivision: Denominator,
-    minEqualDivision: Denominator,
+    maxFilteredEqualDivision: Maybe<Denominator>,
+    minEqualDivision: Maybe<Denominator>,
     period: Logarithm<Frequency>,
 }
 

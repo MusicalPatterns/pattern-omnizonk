@@ -4,7 +4,7 @@ import { as, ContourElement, Denominator, difference, Rational } from '@musical-
 const computeContourElement: (rational: Rational, minEqualDivision: Denominator) => ContourElement<PitchScale> =
     ([ equalDivisionStep, equalDivision ]: Rational, minEqualDivision: Denominator): ContourElement<PitchScale> => {
         const pitch: number = as.number(equalDivisionStep)
-        const scale: number = as.number(difference(equalDivision, minEqualDivision))
+        const scale: number = as.number(difference(equalDivision, minEqualDivision || 1))
 
         return as.ContourElement<PitchScale>([ pitch, scale ])
     }

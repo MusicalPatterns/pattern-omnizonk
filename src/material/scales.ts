@@ -1,4 +1,4 @@
-import { AbstractName, Scales } from '@musical-patterns/material'
+import { AbstractName, Scale, Scales } from '@musical-patterns/material'
 import { StandardSpec } from '@musical-patterns/spec'
 import {
     computeEqualDivisionPitchScalars,
@@ -20,7 +20,7 @@ const materializeScales: (specs: OmnizonkSpecs) => Scales =
         const translation: Translation<Tone> = specs[ StandardSpec.HZ_PHYSICALIZATION_TRANSLATION ] || NO_SHIFT
 
         return {
-            [ AbstractName.PITCH ]: equalDivisions.map((equalDivision: Denominator) => {
+            [ AbstractName.PITCH ]: equalDivisions.map((equalDivision: Denominator): Scale<Pitch> => {
                 const scalars: Array<Scalar<Pitch>> = computeEqualDivisionPitchScalars(equalDivision, specs.period)
 
                 return { basis, scalars, translation }

@@ -4,19 +4,17 @@ import {
     as,
     Denominator,
     Frequency,
-    Logarithm,
+    Logarithm, Maybe,
     musicalAs,
     OCTAVE,
-    SCIENTIFIC_PITCHES,
     ScientificPitchNoteName,
     ScientificPitchOctaveNumber,
+    SCIENTIFIC_PITCHES,
     Tone,
 } from '@musical-patterns/utilities'
 
 const OMNIZONK_INITIAL_MAX_EQUAL_DIVISION: Denominator = as.Denominator(24)
-const OMNIZONK_INITIAL_MIN_EQUAL_DIVISION: Denominator = as.Denominator(1)
 const OMNIZONK_INITIAL_PERIOD: Logarithm<Frequency> = OCTAVE
-const OMNIZONK_INITIAL_MAX_FILTERED_EQUAL_DIVISION: Denominator = as.Denominator(0)
 
 const OMNIZONK_INITIAL_HZ_PHYSICALIZATION: Tone =
     SCIENTIFIC_PITCHES[ ScientificPitchNoteName.A ][ ScientificPitchOctaveNumber._4 ]
@@ -46,11 +44,9 @@ const WOBBLE_PRESET_PERIOD: Logarithm<Frequency> = as.Logarithm<Frequency>(1.33)
 
 export {
     OMNIZONK_INITIAL_MAX_EQUAL_DIVISION,
-    OMNIZONK_INITIAL_MIN_EQUAL_DIVISION,
     OMNIZONK_INITIAL_PERIOD,
     OMNIZONK_INITIAL_HZ_PHYSICALIZATION,
     MAXIMUM_MAX_EQUAL_DIVISION_BEFORE_OMNIZONK_CRASHES,
-    OMNIZONK_INITIAL_MAX_FILTERED_EQUAL_DIVISION,
     WASH_PRESET_MAX_EQUAL_DIVISION,
     WASH_PRESET_HZ_PHYSICALIZATION,
     ZONK_PRESET_EQUAL_DIVISION,

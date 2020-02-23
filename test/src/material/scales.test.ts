@@ -2,10 +2,10 @@ import { AbstractName, Scale, Scales } from '@musical-patterns/material'
 import { as, Frequency, Logarithm, Maybe, Pitch, pow, Scalar } from '@musical-patterns/utilities'
 import { initialSpecs, materializeScales, OmnizonkSpecs } from '../../../src/indexForTest'
 
-describe('scales', () => {
+describe('scales', (): void => {
     let scales: Scales
     const period: Logarithm<Frequency> = as.Logarithm<Frequency>(3)
-    beforeEach(() => {
+    beforeEach((): void => {
         const specs: OmnizonkSpecs = {
             ...initialSpecs,
             maxEqualDivision: as.Denominator(7),
@@ -15,12 +15,12 @@ describe('scales', () => {
         scales = materializeScales(specs)
     })
 
-    it('includes one pitch scale for every edo up to the max edo', () => {
+    it('includes one pitch scale for every edo up to the max edo', (): void => {
         expect(scales[ AbstractName.PITCH ]!.length)
             .toBe(3)
     })
 
-    it('every pitch scale has a number of scalars equal to its equal division', () => {
+    it('every pitch scale has a number of scalars equal to its equal division', (): void => {
         expect(scales[ AbstractName.PITCH ]![ 0 ].scalars!.length)
             .toBe(5)
         expect(scales[ AbstractName.PITCH ]![ 1 ].scalars!.length)
@@ -29,7 +29,7 @@ describe('scales', () => {
             .toBe(7)
     })
 
-    it(`every scale's scalars starts with the identity scalar`, () => {
+    it(`every scale's scalars starts with the identity scalar`, (): void => {
         const pitchScales: Array<Scale<Pitch>> = scales[ AbstractName.PITCH ] as Array<Scale<Pitch>>
         pitchScales.forEach((scale: Scale<Pitch>): void => {
             const scalars: Maybe<Array<Scalar<Pitch>>> = scale.scalars
@@ -43,7 +43,7 @@ describe('scales', () => {
         })
     })
 
-    it(`a scale's scalars are the steps of the respective equal division`, () => {
+    it(`a scale's scalars are the steps of the respective equal division`, (): void => {
         const pitchScales: Array<Scale<Pitch>> = scales[ AbstractName.PITCH ] as Array<Scale<Pitch>>
         const scalars: Array<Scalar<Pitch>> = pitchScales[ 0 ].scalars!
         if (scalars) {

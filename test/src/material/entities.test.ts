@@ -2,8 +2,8 @@ import { Entity, Feature, Note } from '@musical-patterns/material'
 import { as, Intensity, quotient, sum } from '@musical-patterns/utilities'
 import { initialSpecs, materializeEntities, OmnizonkSpecs } from '../../../src/indexForTest'
 
-describe('entities', () => {
-    it('the total count of entities is an inclusive trapezoidal number, summing the equal divisions between the min and the max', () => {
+describe('entities', (): void => {
+    it('the total count of entities is an inclusive trapezoidal number, summing the equal divisions between the min and the max', (): void => {
         const specs: OmnizonkSpecs = {
             ...initialSpecs,
             maxEqualDivision: as.Denominator(7),
@@ -16,7 +16,7 @@ describe('entities', () => {
             .toBe(sum(5, 6, 7))
     })
 
-    it('if there is only a single entity, it has the max intensity possible', () => {
+    it('if there is only a single entity, it has the max intensity possible', (): void => {
         const specs: OmnizonkSpecs = {
             ...initialSpecs,
             maxEqualDivision: as.Denominator(1),
@@ -34,7 +34,7 @@ describe('entities', () => {
             .toBe(as.Scalar<Intensity>(5))
     })
 
-    it('sets the intensity of each entity proportional to the total count of entities', () => {
+    it('sets the intensity of each entity proportional to the total count of entities', (): void => {
         const specs: OmnizonkSpecs = {
             ...initialSpecs,
             maxEqualDivision: as.Denominator(7),
@@ -43,7 +43,7 @@ describe('entities', () => {
 
         const entities: Entity[] = materializeEntities(specs)
 
-        entities.forEach((entity: Entity) => {
+        entities.forEach((entity: Entity): void => {
             const notes: Note[] = entity.sections![ 0 ].notes!
             const note: Note = notes[ 0 ]
             const intensity: Feature<Intensity> = note.intensity!

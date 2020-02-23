@@ -1,8 +1,8 @@
 import { as, asRational, Rational } from '@musical-patterns/utilities'
 import { computeEqualDivisionSteps, initialSpecs, OmnizonkSpecs } from '../../../../src/indexForTest'
 
-describe('equal division steps', () => {
-    it('creates an array of steps of equal divisions', () => {
+describe('equal division steps', (): void => {
+    it('creates an array of steps of equal divisions', (): void => {
         const specs: OmnizonkSpecs = {
             ...initialSpecs,
             maxEqualDivision: as.Denominator(6),
@@ -17,7 +17,7 @@ describe('equal division steps', () => {
             [ 0, 6 ], [ 1, 6 ], [ 2, 6 ], [ 3, 6 ], [ 4, 6 ], [ 5, 6 ],
         ]
         const expected: Rational[] = rawExpected.map(
-            ([ numerator, denominator ]: [ number, number ]) =>
+            ([ numerator, denominator ]: [ number, number ]): Rational =>
                 asRational(numerator, denominator),
         )
 
@@ -25,7 +25,7 @@ describe('equal division steps', () => {
             .toEqual(expected)
     })
 
-    it('can filter out just the shared root (which is the same as 1/1, 2/2, 3/3, 4/4, that is why it is the multiples of 1', () => {
+    it('can filter out just the shared root (which is the same as 1/1, 2/2, 3/3, 4/4, that is why it is the multiples of 1', (): void => {
         const specs: OmnizonkSpecs = {
             ...initialSpecs,
             maxEqualDivision: as.Denominator(6),
@@ -41,7 +41,7 @@ describe('equal division steps', () => {
             [ 1, 6 ], [ 2, 6 ], [ 3, 6 ], [ 4, 6 ], [ 5, 6 ],
         ]
         const expected: Rational[] = rawExpected.map(
-            ([ numerator, denominator ]: [ number, number ]) =>
+            ([ numerator, denominator ]: [ number, number ]): Rational =>
                 asRational(numerator, denominator),
         )
 
@@ -49,7 +49,7 @@ describe('equal division steps', () => {
             .toEqual(expected)
     })
 
-    it('can filter out the shared root and the tritone shared by every even equal division (also the multiples of 1/2)', () => {
+    it('can filter out the shared root and the tritone shared by every even equal division (also the multiples of 1/2)', (): void => {
         const specs: OmnizonkSpecs = {
             ...initialSpecs,
             maxEqualDivision: as.Denominator(6),
@@ -65,7 +65,7 @@ describe('equal division steps', () => {
             [ 1, 6 ], [ 2, 6 ], [ 4, 6 ], [ 5, 6 ],
         ]
         const expected: Rational[] = rawExpected.map(
-            ([ numerator, denominator ]: [ number, number ]) =>
+            ([ numerator, denominator ]: [ number, number ]): Rational =>
                 asRational(numerator, denominator),
         )
 
@@ -73,7 +73,7 @@ describe('equal division steps', () => {
             .toEqual(expected)
     })
 
-    it('can filter out the shared root and the tritone shared by every even equal division and the major thirds shared by every multiple of 3 equal division (also the multiples of 1/3)', () => {
+    it('can filter out the shared root and the tritone shared by every even equal division and the major thirds shared by every multiple of 3 equal division (also the multiples of 1/3)', (): void => {
         const specs: OmnizonkSpecs = {
             ...initialSpecs,
             maxEqualDivision: as.Denominator(6),
@@ -88,7 +88,7 @@ describe('equal division steps', () => {
             [ 1, 6 ], [ 5, 6 ],
         ]
         const expected: Rational[] = rawExpected.map(
-            ([ numerator, denominator ]: [ number, number ]) =>
+            ([ numerator, denominator ]: [ number, number ]): Rational =>
                 asRational(numerator, denominator),
         )
 

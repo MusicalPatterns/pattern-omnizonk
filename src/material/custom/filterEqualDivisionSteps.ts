@@ -6,10 +6,10 @@ const filterEqualDivisionSteps: (rational: Rational, specs: OmnizonkSpecs) => bo
         let pass: boolean = true
 
         const filteredEqualDivisions: Denominator[] =
-            range(ONE, use.Cardinal(specs.maxFilteredEqualDivision, INCREMENT))
+            range(ONE, use.Cardinal(specs.maxFilteredEqualDivision || 0, INCREMENT))
                 .map(as.Denominator)
 
-        filteredEqualDivisions.forEach((filteredEqualDivision: Denominator) => {
+        filteredEqualDivisions.forEach((filteredEqualDivision: Denominator): void => {
             if (computeLowestTerms(rational)[ 1 ] === filteredEqualDivision) {
                 pass = false
             }

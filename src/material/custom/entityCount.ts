@@ -6,9 +6,9 @@ const applyIntensityPerEntitiesCount: (entities: Entity[]) => Entity[] =
     (entities: Entity[]): Entity[] =>
         entities.map((entity: Entity): Entity => {
             if (!isUndefined(entity.sections)) {
-                entity.sections.forEach((section: Section) => {
+                entity.sections.forEach((section: Section): void => {
                     if (!isUndefined(section.notes)) {
-                        section.notes.forEach((note: Note) => {
+                        section.notes.forEach((note: Note): void => {
                             note.intensity = {
                                 scalar: use.Scalar(
                                     as.Scalar<Intensity>(as.number(reciprocal(computeLength(entities)))),
