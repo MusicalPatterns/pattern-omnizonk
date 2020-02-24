@@ -4,7 +4,7 @@ import {
     as,
     Denominator,
     Frequency,
-    Logarithm, Maybe,
+    Logarithm,
     musicalAs,
     OCTAVE,
     ScientificPitchNoteName,
