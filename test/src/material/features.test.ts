@@ -4,10 +4,10 @@ import { computeContourElement, computeNote } from '../../../src/indexForTest'
 
 describe('features', (): void => {
     let note: Note
-    const rational: Rational = [ as.Numerator(4), as.Denominator(7) ]
+    const equalDivisionStep: Rational = [ as.Numerator(4), as.Denominator(7) ]
     const minEqualDivision: Denominator = as.Denominator(5)
     beforeEach((): void => {
-        note = computeNote(computeContourElement(rational, minEqualDivision))
+        note = computeNote(computeContourElement(equalDivisionStep, minEqualDivision))
     })
 
     describe('pitch', (): void => {

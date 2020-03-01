@@ -1,12 +1,12 @@
 {
   "segnoTime": 0,
-  "totalDuration": 5000000,
+  "totalDuration": 50000,
   "voices": [
     {
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 208,
           "location": [
@@ -14,7 +14,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -27,7 +27,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 208,
           "location": [
@@ -35,7 +35,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -48,7 +48,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1499.90933,
           "location": [
@@ -56,7 +56,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -69,7 +69,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 208,
           "location": [
@@ -77,7 +77,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -90,7 +90,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 776.36232,
           "location": [
@@ -98,7 +98,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -111,7 +111,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2897.78102,
           "location": [
@@ -119,7 +119,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -132,7 +132,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 208,
           "location": [
@@ -140,7 +140,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -153,7 +153,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 558.55272,
           "location": [
@@ -161,7 +161,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -174,7 +174,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1499.90933,
           "location": [
@@ -182,7 +182,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -195,7 +195,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 4027.78094,
           "location": [
@@ -203,7 +203,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -216,7 +216,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 208,
           "location": [
@@ -224,7 +224,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -237,7 +237,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 458.42047,
           "location": [
@@ -245,7 +245,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -258,7 +258,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1010.33331,
           "location": [
@@ -266,7 +266,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -279,7 +279,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2226.71862,
           "location": [
@@ -287,7 +287,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -300,7 +300,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 4907.56443,
           "location": [
@@ -308,7 +308,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -321,7 +321,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 208,
           "location": [
@@ -329,7 +329,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -342,7 +342,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 401.84993,
           "location": [
@@ -350,7 +350,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -363,7 +363,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 776.36232,
           "location": [
@@ -371,7 +371,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -384,7 +384,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1499.90933,
           "location": [
@@ -392,7 +392,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -405,7 +405,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2897.78102,
           "location": [
@@ -413,7 +413,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -426,7 +426,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 5598.42831,
           "location": [
@@ -434,7 +434,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -447,7 +447,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 208,
           "location": [
@@ -455,7 +455,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -468,7 +468,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 365.76881,
           "location": [
@@ -476,7 +476,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -489,7 +489,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 643.20588,
           "location": [
@@ -497,7 +497,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -510,7 +510,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1131.08004,
           "location": [
@@ -518,7 +518,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -531,7 +531,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1989.00866,
           "location": [
@@ -539,7 +539,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -552,7 +552,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 3497.67948,
           "location": [
@@ -560,7 +560,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -573,7 +573,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 6150.68299,
           "location": [
@@ -581,7 +581,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -594,7 +594,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 208,
           "location": [
@@ -602,7 +602,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -615,7 +615,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 340.85036,
           "location": [
@@ -623,7 +623,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -636,7 +636,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 558.55272,
           "location": [
@@ -644,7 +644,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -657,7 +657,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 915.30237,
           "location": [
@@ -665,7 +665,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -678,7 +678,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1499.90933,
           "location": [
@@ -686,7 +686,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -699,7 +699,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2457.90688,
           "location": [
@@ -707,7 +707,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -720,7 +720,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 4027.78094,
           "location": [
@@ -728,7 +728,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -741,7 +741,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 6600.33928,
           "location": [
@@ -749,7 +749,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -762,7 +762,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 208,
           "location": [
@@ -770,7 +770,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -783,7 +783,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 322.64904,
           "location": [
@@ -791,7 +791,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -804,7 +804,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 500.49231,
           "location": [
@@ -812,7 +812,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -825,7 +825,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 776.36232,
           "location": [
@@ -833,7 +833,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -846,7 +846,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1204.29113,
           "location": [
@@ -854,7 +854,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -867,7 +867,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1868.09314,
           "location": [
@@ -875,7 +875,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -888,7 +888,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2897.78102,
           "location": [
@@ -896,7 +896,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -909,7 +909,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 4495.03008,
           "location": [
@@ -917,7 +917,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -930,7 +930,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 6972.67849,
           "location": [
@@ -938,7 +938,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -951,7 +951,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 208,
           "location": [
@@ -959,7 +959,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -972,7 +972,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 308.79031,
           "location": [
@@ -980,7 +980,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -993,7 +993,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 458.42047,
           "location": [
@@ -1001,7 +1001,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1014,7 +1014,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 680.55674,
           "location": [
@@ -1022,7 +1022,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1035,7 +1035,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1010.33331,
           "location": [
@@ -1043,7 +1043,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1056,7 +1056,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1499.90933,
           "location": [
@@ -1064,7 +1064,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1077,7 +1077,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2226.71862,
           "location": [
@@ -1085,7 +1085,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1098,7 +1098,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 3305.71703,
           "location": [
@@ -1106,7 +1106,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1119,7 +1119,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 4907.56443,
           "location": [
@@ -1127,7 +1127,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1140,7 +1140,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 7285.61712,
           "location": [
@@ -1148,7 +1148,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1161,7 +1161,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 208,
           "location": [
@@ -1169,7 +1169,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1182,7 +1182,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 297.89529,
           "location": [
@@ -1190,7 +1190,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1203,7 +1203,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 426.64233,
           "location": [
@@ -1211,7 +1211,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1224,7 +1224,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 611.03241,
           "location": [
@@ -1232,7 +1232,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1245,7 +1245,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 875.11384,
           "location": [
@@ -1253,7 +1253,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1266,7 +1266,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1253.32833,
           "location": [
@@ -1274,7 +1274,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1287,7 +1287,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1795.00292,
           "location": [
@@ -1295,7 +1295,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1308,7 +1308,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2570.78326,
           "location": [
@@ -1316,7 +1316,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1329,7 +1329,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 3681.84725,
           "location": [
@@ -1337,7 +1337,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1350,7 +1350,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 5273.10077,
           "location": [
@@ -1358,7 +1358,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1371,7 +1371,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 7552.0764,
           "location": [
@@ -1379,7 +1379,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1392,7 +1392,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 208,
           "location": [
@@ -1400,7 +1400,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1413,7 +1413,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 289.11033,
           "location": [
@@ -1421,7 +1421,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1434,7 +1434,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 401.84993,
           "location": [
@@ -1442,7 +1442,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1455,7 +1455,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 558.55272,
           "location": [
@@ -1463,7 +1463,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1476,7 +1476,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 776.36232,
           "location": [
@@ -1484,7 +1484,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1497,7 +1497,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1079.10754,
           "location": [
@@ -1505,7 +1505,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1518,7 +1518,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1499.90933,
           "location": [
@@ -1526,7 +1526,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1539,7 +1539,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2084.80426,
           "location": [
@@ -1547,7 +1547,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1560,7 +1560,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2897.78102,
           "location": [
@@ -1568,7 +1568,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1581,7 +1581,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 4027.78094,
           "location": [
@@ -1589,7 +1589,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1602,7 +1602,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 5598.42831,
           "location": [
@@ -1610,7 +1610,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1623,7 +1623,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 7781.55515,
           "location": [
@@ -1631,7 +1631,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1644,7 +1644,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 208,
           "location": [
@@ -1652,7 +1652,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1665,7 +1665,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 281.87956,
           "location": [
@@ -1673,7 +1673,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1686,7 +1686,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 382.00043,
           "location": [
@@ -1694,7 +1694,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1707,7 +1707,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 517.68324,
           "location": [
@@ -1715,7 +1715,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1728,7 +1728,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 701.55926,
           "location": [
@@ -1736,7 +1736,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1749,7 +1749,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 950.74625,
           "location": [
@@ -1757,7 +1757,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1770,7 +1770,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1288.44201,
           "location": [
@@ -1778,7 +1778,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1791,7 +1791,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1746.08401,
           "location": [
@@ -1799,7 +1799,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1812,7 +1812,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2366.27597,
           "location": [
@@ -1820,7 +1820,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1833,7 +1833,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 3206.75403,
           "location": [
@@ -1841,7 +1841,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1854,7 +1854,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 4345.76169,
           "location": [
@@ -1862,7 +1862,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1875,7 +1875,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 5889.33372,
           "location": [
@@ -1883,7 +1883,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1896,7 +1896,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 7981.16743,
           "location": [
@@ -1904,7 +1904,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1917,7 +1917,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 208,
           "location": [
@@ -1925,7 +1925,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1938,7 +1938,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 275.82587,
           "location": [
@@ -1946,7 +1946,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1959,7 +1959,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 365.76881,
           "location": [
@@ -1967,7 +1967,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -1980,7 +1980,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 485.04087,
           "location": [
@@ -1988,7 +1988,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2001,7 +2001,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 643.20588,
           "location": [
@@ -2009,7 +2009,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2022,7 +2022,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 852.94627,
           "location": [
@@ -2030,7 +2030,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2043,7 +2043,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1131.08004,
           "location": [
@@ -2051,7 +2051,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2064,7 +2064,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1499.90933,
           "location": [
@@ -2072,7 +2072,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2085,7 +2085,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1989.00866,
           "location": [
@@ -2093,7 +2093,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2106,7 +2106,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2637.5964,
           "location": [
@@ -2114,7 +2114,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2127,7 +2127,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 3497.67948,
           "location": [
@@ -2135,7 +2135,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2148,7 +2148,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 4638.22355,
           "location": [
@@ -2156,7 +2156,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2169,7 +2169,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 6150.68299,
           "location": [
@@ -2177,7 +2177,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2190,7 +2190,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 8156.33418,
           "location": [
@@ -2198,7 +2198,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2211,7 +2211,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 208,
           "location": [
@@ -2219,7 +2219,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2232,7 +2232,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 270.68461,
           "location": [
@@ -2240,7 +2240,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2253,7 +2253,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 352.26037,
           "location": [
@@ -2261,7 +2261,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2274,7 +2274,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 458.42047,
           "location": [
@@ -2282,7 +2282,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2295,7 +2295,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 596.57387,
           "location": [
@@ -2303,7 +2303,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2316,7 +2316,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 776.36232,
           "location": [
@@ -2324,7 +2324,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2337,7 +2337,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1010.33331,
           "location": [
@@ -2345,7 +2345,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2358,7 +2358,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1314.81574,
           "location": [
@@ -2366,7 +2366,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2379,7 +2379,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1711.05953,
           "location": [
@@ -2387,7 +2387,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2400,7 +2400,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2226.71862,
           "location": [
@@ -2408,7 +2408,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2421,7 +2421,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2897.78102,
           "location": [
@@ -2429,7 +2429,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2442,7 +2442,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 3771.08036,
           "location": [
@@ -2450,7 +2450,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2463,7 +2463,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 4907.56443,
           "location": [
@@ -2471,7 +2471,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2484,7 +2484,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 6386.54877,
           "location": [
@@ -2492,7 +2492,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2505,7 +2505,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 8311.2521,
           "location": [
@@ -2513,7 +2513,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2526,7 +2526,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 208,
           "location": [
@@ -2534,7 +2534,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2547,7 +2547,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 266.26467,
           "location": [
@@ -2555,7 +2555,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2568,7 +2568,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 340.85036,
           "location": [
@@ -2576,7 +2576,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2589,7 +2589,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 436.32888,
           "location": [
@@ -2597,7 +2597,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2610,7 +2610,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 558.55272,
           "location": [
@@ -2618,7 +2618,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2631,7 +2631,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 715.01373,
           "location": [
@@ -2639,7 +2639,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2652,7 +2652,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 915.30237,
           "location": [
@@ -2660,7 +2660,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2673,7 +2673,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1171.6956,
           "location": [
@@ -2681,7 +2681,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2694,7 +2694,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1499.90933,
           "location": [
@@ -2702,7 +2702,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2715,7 +2715,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1920.06184,
           "location": [
@@ -2723,7 +2723,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2736,7 +2736,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2457.90688,
           "location": [
@@ -2744,7 +2744,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2757,7 +2757,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 3146.41232,
           "location": [
@@ -2765,7 +2765,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2778,7 +2778,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 4027.78094,
           "location": [
@@ -2786,7 +2786,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2799,7 +2799,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 5156.03731,
           "location": [
@@ -2807,7 +2807,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2820,7 +2820,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 6600.33928,
           "location": [
@@ -2828,7 +2828,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2841,7 +2841,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 8449.21711,
           "location": [
@@ -2849,7 +2849,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2862,7 +2862,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 208,
           "location": [
@@ -2870,7 +2870,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2883,7 +2883,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 262.4247,
           "location": [
@@ -2891,7 +2891,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2904,7 +2904,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 331.09001,
           "location": [
@@ -2912,7 +2912,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2925,7 +2925,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 417.7221,
           "location": [
@@ -2933,7 +2933,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2946,7 +2946,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 527.0221,
           "location": [
@@ -2954,7 +2954,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2967,7 +2967,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 664.92123,
           "location": [
@@ -2975,7 +2975,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -2988,7 +2988,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 838.90266,
           "location": [
@@ -2996,7 +2996,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3009,7 +3009,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1058.40759,
           "location": [
@@ -3017,7 +3017,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3030,7 +3030,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1335.34757,
           "location": [
@@ -3038,7 +3038,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3051,7 +3051,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1684.75089,
           "location": [
@@ -3059,7 +3059,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3072,7 +3072,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2125.5781,
           "location": [
@@ -3080,7 +3080,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3093,7 +3093,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2681.75093,
           "location": [
@@ -3101,7 +3101,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3114,7 +3114,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 3383.45039,
           "location": [
@@ -3122,7 +3122,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3135,7 +3135,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 4268.75457,
           "location": [
@@ -3143,7 +3143,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3156,7 +3156,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 5385.70497,
           "location": [
@@ -3164,7 +3164,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3177,7 +3177,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 6794.9135,
           "location": [
@@ -3185,7 +3185,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3198,7 +3198,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 8572.85159,
           "location": [
@@ -3206,7 +3206,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3219,7 +3219,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 208,
           "location": [
@@ -3227,7 +3227,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3240,7 +3240,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 259.05791,
           "location": [
@@ -3248,7 +3248,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3261,7 +3261,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 322.64904,
           "location": [
@@ -3269,7 +3269,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3282,7 +3282,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 401.84993,
           "location": [
@@ -3290,7 +3290,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3303,7 +3303,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 500.49231,
           "location": [
@@ -3311,7 +3311,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3324,7 +3324,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 623.34852,
           "location": [
@@ -3332,7 +3332,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3345,7 +3345,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 776.36232,
           "location": [
@@ -3353,7 +3353,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3366,7 +3366,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 966.93653,
           "location": [
@@ -3374,7 +3374,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3387,7 +3387,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1204.29113,
           "location": [
@@ -3395,7 +3395,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3408,7 +3408,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1499.90933,
           "location": [
@@ -3416,7 +3416,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3429,7 +3429,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1868.09314,
           "location": [
@@ -3437,7 +3437,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3450,7 +3450,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2326.65529,
           "location": [
@@ -3458,7 +3458,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3471,7 +3471,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2897.78102,
           "location": [
@@ -3479,7 +3479,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3492,7 +3492,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 3609.10139,
           "location": [
@@ -3500,7 +3500,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3513,7 +3513,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 4495.03008,
           "location": [
@@ -3521,7 +3521,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3534,7 +3534,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 5598.42831,
           "location": [
@@ -3542,7 +3542,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3555,7 +3555,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 6972.67849,
           "location": [
@@ -3563,7 +3563,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3576,7 +3576,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 8684.26684,
           "location": [
@@ -3584,7 +3584,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3597,7 +3597,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 208,
           "location": [
@@ -3605,7 +3605,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3618,7 +3618,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 256.08215,
           "location": [
@@ -3626,7 +3626,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3639,7 +3639,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 315.27916,
           "location": [
@@ -3647,7 +3647,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3660,7 +3660,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 388.1604,
           "location": [
@@ -3668,7 +3668,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3681,7 +3681,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 477.88918,
           "location": [
@@ -3689,7 +3689,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3702,7 +3702,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 588.36003,
           "location": [
@@ -3710,7 +3710,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3723,7 +3723,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 724.36779,
           "location": [
@@ -3731,7 +3731,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3744,7 +3744,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 891.81566,
           "location": [
@@ -3752,7 +3752,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3765,7 +3765,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1097.97148,
           "location": [
@@ -3773,7 +3773,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3786,7 +3786,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1351.78314,
           "location": [
@@ -3794,7 +3794,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3807,7 +3807,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1664.26695,
           "location": [
@@ -3815,7 +3815,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3828,7 +3828,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2048.98583,
           "location": [
@@ -3836,7 +3836,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3849,7 +3849,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2522.63792,
           "location": [
@@ -3857,7 +3857,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3870,7 +3870,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 3105.78141,
           "location": [
@@ -3878,7 +3878,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3891,7 +3891,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 3823.72677,
           "location": [
@@ -3899,7 +3899,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3912,7 +3912,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 4707.63537,
           "location": [
@@ -3920,7 +3920,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3933,7 +3933,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 5795.87195,
           "location": [
@@ -3941,7 +3941,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3954,7 +3954,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 7135.66984,
           "location": [
@@ -3962,7 +3962,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3975,7 +3975,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 8785.18099,
           "location": [
@@ -3983,7 +3983,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -3996,7 +3996,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 208,
           "location": [
@@ -4004,7 +4004,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4017,7 +4017,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 253.4332,
           "location": [
@@ -4025,7 +4025,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4038,7 +4038,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 308.79031,
           "location": [
@@ -4046,7 +4046,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4059,7 +4059,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 376.23902,
           "location": [
@@ -4067,7 +4067,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4080,7 +4080,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 458.42047,
           "location": [
@@ -4088,7 +4088,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4101,7 +4101,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 558.55272,
           "location": [
@@ -4109,7 +4109,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4122,7 +4122,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 680.55674,
           "location": [
@@ -4130,7 +4130,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4143,7 +4143,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 829.20995,
           "location": [
@@ -4151,7 +4151,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4164,7 +4164,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1010.33331,
           "location": [
@@ -4172,7 +4172,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4185,7 +4185,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1231.01924,
           "location": [
@@ -4193,7 +4193,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4206,7 +4206,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1499.90933,
           "location": [
@@ -4214,7 +4214,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4227,7 +4227,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1827.53277,
           "location": [
@@ -4235,7 +4235,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4248,7 +4248,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2226.71862,
           "location": [
@@ -4256,7 +4256,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4269,7 +4269,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2713.09817,
           "location": [
@@ -4277,7 +4277,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4290,7 +4290,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 3305.71703,
           "location": [
@@ -4298,7 +4298,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4311,7 +4311,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 4027.78094,
           "location": [
@@ -4319,7 +4319,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4332,7 +4332,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 4907.56443,
           "location": [
@@ -4340,7 +4340,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4353,7 +4353,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 5979.51799,
           "location": [
@@ -4361,7 +4361,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4374,7 +4374,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 7285.61712,
           "location": [
@@ -4382,7 +4382,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4395,7 +4395,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 8877.00596,
           "location": [
@@ -4403,7 +4403,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4416,7 +4416,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 208,
           "location": [
@@ -4424,7 +4424,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4437,7 +4437,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 251.06015,
           "location": [
@@ -4445,7 +4445,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4458,7 +4458,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 303.0346,
           "location": [
@@ -4466,7 +4466,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4479,7 +4479,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 365.76881,
           "location": [
@@ -4487,7 +4487,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4500,7 +4500,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 441.49025,
           "location": [
@@ -4508,7 +4508,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4521,7 +4521,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 532.88753,
           "location": [
@@ -4529,7 +4529,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4542,7 +4542,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 643.20588,
           "location": [
@@ -4550,7 +4550,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4563,7 +4563,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 776.36232,
           "location": [
@@ -4571,7 +4571,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4584,7 +4584,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 937.0848,
           "location": [
@@ -4592,7 +4592,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4605,7 +4605,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1131.08004,
           "location": [
@@ -4613,7 +4613,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4626,7 +4626,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1365.23617,
           "location": [
@@ -4634,7 +4634,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4647,7 +4647,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1647.86728,
           "location": [
@@ -4655,7 +4655,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4668,7 +4668,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1989.00866,
           "location": [
@@ -4676,7 +4676,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4689,7 +4689,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2400.77312,
           "location": [
@@ -4697,7 +4697,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4710,7 +4710,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2897.78102,
           "location": [
@@ -4718,7 +4718,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4731,7 +4731,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 3497.67948,
           "location": [
@@ -4739,7 +4739,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4752,7 +4752,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 4221.76888,
           "location": [
@@ -4760,7 +4760,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4773,7 +4773,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 5095.75922,
           "location": [
@@ -4781,7 +4781,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4794,7 +4794,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 6150.68299,
           "location": [
@@ -4802,7 +4802,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4815,7 +4815,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 7423.99702,
           "location": [
@@ -4823,7 +4823,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4836,7 +4836,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 8960.91244,
           "location": [
@@ -4844,7 +4844,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4857,7 +4857,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 208,
           "location": [
@@ -4865,7 +4865,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4878,7 +4878,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 248.92212,
           "location": [
@@ -4886,7 +4886,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4899,7 +4899,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 297.89529,
           "location": [
@@ -4907,7 +4907,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4920,7 +4920,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 356.50349,
           "location": [
@@ -4928,7 +4928,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4941,7 +4941,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 426.64233,
           "location": [
@@ -4949,7 +4949,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4962,7 +4962,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 510.58035,
           "location": [
@@ -4970,7 +4970,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -4983,7 +4983,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 611.03241,
           "location": [
@@ -4991,7 +4991,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5004,7 +5004,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 731.24751,
           "location": [
@@ -5012,7 +5012,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5025,7 +5025,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 875.11384,
           "location": [
@@ -5033,7 +5033,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5046,7 +5046,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1047.28456,
           "location": [
@@ -5054,7 +5054,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5067,7 +5067,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1253.32833,
           "location": [
@@ -5075,7 +5075,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5088,7 +5088,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1499.90933,
           "location": [
@@ -5096,7 +5096,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5109,7 +5109,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1795.00292,
           "location": [
@@ -5117,7 +5117,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5130,7 +5130,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2148.1535,
           "location": [
@@ -5138,7 +5138,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5151,7 +5151,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2570.78326,
           "location": [
@@ -5159,7 +5159,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5172,7 +5172,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 3076.5616,
           "location": [
@@ -5180,7 +5180,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5193,7 +5193,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 3681.84725,
           "location": [
@@ -5201,7 +5201,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5214,7 +5214,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 4406.21737,
           "location": [
@@ -5222,7 +5222,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5235,7 +5235,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 5273.10077,
           "location": [
@@ -5243,7 +5243,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5256,7 +5256,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 6310.53562,
           "location": [
@@ -5264,7 +5264,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5277,7 +5277,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 7552.0764,
           "location": [
@@ -5285,7 +5285,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5298,7 +5298,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 9037.87908,
           "location": [
@@ -5306,7 +5306,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5319,7 +5319,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 208,
           "location": [
@@ -5327,7 +5327,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5340,7 +5340,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 246.98591,
           "location": [
@@ -5348,7 +5348,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5361,7 +5361,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 293.27903,
           "location": [
@@ -5369,7 +5369,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5382,7 +5382,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 348.24898,
           "location": [
@@ -5390,7 +5390,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5403,7 +5403,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 413.52208,
           "location": [
@@ -5411,7 +5411,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5424,7 +5424,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 491.02945,
           "location": [
@@ -5432,7 +5432,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5445,7 +5445,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 583.06421,
           "location": [
@@ -5453,7 +5453,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5466,7 +5466,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 692.34924,
           "location": [
@@ -5474,7 +5474,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5487,7 +5487,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 822.11782,
           "location": [
@@ -5495,7 +5495,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5508,7 +5508,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 976.20922,
           "location": [
@@ -5516,7 +5516,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5529,7 +5529,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1159.18231,
           "location": [
@@ -5537,7 +5537,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5550,7 +5550,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1376.45046,
           "location": [
@@ -5558,7 +5558,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5571,7 +5571,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1634.44167,
           "location": [
@@ -5579,7 +5579,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5592,7 +5592,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1940.78876,
           "location": [
@@ -5600,7 +5600,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5613,7 +5613,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2304.55517,
           "location": [
@@ -5621,7 +5621,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5634,7 +5634,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2736.50314,
           "location": [
@@ -5642,7 +5642,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5655,7 +5655,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 3249.41209,
           "location": [
@@ -5663,7 +5663,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5676,7 +5676,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 3858.45671,
           "location": [
@@ -5684,7 +5684,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5697,7 +5697,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 4581.65595,
           "location": [
@@ -5705,7 +5705,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5718,7 +5718,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 5440.40604,
           "location": [
@@ -5726,7 +5726,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5739,7 +5739,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 6460.11361,
           "location": [
@@ -5747,7 +5747,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5760,7 +5760,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 7670.94725,
           "location": [
@@ -5768,7 +5768,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5781,7 +5781,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 9108.73018,
           "location": [
@@ -5789,7 +5789,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5802,7 +5802,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 208,
           "location": [
@@ -5810,7 +5810,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5823,7 +5823,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 245.22428,
           "location": [
@@ -5831,7 +5831,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5844,7 +5844,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 289.11033,
           "location": [
@@ -5852,7 +5852,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5865,7 +5865,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 340.85036,
           "location": [
@@ -5873,7 +5873,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5886,7 +5886,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 401.84993,
           "location": [
@@ -5894,7 +5894,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5907,7 +5907,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 473.76615,
           "location": [
@@ -5915,7 +5915,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5928,7 +5928,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 558.55272,
           "location": [
@@ -5936,7 +5936,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5949,7 +5949,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 658.51294,
           "location": [
@@ -5957,7 +5957,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5970,7 +5970,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 776.36232,
           "location": [
@@ -5978,7 +5978,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -5991,7 +5991,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 915.30237,
           "location": [
@@ -5999,7 +5999,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6012,7 +6012,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1079.10754,
           "location": [
@@ -6020,7 +6020,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6033,7 +6033,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1272.22776,
           "location": [
@@ -6041,7 +6041,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6054,7 +6054,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1499.90933,
           "location": [
@@ -6062,7 +6062,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6075,7 +6075,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1768.33746,
           "location": [
@@ -6083,7 +6083,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6096,7 +6096,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2084.80426,
           "location": [
@@ -6104,7 +6104,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6117,7 +6117,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2457.90688,
           "location": [
@@ -6125,7 +6125,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6138,7 +6138,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2897.78102,
           "location": [
@@ -6146,7 +6146,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6159,7 +6159,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 3416.37632,
           "location": [
@@ -6167,7 +6167,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6180,7 +6180,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 4027.78094,
           "location": [
@@ -6188,7 +6188,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6201,7 +6201,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 4748.60431,
           "location": [
@@ -6209,7 +6209,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6222,7 +6222,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 5598.42831,
           "location": [
@@ -6230,7 +6230,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6243,7 +6243,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 6600.33928,
           "location": [
@@ -6251,7 +6251,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6264,7 +6264,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 7781.55515,
           "location": [
@@ -6272,7 +6272,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6285,7 +6285,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 9174.16484,
           "location": [
@@ -6293,7 +6293,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6306,7 +6306,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 208,
           "location": [
@@ -6314,7 +6314,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6327,7 +6327,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 243.61469,
           "location": [
@@ -6335,7 +6335,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6348,7 +6348,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 285.32748,
           "location": [
@@ -6356,7 +6356,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6369,7 +6369,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 334.18253,
           "location": [
@@ -6377,7 +6377,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6390,7 +6390,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 391.40275,
           "location": [
@@ -6398,7 +6398,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6411,7 +6411,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 458.42047,
           "location": [
@@ -6419,7 +6419,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6432,7 +6432,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 536.91327,
           "location": [
@@ -6440,7 +6440,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6453,7 +6453,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 628.84595,
           "location": [
@@ -6461,7 +6461,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6474,7 +6474,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 736.51976,
           "location": [
@@ -6482,7 +6482,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6495,7 +6495,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 862.62996,
           "location": [
@@ -6503,7 +6503,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6516,7 +6516,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1010.33331,
           "location": [
@@ -6524,7 +6524,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6537,7 +6537,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1183.32709,
           "location": [
@@ -6545,7 +6545,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6558,7 +6558,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1385.94163,
           "location": [
@@ -6566,7 +6566,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6579,7 +6579,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1623.24874,
           "location": [
@@ -6587,7 +6587,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6600,7 +6600,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1901.18863,
           "location": [
@@ -6608,7 +6608,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6621,7 +6621,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2226.71862,
           "location": [
@@ -6629,7 +6629,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6642,7 +6642,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2607.98732,
           "location": [
@@ -6650,7 +6650,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6663,7 +6663,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 3054.53854,
           "location": [
@@ -6671,7 +6671,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6684,7 +6684,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 3577.55025,
           "location": [
@@ -6692,7 +6692,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6705,7 +6705,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 4190.11436,
           "location": [
@@ -6713,7 +6713,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6726,7 +6726,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 4907.56443,
           "location": [
@@ -6734,7 +6734,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6747,7 +6747,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 5747.8595,
           "location": [
@@ -6755,7 +6755,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6768,7 +6768,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 6732.03364,
           "location": [
@@ -6776,7 +6776,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6789,7 +6789,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 7884.72246,
           "location": [
@@ -6797,7 +6797,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6810,7 +6810,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 9234.77981,
           "location": [
@@ -6818,7 +6818,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6831,7 +6831,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 208,
           "location": [
@@ -6839,7 +6839,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6852,7 +6852,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 242.13829,
           "location": [
@@ -6860,7 +6860,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6873,7 +6873,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 281.87956,
           "location": [
@@ -6881,7 +6881,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6894,7 +6894,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 328.14344,
           "location": [
@@ -6902,7 +6902,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6915,7 +6915,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 382.00043,
           "location": [
@@ -6923,7 +6923,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6936,7 +6936,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 444.69677,
           "location": [
@@ -6944,7 +6944,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6957,7 +6957,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 517.68324,
           "location": [
@@ -6965,7 +6965,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6978,7 +6978,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 602.64872,
           "location": [
@@ -6986,7 +6986,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -6999,7 +6999,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 701.55926,
           "location": [
@@ -7007,7 +7007,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -7020,7 +7020,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 816.70364,
           "location": [
@@ -7028,7 +7028,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -7041,7 +7041,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 950.74625,
           "location": [
@@ -7049,7 +7049,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -7062,7 +7062,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1106.78878,
           "location": [
@@ -7070,7 +7070,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -7083,7 +7083,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1288.44201,
           "location": [
@@ -7091,7 +7091,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -7104,7 +7104,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1499.90933,
           "location": [
@@ -7112,7 +7112,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -7125,7 +7125,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 1746.08401,
           "location": [
@@ -7133,7 +7133,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -7146,7 +7146,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2032.66245,
           "location": [
@@ -7154,7 +7154,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -7167,7 +7167,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2366.27597,
           "location": [
@@ -7175,7 +7175,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -7188,7 +7188,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 2754.64426,
           "location": [
@@ -7196,7 +7196,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -7209,7 +7209,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 3206.75403,
           "location": [
@@ -7217,7 +7217,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -7230,7 +7230,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 3733.06695,
           "location": [
@@ -7238,7 +7238,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -7251,7 +7251,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 4345.76169,
           "location": [
@@ -7259,7 +7259,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -7272,7 +7272,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 5059.0158,
           "location": [
@@ -7280,7 +7280,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -7293,7 +7293,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 5889.33372,
           "location": [
@@ -7301,7 +7301,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -7314,7 +7314,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 6855.92871,
           "location": [
@@ -7322,7 +7322,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -7335,7 +7335,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 7981.16743,
           "location": [
@@ -7343,7 +7343,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {
@@ -7356,7 +7356,7 @@
       "delay": 0,
       "sounds": [
         {
-          "duration": 5000000,
+          "duration": 50000,
           "gain": 0.01425,
           "tone": 9291.0875,
           "location": [
@@ -7364,7 +7364,7 @@
             0,
             0
           ],
-          "sustain": 4999999.9
+          "sustain": 49999.9
         }
       ],
       "sourceRequest": {

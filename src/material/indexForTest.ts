@@ -3,7 +3,7 @@
 export { materializeScales } from './scales'
 export { materializeEntities } from './entities'
 export { computeNote } from './features'
-export { computeContourElement } from './contours'
+export { computeContourElement, computeFallingContourElement } from './contours'
 export {
     computeEqualDivisions,
     computeEqualDivisionSteps,

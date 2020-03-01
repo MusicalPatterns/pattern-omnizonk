@@ -1,6 +1,6 @@
 {
   "name": "@musical-patterns/pattern-omnizonk",
-  "version": "1.0.162",
+  "version": "1.0.163",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "license": "MIT",
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@musical-patterns/id": "^1.0.13",
-    "@musical-patterns/material": "^1.0.115",
+    "@musical-patterns/material": "^1.0.116",
     "@musical-patterns/metadata": "^1.0.15",
     "@musical-patterns/pattern": "^1.0.271",
     "@musical-patterns/spec": "^1.0.47",

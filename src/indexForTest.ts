@@ -8,6 +8,7 @@ export {
     computeEqualDivisionSteps,
     applyIntensityPerEntitiesCount,
     computeContourElement,
+    computeFallingContourElement,
 } from './material/indexForTest'
 export {
     initialSpecs,

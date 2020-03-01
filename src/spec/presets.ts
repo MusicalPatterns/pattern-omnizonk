@@ -1,6 +1,8 @@
 import { Preset, StandardSpec } from '@musical-patterns/spec'
 import { ObjectOf } from '@musical-patterns/utilities'
 import {
+    FALLING_PRESET_MAX_EQUAL_DIVISION,
+    FALLING_PRESET_MIN_EQUAL_DIVISION,
     PEEPHOLE_HZ_PHYSICALIZATION,
     PEEPHOLE_PERIOD,
     PEEPHOLE_PRESET_EQUAL_DIVISION,
@@ -21,8 +23,16 @@ import { initialSpecs } from './initials'
 import { OmnizonkSpecs } from './types'
 
 const presets: ObjectOf<Preset<OmnizonkSpecs>> = {
+    falling: {
+        order: 6,
+        specs: {
+            ...initialSpecs,
+            falling: true,
+            maxEqualDivision: FALLING_PRESET_MAX_EQUAL_DIVISION,
+            minEqualDivision: FALLING_PRESET_MIN_EQUAL_DIVISION,
+        },
+    },
     peephole: {
-        description: '',
         order: 3,
         specs: {
             ...initialSpecs,
@@ -33,7 +43,6 @@ const presets: ObjectOf<Preset<OmnizonkSpecs>> = {
         },
     },
     portal: {
-        description: '',
         order: 4,
         specs: {
             ...initialSpecs,
@@ -43,7 +52,6 @@ const presets: ObjectOf<Preset<OmnizonkSpecs>> = {
         },
     },
     screen: {
-        description: '',
         order: 1,
         specs: {
             ...initialSpecs,
@@ -53,7 +61,6 @@ const presets: ObjectOf<Preset<OmnizonkSpecs>> = {
         },
     },
     wash: {
-        description: '',
         order: 5,
         specs: {
             ...initialSpecs,
@@ -62,7 +69,6 @@ const presets: ObjectOf<Preset<OmnizonkSpecs>> = {
         },
     },
     wobble: {
-        description: '',
         order: 2,
         specs: {
             ...initialSpecs,
@@ -73,7 +79,6 @@ const presets: ObjectOf<Preset<OmnizonkSpecs>> = {
         },
     },
     zonk: {
-        description: '',
         order: 0,
         specs: {
             ...initialSpecs,

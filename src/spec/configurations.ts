@@ -5,6 +5,11 @@ import { OmnizonkConfigurations } from './types'
 
 const configurations: OmnizonkConfigurations = {
     ...standardConfigurations,
+    falling: {
+        description: 'go into falling mode',
+        inputType: InputType.TOGGLED,
+        order: 5,
+    },
     maxEqualDivision: {
         constraint: {
             integer: true,
